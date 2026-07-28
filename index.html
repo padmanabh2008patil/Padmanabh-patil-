@@ -1,414 +1,535 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+    <title>Maharashtra Tourism Explorer</title>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-scroll-behavior:smooth;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-body{
-background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#000428);
-background-size:400% 400%;
-animation:bg 12s ease infinite;
-color:white;
-}
+        body {
+            background: #f5f5f5;
+            color: #333;
+        }
 
-@keyframes bg{
-0%{background-position:0% 50%;}
-50%{background-position:100% 50%;}
-100%{background-position:0% 50%;}
-}
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #ff6f00, #e65100);
+            color: white;
+            padding: 35px 20px;
+            text-align: center;
+        }
 
-nav{
-display:flex;
-justify-content:space-between;
-padding:20px 10%;
-position:sticky;
-top:0;
-background:rgba(0,0,0,.6);
-backdrop-filter:blur(10px);
-}
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
 
-nav h2{
-color:#00e6ff;
-}
+        header p {
+            font-size: 20px;
+        }
 
-nav ul{
-display:flex;
-list-style:none;
-}
+        /* Search */
+        .search-container {
+            text-align: center;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
 
-nav ul li{
-margin-left:20px;
-}
+        #searchBox {
+            width: 90%;
+            max-width: 600px;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 30px;
+            font-size: 17px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+        }
 
-nav ul li a{
-text-decoration:none;
-color:white;
-font-weight:bold;
-transition:.3s;
-}
+        /* Main */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
 
-nav ul li a:hover{
-color:#00e6ff;
-}
+        .section-title {
+            text-align: center;
+            margin: 30px 0 20px;
+            color: #e65100;
+        }
 
-.hero{
-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-text-align:center;
-}
+        /* Districts */
+        .districts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
 
-.hero img{
-width:180px;
-height:180px;
-border-radius:50%;
-border:5px solid #00e6ff;
-margin-bottom:20px;
-}
+        .district {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
 
-.hero h1{
-font-size:60px;
-}
+        .district:hover {
+            transform: translateY(-5px);
+            background: #fff3e0;
+        }
 
-.hero h2{
-color:#00e6ff;
-margin:15px;
-}
+        /* Categories */
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
 
-.hero p{
-width:70%;
-font-size:18px;
-line-height:30px;
-}
+        .category {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
 
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 40px;
-background:#00e6ff;
-color:black;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-transition:.4s;
-}
+        .category:hover {
+            background: #ffe0b2;
+        }
 
-.btn:hover{
-transform:scale(1.1);
-}
+        /* Places */
+        .places {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
 
-section{
-padding:80px 10%;
-}
+        .place-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
 
-.title{
-text-align:center;
-font-size:40px;
-margin-bottom:50px;
-color:#00e6ff;
-}
+        .place-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
 
-.about{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-}
+        .place-content {
+            padding: 20px;
+        }
 
-.card{
-background:rgba(255,255,255,.08);
-padding:30px;
-border-radius:20px;
-transition:.4s;
-backdrop-filter:blur(8px);
-}
+        .place-content h3 {
+            color: #e65100;
+            margin-bottom: 10px;
+        }
 
-.card:hover{
-transform:translateY(-10px);
-box-shadow:0 0 30px cyan;
-}
+        .place-content p {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
 
-.skills{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:25px;
-}
+        .map-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #e65100;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
 
-.skill{
-background:rgba(255,255,255,.08);
-padding:25px;
-border-radius:15px;
-text-align:center;
-transition:.4s;
-}
+        /* Back Button */
+        .back-button {
+            display: none;
+            margin: 20px 0;
+            padding: 12px 20px;
+            background: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
 
-.skill:hover{
-background:#00e6ff;
-color:black;
-transform:scale(1.05);
-}
+        footer {
+            margin-top: 50px;
+            padding: 25px;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
 
-.projects{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
-}
+        @media(max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
 
-.project{
-background:rgba(255,255,255,.08);
-padding:25px;
-border-radius:20px;
-transition:.4s;
-}
-
-.project:hover{
-transform:translateY(-10px);
-box-shadow:0 0 25px cyan;
-}
-
-.contact{
-text-align:center;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#000;
-margin-top:50px;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-font-size:40px;
-}
-
-.about{
-grid-template-columns:1fr;
-}
-
-.hero p{
-width:90%;
-}
-
-}
-
-</style>
-
+            header p {
+                font-size: 16px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-<nav>
+<!-- Header -->
+<header>
+    <h1>MAHARASHTRA TOURISM EXPLORER</h1>
+    <p>महाराष्ट्रातील पर्यटन स्थळे शोधा</p>
+</header>
 
-<h2>Portfolio</h2>
-
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-
-</nav>
-
-<div class="hero">
-
-<img src="https://via.placeholder.com/180" alt="Profile">
-
-<h1>Your Name</h1>
-
-<h2>Web Developer | AI & ML Student</h2>
-
-<p>
-Passionate developer who loves building beautiful websites,
-AI projects and solving real-world problems using technology.
-</p>
-
-<a href="#contact" class="btn">Hire Me</a>
-
+<!-- Search -->
+<div class="search-container">
+    <input 
+        type="text" 
+        id="searchBox"
+        placeholder="🔍 पर्यटन स्थळ शोधा... (उदा. अजिंठा, वेरूळ)"
+        onkeyup="searchPlace()"
+    >
 </div>
 
-<section id="about">
+<div class="container">
 
-<h1 class="title">About Me</h1>
+    <!-- District Section -->
+    <section id="districtSection">
 
-<div class="about">
+        <h2 class="section-title">
+            📍 जिल्ह्यानुसार पर्यटन स्थळे शोधा
+        </h2>
 
-<div class="card">
+        <div class="districts">
 
-<h2>Hello!</h2>
+            <div class="district" onclick="selectDistrict('छत्रपती संभाजीनगर')">
+                🏛️<br>
+                छत्रपती संभाजीनगर
+            </div>
 
-<br>
+            <div class="district" onclick="selectDistrict('पुणे')">
+                🏰<br>
+                पुणे
+            </div>
 
-<p>
+            <div class="district" onclick="selectDistrict('नाशिक')">
+                🛕<br>
+                नाशिक
+            </div>
 
-I am a passionate programmer and AI student.
-I enjoy creating modern websites, machine learning projects
-and innovative software solutions.
+            <div class="district" onclick="selectDistrict('सातारा')">
+                ⛰️<br>
+                सातारा
+            </div>
 
-</p>
+            <div class="district" onclick="selectDistrict('रत्नागिरी')">
+                🏖️<br>
+                रत्नागिरी
+            </div>
 
-</div>
+            <div class="district" onclick="selectDistrict('नागपूर')">
+                🌳<br>
+                नागपूर
+            </div>
 
-<div class="card">
+        </div>
 
-<h2>Education</h2>
+    </section>
 
-<br>
+    <!-- Category Section -->
+    <section id="categorySection" style="display:none;">
 
-<p>
+        <button class="back-button" 
+                style="display:block;"
+                onclick="goBack()">
+            ← मागे जा
+        </button>
 
-B.Tech Artificial Intelligence & Machine Learning
+        <h2 class="section-title" id="districtTitle"></h2>
 
-<br><br>
+        <div class="categories">
 
-Interested in Web Development,
-Python,
-Machine Learning,
-Data Science and Cyber Security.
+            <div class="category" 
+                 onclick="showCategory('धार्मिक')">
+                🛕<br>
+                <b>धार्मिक पर्यटन स्थळे</b>
+            </div>
 
-</p>
+            <div class="category" 
+                 onclick="showCategory('ऐतिहासिक')">
+                🏰<br>
+                <b>ऐतिहासिक पर्यटन स्थळे</b>
+            </div>
 
-</div>
+            <div class="category" 
+                 onclick="showCategory('निसर्ग')">
+                🌿<br>
+                <b>निसर्ग पर्यटन स्थळे</b>
+            </div>
 
-</div>
+        </div>
 
-</section>
+    </section>
 
-<section id="skills">
+    <!-- Places Section -->
+    <section id="placesSection" style="display:none;">
 
-<h1 class="title">Skills</h1>
+        <h2 class="section-title" id="categoryTitle"></h2>
 
-<div class="skills">
+        <div class="places" id="placesContainer"></div>
 
-<div class="skill">HTML5</div>
-<div class="skill">CSS3</div>
-<div class="skill">JavaScript</div>
-<div class="skill">Python</div>
-<div class="skill">C Programming</div>
-<div class="skill">Machine Learning</div>
-<div class="skill">Git & GitHub</div>
-<div class="skill">SQL</div>
-
-</div>
-
-</section>
-
-<section id="projects">
-
-<h1 class="title">Projects</h1>
-
-<div class="projects">
-
-<div class="project">
-
-<h2>Portfolio Website</h2>
-
-<br>
-
-<p>
-
-Responsive personal portfolio with animations.
-
-</p>
-
-</div>
-
-<div class="project">
-
-<h2>AI Chatbot</h2>
-
-<br>
-
-<p>
-
-Python chatbot using Natural Language Processing.
-
-</p>
+    </section>
 
 </div>
-
-<div class="project">
-
-<h2>Weather App</h2>
-
-<br>
-
-<p>
-
-Real-time weather application using API.
-
-</p>
-
-</div>
-
-<div class="project">
-
-<h2>Student Management</h2>
-
-<br>
-
-<p>
-
-Database project for managing students.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="contact">
-
-<h1 class="title">Contact</h1>
-
-<div class="contact">
-
-<h2>Your Name</h2>
-
-<br>
-
-<p>Email : your@email.com</p>
-
-<br>
-
-<p>Phone : +91 9876543210</p>
-
-<br>
-
-<p>GitHub : github.com/yourusername</p>
-
-<br>
-
-<p>LinkedIn : linkedin.com/in/yourname</p>
-
-<br>
-
-<a href="#" class="btn">Download Resume</a>
-
-</div>
-
-</section>
 
 <footer>
-
-© 2026 Your Name | Designed with ❤️
-
+    © 2026 Maharashtra Tourism Explorer
 </footer>
+
+
+<script>
+
+    /* Tourism Data */
+
+    const places = [
+
+        {
+            name: "अजिंठा लेणी",
+            district: "छत्रपती संभाजीनगर",
+            category: "ऐतिहासिक",
+            image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ajanta_Caves%2C_India.jpg",
+            location: "Ajanta Caves, Maharashtra",
+            description: "अजिंठा लेणी ही महाराष्ट्रातील प्रसिद्ध प्राचीन बौद्ध लेणी असून येथील शिल्पकला आणि भित्तिचित्रे जगप्रसिद्ध आहेत.",
+            map: "https://maps.google.com/?q=Ajanta+Caves"
+        },
+
+        {
+            name: "वेरूळ लेणी",
+            district: "छत्रपती संभाजीनगर",
+            category: "ऐतिहासिक",
+            image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kailasa_Temple_at_Ellora.jpg",
+            location: "Ellora Caves, Maharashtra",
+            description: "वेरूळ लेणी हे भारतातील प्रसिद्ध ऐतिहासिक वारसा स्थळ असून येथे बौद्ध, हिंदू आणि जैन लेणी आहेत.",
+            map: "https://maps.google.com/?q=Ellora+Caves"
+        },
+
+        {
+            name: "बीबी का मकबरा",
+            district: "छत्रपती संभाजीनगर",
+            category: "ऐतिहासिक",
+            image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bibi_Ka_Maqbara_Aurangabad.jpg",
+            location: "Bibi Ka Maqbara, Chhatrapati Sambhajinagar",
+            description: "बीबी का मकबरा हे छत्रपती संभाजीनगर शहरातील प्रसिद्ध ऐतिहासिक वास्तू आहे.",
+            map: "https://maps.google.com/?q=Bibi+Ka+Maqbara"
+        }
+
+    ];
+
+
+    /* District Select */
+
+    function selectDistrict(district) {
+
+        document.getElementById("districtSection")
+            .style.display = "none";
+
+        document.getElementById("categorySection")
+            .style.display = "block";
+
+        document.getElementById("placesSection")
+            .style.display = "none";
+
+        document.getElementById("districtTitle")
+            .innerText = district + " पर्यटन";
+
+    }
+
+
+    /* Category Select */
+
+    function showCategory(category) {
+
+        const districtTitle =
+            document.getElementById("districtTitle").innerText;
+
+        const district =
+            districtTitle.replace(" पर्यटन", "");
+
+        const filteredPlaces = places.filter(place =>
+            place.district === district &&
+            place.category === category
+        );
+
+        document.getElementById("categorySection")
+            .style.display = "none";
+
+        document.getElementById("placesSection")
+            .style.display = "block";
+
+        document.getElementById("categoryTitle")
+            .innerText =
+            district + " - " + category + " पर्यटन स्थळे";
+
+
+        const container =
+            document.getElementById("placesContainer");
+
+        container.innerHTML = "";
+
+
+        filteredPlaces.forEach(place => {
+
+            container.innerHTML += `
+
+                <div class="place-card">
+
+                    <img src="${place.image}" 
+                         alt="${place.name}">
+
+                    <div class="place-content">
+
+                        <h3>${place.name}</h3>
+
+                        <p>
+                            📍 ${place.location}
+                        </p>
+
+                        <p>
+                            ${place.description}
+                        </p>
+
+                        <a 
+                            class="map-button"
+                            href="${place.map}"
+                            target="_blank">
+                            🗺️ Google Maps वर पहा
+                        </a>
+
+                    </div>
+
+                </div>
+
+            `;
+
+        });
+
+    }
+
+
+    /* Back */
+
+    function goBack() {
+
+        document.getElementById("categorySection")
+            .style.display = "none";
+
+        document.getElementById("placesSection")
+            .style.display = "none";
+
+        document.getElementById("districtSection")
+            .style.display = "block";
+
+    }
+
+
+    /* Search */
+
+    function searchPlace() {
+
+        const search =
+            document.getElementById("searchBox")
+            .value
+            .toLowerCase();
+
+        const results =
+            places.filter(place =>
+                place.name.toLowerCase()
+                .includes(search)
+            );
+
+        if(search === "") {
+
+            document.getElementById("placesSection")
+                .style.display = "none";
+
+            document.getElementById("districtSection")
+                .style.display = "block";
+
+            return;
+
+        }
+
+        document.getElementById("districtSection")
+            .style.display = "none";
+
+        document.getElementById("categorySection")
+            .style.display = "none";
+
+        document.getElementById("placesSection")
+            .style.display = "block";
+
+
+        document.getElementById("categoryTitle")
+            .innerText = "🔍 Search Results";
+
+
+        const container =
+            document.getElementById("placesContainer");
+
+        container.innerHTML = "";
+
+
+        results.forEach(place => {
+
+            container.innerHTML += `
+
+                <div class="place-card">
+
+                    <img src="${place.image}"
+                         alt="${place.name}">
+
+                    <div class="place-content">
+
+                        <h3>${place.name}</h3>
+
+                        <p>
+                            📍 ${place.location}
+                        </p>
+
+                        <p>
+                            ${place.description}
+                        </p>
+
+                        <a 
+                            class="map-button"
+                            href="${place.map}"
+                            target="_blank">
+                            🗺️ Google Maps वर पहा
+                        </a>
+
+                    </div>
+
+                </div>
+
+            `;
+
+        });
+
+    }
+
+</script>
 
 </body>
   </html>
