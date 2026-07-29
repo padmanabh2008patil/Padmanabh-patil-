@@ -315,3 +315,48 @@ function selectDistrict(name){
 
 </body>
 </html>
+<div class="card" onclick="openCategory('nature')">
+
+🌄
+<h2>नैसर्गिक पर्यटन</h2>
+
+</div>
+
+<div class="card" onclick="openCategory('wildlife')">
+
+🐅
+<h2>वन्यजीव पर्यटन</h2>
+
+</div>
+
+<div class="card" onclick="openCategory('other')">
+
+🎡
+<h2>इतर पर्यटन</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Maharashtra Tourism Explorer
+
+</footer>
+
+<script>
+
+const district = localStorage.getItem("district");
+
+document.getElementById("districtName").innerHTML =
+district + " जिल्हा";
+
+function openCategory(category){
+
+localStorage.setItem("category",category);
+
+window.location.href="place.html";
+
+}
