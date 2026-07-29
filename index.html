@@ -1,533 +1,313 @@
 <!DOCTYPE html>
 <html lang="mr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maharashtra Tourism Explorer</title>
 
-    <title>Maharashtra Tourism Explorer</title>
+<style>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-        body {
-            background: #f5f5f5;
-            color: #333;
-        }
+body{
+background:#f4f4f4;
+}
 
-        /* Header */
-        header {
-            background: linear-gradient(135deg, #ff6f00, #e65100);
-            color: white;
-            padding: 35px 20px;
-            text-align: center;
-        }
+header{
+background:linear-gradient(135deg,#ff9800,#e65100);
+color:white;
+padding:30px;
+text-align:center;
+}
 
-        header h1 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
+header h1{
+font-size:40px;
+}
 
-        header p {
-            font-size: 20px;
-        }
+header p{
+margin-top:10px;
+font-size:20px;
+}
 
-        /* Search */
-        .search-container {
-            text-align: center;
-            margin: 30px auto;
-            padding: 0 20px;
-        }
+.search{
+width:90%;
+max-width:600px;
+margin:30px auto;
+}
 
-        #searchBox {
-            width: 90%;
-            max-width: 600px;
-            padding: 15px 20px;
-            border: none;
-            border-radius: 30px;
-            font-size: 17px;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
-        }
+.search input{
+width:100%;
+padding:16px;
+font-size:18px;
+border-radius:30px;
+border:none;
+box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
 
-        /* Main */
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-        }
+.container{
+width:90%;
+margin:auto;
+}
 
-        .section-title {
-            text-align: center;
-            margin: 30px 0 20px;
-            color: #e65100;
-        }
+.title{
+text-align:center;
+margin:30px;
+font-size:30px;
+color:#e65100;
+}
 
-        /* Districts */
-        .districts {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-        }
+.grid{
 
-        .district {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-            transition: 0.3s;
-        }
+display:grid;
 
-        .district:hover {
-            transform: translateY(-5px);
-            background: #fff3e0;
-        }
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 
-        /* Categories */
-        .categories {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
+gap:20px;
 
-        .category {
-            background: white;
-            padding: 25px;
-            text-align: center;
-            border-radius: 12px;
-            cursor: pointer;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-        }
+margin-bottom:50px;
 
-        .category:hover {
-            background: #ffe0b2;
-        }
+}
 
-        /* Places */
-        .places {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
+.card{
 
-        .place-card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-        }
+background:white;
 
-        .place-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
+padding:20px;
 
-        .place-content {
-            padding: 20px;
-        }
+border-radius:15px;
 
-        .place-content h3 {
-            color: #e65100;
-            margin-bottom: 10px;
-        }
+text-align:center;
 
-        .place-content p {
-            margin: 8px 0;
-            line-height: 1.5;
-        }
+cursor:pointer;
 
-        .map-button {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 15px;
-            background: #e65100;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-        }
+transition:.3s;
 
-        /* Back Button */
-        .back-button {
-            display: none;
-            margin: 20px 0;
-            padding: 12px 20px;
-            background: #333;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+box-shadow:0 4px 12px rgba(0,0,0,.15);
 
-        footer {
-            margin-top: 50px;
-            padding: 25px;
-            text-align: center;
-            background: #333;
-            color: white;
-        }
+}
 
-        @media(max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
+.card:hover{
 
-            header p {
-                font-size: 16px;
-            }
-        }
-    </style>
+background:#fff3e0;
+
+transform:translateY(-5px);
+
+}
+
+.card h3{
+
+font-size:22px;
+
+margin-top:10px;
+
+}
+
+footer{
+
+background:#333;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-<!-- Header -->
 <header>
-    <h1>MAHARASHTRA TOURISM EXPLORER</h1>
-    <p>महाराष्ट्रातील पर्यटन स्थळे शोधा</p>
+
+<h1>MAHARASHTRA TOURISM EXPLORER</h1>
+
+<p>महाराष्ट्रातील पर्यटन स्थळे शोधा</p>
+
 </header>
 
-<!-- Search -->
-<div class="search-container">
-    <input 
-        type="text" 
-        id="searchBox"
-        placeholder="🔍 पर्यटन स्थळ शोधा... (उदा. अजिंठा, वेरूळ)"
-        onkeyup="searchPlace()"
-    >
+
+<div class="search">
+
+<input
+
+type="text"
+
+id="search"
+
+placeholder="🔍 महाराष्ट्रातील जिल्हा शोधा..."
+
+onkeyup="searchDistrict()"
+
+>
+
 </div>
+
 
 <div class="container">
 
-    <!-- District Section -->
-    <section id="districtSection">
+<h2 class="title">
 
-        <h2 class="section-title">
-            📍 जिल्ह्यानुसार पर्यटन स्थळे शोधा
-        </h2>
+📍 महाराष्ट्रातील सर्व जिल्हे
 
-        <div class="districts">
+</h2>
 
-            <div class="district" onclick="selectDistrict('छत्रपती संभाजीनगर')">
-                🏛️<br>
-                छत्रपती संभाजीनगर
-            </div>
+<div
 
-            <div class="district" onclick="selectDistrict('पुणे')">
-                🏰<br>
-                पुणे
-            </div>
+class="grid"
 
-            <div class="district" onclick="selectDistrict('नाशिक')">
-                🛕<br>
-                नाशिक
-            </div>
-
-            <div class="district" onclick="selectDistrict('सातारा')">
-                ⛰️<br>
-                सातारा
-            </div>
-
-            <div class="district" onclick="selectDistrict('रत्नागिरी')">
-                🏖️<br>
-                रत्नागिरी
-            </div>
-
-            <div class="district" onclick="selectDistrict('नागपूर')">
-                🌳<br>
-                नागपूर
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Category Section -->
-    <section id="categorySection" style="display:none;">
-
-        <button class="back-button" 
-                style="display:block;"
-                onclick="goBack()">
-            ← मागे जा
-        </button>
-
-        <h2 class="section-title" id="districtTitle"></h2>
-
-        <div class="categories">
-
-            <div class="category" 
-                 onclick="showCategory('धार्मिक')">
-                🛕<br>
-                <b>धार्मिक पर्यटन स्थळे</b>
-            </div>
-
-            <div class="category" 
-                 onclick="showCategory('ऐतिहासिक')">
-                🏰<br>
-                <b>ऐतिहासिक पर्यटन स्थळे</b>
-            </div>
-
-            <div class="category" 
-                 onclick="showCategory('निसर्ग')">
-                🌿<br>
-                <b>निसर्ग पर्यटन स्थळे</b>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Places Section -->
-    <section id="placesSection" style="display:none;">
-
-        <h2 class="section-title" id="categoryTitle"></h2>
-
-        <div class="places" id="placesContainer"></div>
-
-    </section>
+id="districtList">
 
 </div>
 
+</div>
+
+
 <footer>
-    © 2026 Maharashtra Tourism Explorer
+
+© 2026 Maharashtra Tourism Explorer
+
 </footer>
 
 
 <script>
 
-    /* Tourism Data */
+const districts=[
 
-    const places = [
+"अहमदनगर",
 
-        {
-            name: "अजिंठा लेणी",
-            district: "छत्रपती संभाजीनगर",
-            category: "ऐतिहासिक",
-            image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ajanta_Caves%2C_India.jpg",
-            location: "Ajanta Caves, Maharashtra",
-            description: "अजिंठा लेणी ही महाराष्ट्रातील प्रसिद्ध प्राचीन बौद्ध लेणी असून येथील शिल्पकला आणि भित्तिचित्रे जगप्रसिद्ध आहेत.",
-            map: "https://maps.google.com/?q=Ajanta+Caves"
-        },
+"अकोला",
 
-        {
-            name: "वेरूळ लेणी",
-            district: "छत्रपती संभाजीनगर",
-            category: "ऐतिहासिक",
-            image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kailasa_Temple_at_Ellora.jpg",
-            location: "Ellora Caves, Maharashtra",
-            description: "वेरूळ लेणी हे भारतातील प्रसिद्ध ऐतिहासिक वारसा स्थळ असून येथे बौद्ध, हिंदू आणि जैन लेणी आहेत.",
-            map: "https://maps.google.com/?q=Ellora+Caves"
-        },
+"अमरावती",
 
-        {
-            name: "बीबी का मकबरा",
-            district: "छत्रपती संभाजीनगर",
-            category: "ऐतिहासिक",
-            image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bibi_Ka_Maqbara_Aurangabad.jpg",
-            location: "Bibi Ka Maqbara, Chhatrapati Sambhajinagar",
-            description: "बीबी का मकबरा हे छत्रपती संभाजीनगर शहरातील प्रसिद्ध ऐतिहासिक वास्तू आहे.",
-            map: "https://maps.google.com/?q=Bibi+Ka+Maqbara"
-        }
+"बीड",
 
-    ];
+"भंडारा",
 
+"बुलढाणा",
 
-    /* District Select */
+"चंद्रपूर",
 
-    function selectDistrict(district) {
+"छत्रपती संभाजीनगर",
 
-        document.getElementById("districtSection")
-            .style.display = "none";
+"धाराशिव",
 
-        document.getElementById("categorySection")
-            .style.display = "block";
+"धुळे",
 
-        document.getElementById("placesSection")
-            .style.display = "none";
+"गडचिरोली",
 
-        document.getElementById("districtTitle")
-            .innerText = district + " पर्यटन";
+"गोंदिया",
 
-    }
+"हिंगोली",
 
+"जळगाव",
 
-    /* Category Select */
+"जालना",
 
-    function showCategory(category) {
+"कोल्हापूर",
 
-        const districtTitle =
-            document.getElementById("districtTitle").innerText;
+"लातूर",
 
-        const district =
-            districtTitle.replace(" पर्यटन", "");
+"मुंबई शहर",
 
-        const filteredPlaces = places.filter(place =>
-            place.district === district &&
-            place.category === category
-        );
+"मुंबई उपनगर",
 
-        document.getElementById("categorySection")
-            .style.display = "none";
+"नागपूर",
 
-        document.getElementById("placesSection")
-            .style.display = "block";
+"नांदेड",
 
-        document.getElementById("categoryTitle")
-            .innerText =
-            district + " - " + category + " पर्यटन स्थळे";
+"नंदुरबार",
 
+"नाशिक",
 
-        const container =
-            document.getElementById("placesContainer");
+"पालघर",
 
-        container.innerHTML = "";
+"परभणी",
 
+"पुणे",
 
-        filteredPlaces.forEach(place => {
+"रायगड",
 
-            container.innerHTML += `
+"रत्नागिरी",
 
-                <div class="place-card">
+"सांगली",
 
-                    <img src="${place.image}" 
-                         alt="${place.name}">
+"सातारा",
 
-                    <div class="place-content">
+"सिंधुदुर्ग",
 
-                        <h3>${place.name}</h3>
+"सोलापूर",
 
-                        <p>
-                            📍 ${place.location}
-                        </p>
+"ठाणे",
 
-                        <p>
-                            ${place.description}
-                        </p>
+"वर्धा",
 
-                        <a 
-                            class="map-button"
-                            href="${place.map}"
-                            target="_blank">
-                            🗺️ Google Maps वर पहा
-                        </a>
+"वाशीम",
 
-                    </div>
+"यवतमाळ"
 
-                </div>
+];
 
-            `;
+function loadDistricts(list){
 
-        });
+const container=document.getElementById("districtList");
 
-    }
+container.innerHTML="";
 
+list.forEach(d=>{
 
-    /* Back */
+container.innerHTML+=`
 
-    function goBack() {
+<div class="card"
 
-        document.getElementById("categorySection")
-            .style.display = "none";
+onclick="selectDistrict('${d}')">
 
-        document.getElementById("placesSection")
-            .style.display = "none";
+📍
 
-        document.getElementById("districtSection")
-            .style.display = "block";
+<h3>${d}</h3>
 
-    }
+</div>
 
+`;
 
-    /* Search */
+});
 
-    function searchPlace() {
+}
 
-        const search =
-            document.getElementById("searchBox")
-            .value
-            .toLowerCase();
+loadDistricts(districts);
 
-        const results =
-            places.filter(place =>
-                place.name.toLowerCase()
-                .includes(search)
-            );
+function searchDistrict(){
 
-        if(search === "") {
+const text=document
 
-            document.getElementById("placesSection")
-                .style.display = "none";
+.getElementById("search")
 
-            document.getElementById("districtSection")
-                .style.display = "block";
+.value
 
-            return;
+.toLowerCase();
 
-        }
+const filtered=districts.filter(d=>
 
-        document.getElementById("districtSection")
-            .style.display = "none";
+d.toLowerCase().includes(text)
 
-        document.getElementById("categorySection")
-            .style.display = "none";
+);
 
-        document.getElementById("placesSection")
-            .style.display = "block";
+loadDistricts(filtered);
 
+}
 
-        document.getElementById("categoryTitle")
-            .innerText = "🔍 Search Results";
+function selectDistrict(name){
 
+alert(name+" निवडला.\n\nPart 2 मध्ये येथे Categories उघडतील.");
 
-        const container =
-            document.getElementById("placesContainer");
-
-        container.innerHTML = "";
-
-
-        results.forEach(place => {
-
-            container.innerHTML += `
-
-                <div class="place-card">
-
-                    <img src="${place.image}"
-                         alt="${place.name}">
-
-                    <div class="place-content">
-
-                        <h3>${place.name}</h3>
-
-                        <p>
-                            📍 ${place.location}
-                        </p>
-
-                        <p>
-                            ${place.description}
-                        </p>
-
-                        <a 
-                            class="map-button"
-                            href="${place.map}"
-                            target="_blank">
-                            🗺️ Google Maps वर पहा
-                        </a>
-
-                    </div>
-
-                </div>
-
-            `;
-
-        });
-
-    }
+}
 
 </script>
 
