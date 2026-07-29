@@ -174,3 +174,23 @@ Tourism Categories
 <h2>ऐतिहासिक पर्यटन</h2>
 
 </div>
+<script>
+
+const district = localStorage.getItem("district");
+
+document.getElementById("districtName").innerHTML =
+district + " जिल्हा";
+
+function openCategory(category){
+
+    localStorage.setItem("category",category);
+
+    window.location.href="place.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
