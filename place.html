@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="mr">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
 <title>Tourism Places</title>
+
 
 <style>
 
@@ -58,7 +64,9 @@ margin-bottom:25px;
 
 #placesContainer{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+grid-template-columns:
+repeat(auto-fit,minmax(320px,1fr));
+
 gap:25px;
 }
 
@@ -66,7 +74,8 @@ gap:25px;
 background:white;
 border-radius:15px;
 overflow:hidden;
-box-shadow:0 4px 12px rgba(0,0,0,.15);
+box-shadow:
+0 4px 12px rgba(0,0,0,.15);
 }
 
 .place-card img{
@@ -76,221 +85,509 @@ object-fit:cover;
 }
 
 .place-content{
-padding:
-  fetch("data/places.json")
-.then(response => response.json())
+padding:18px;
+}
+
+.place-content h2{
+color:#e65100;
+margin-bottom:10px;
+}
+
+.place-content p{
+margin:8px 0;
+line-height:1.6;
+}
+
+.btn{
+display:inline-block;
+margin-top:12px;
+padding:10px 16px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:8px;
+border:none;
+cursor:pointer;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+background:#333;
+color:white;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1 id="districtName"></h1>
+
+<p id="categoryName"></p>
+
+</header>
+
+
+<div class="container">
+
+
+<a href="category.html"
+class="back-btn">
+
+⬅️ मागे जा
+
+</a>
+
+
+<h2 id="placeTitle">
+
+पर्यटन स्थळे
+
+</h2>
+
+
+<div id="placesContainer">
+
+</div>
+
+
+</div>
+
+
+<footer>
+
+© 2026 Maharashtra Tourism Explorer
+
+</footer>
+
+
+
+<script>
+
+
+// =====================================
+// Selected District & Category
+// =====================================
+
+const district =
+localStorage.getItem("district") || "महाराष्ट्र";
+
+const category =
+localStorage.getItem("category") || "";
+
+
+document.getElementById(
+"districtName"
+).innerHTML = district;
+
+
+document.getElementById(
+"categoryName"
+).innerHTML = category;
+
+
+// =====================================
+// Part 3B - Load Places
+// =====================================
+
+let filteredPlaces = [];
+
+
+fetch("data/places.json")
+
+.then(response => {
+
+if(!response.ok){
+
+throw new Error(
+"places.json सापडली नाही"
+);
+
+}
+
+return response.json();
+
+})
+
+
 .then(places => {
 
-    const container = document.getElementById("placesContainer");
 
-    // निवडलेल्या जिल्हा आणि Category नुसार स्थळे शोधणे
-    const filteredPlaces = places.filter(place =>
-        place.district === district &&
-        place.category === category
-    );
+const container =
+document.getElementById(
+"placesContainer"
+);
 
-    // जुनी माहिती काढून टाका
-    container.innerHTML = "";
 
-    // कोणतेही पर्यटन स्थळ सापडले नाही तर
-    if(filteredPlaces.length === 0){
+// District + Category Filter
 
-        container.innerHTML = `
-        <div style="grid-column:1/-1;text-align:center;">
-            <h2 style="color:red;">
-            या Category मध्ये सध्या पर्यटन स्थळांची माहिती उपलब्ध नाही.
-            </h2>
-        </div>
-        `;
+filteredPlaces =
+places.filter(place =>
 
-        return;
-    }
+place.district === district &&
 
-    // प्रत्येक पर्यटन स्थळ दाखवणे
-    filteredPlaces.forEach((place, index) => {
+place.category === category
 
-        container.innerHTML += `
+);
 
-        <div class="place-card">
 
-            <img 
-            src="${place.image}" 
-            alt="${place.name}"
-            >
+// जुनी माहिती काढणे
 
-            <div class="place-content">
+container.innerHTML = "";
 
-                <h2>
-                ${place.name}
-                </h2>
 
-                <p>
-                <b>📍 स्थान :</b>
-                ${place.location}
-                </p>
+// कोणतेही स्थळ सापडले नाही
 
-                <p>
-                ${place.description}
-                </p>
+if(filteredPlaces.length === 0){
 
-                <a 
-                class="btn"
-                href="${place.map}"
-                target="_blank">
+container.innerHTML = `
 
-                🗺️ Google Maps वर पहा
+<div style="
+grid-column:1/-1;
+text-align:center;
+padding:40px;
+background:white;
+border-radius:15px;
+">
 
-                </a>
+<h2 style="color:red;">
 
-                <button
-                class="btn"
-                onclick="showGallery(${index})">
+या Category मध्ये सध्या
+पर्यटन स्थळांची माहिती उपलब्ध नाही.
 
-                📸 फोटो पहा
+</h2>
 
-                </button>
+<p style="margin-top:15px;">
 
-            </div>
+जिल्हा : ${district}
 
-        </div>
+</p>
 
-        `;
+<p>
 
-    });
+Category : ${category}
+
+</p>
+
+</div>
+
+`;
+
+return;
+
+}
+
+
+// प्रत्येक पर्यटन स्थळ दाखवणे
+
+filteredPlaces.forEach(
+(place,index) => {
+
+
+container.innerHTML += `
+
+<div class="place-card">
+
+
+<img
+
+src="${place.image}"
+
+alt="${place.name}"
+
+>
+
+
+<div class="place-content">
+
+
+<h2>
+
+${place.name}
+
+</h2>
+
+
+<p>
+
+<b>📍 स्थान :</b>
+
+${place.location}
+
+</p>
+
+
+<p>
+
+${place.description}
+
+</p>
+
+
+<a
+
+class="btn"
+
+href="${place.map}"
+
+target="_blank"
+
+>
+
+🗺️ Google Maps वर पहा
+
+</a>
+
+
+<button
+
+class="btn"
+
+onclick="showGallery(${index})"
+
+>
+
+📸 फोटो पहा
+
+</button>
+
+
+</div>
+
+
+</div>
+
+`;
 
 });
-      // ================================
+
+})
+
+
+.catch(error => {
+
+
+console.error(
+"Error:",
+error
+);
+
+
+document.getElementById(
+"placesContainer"
+).innerHTML = `
+
+<div style="
+grid-column:1/-1;
+text-align:center;
+padding:40px;
+color:red;
+">
+
+<h2>
+
+डेटा लोड करताना समस्या आली.
+
+</h2>
+
+<p>
+
+कृपया data/places.json
+फाईल तपासा.
+
+</p>
+
+</div>
+
+`;
+
+});
+
+
+
+// =====================================
 // Part 3C - Photo Gallery
-// ================================
+// =====================================
 
 function showGallery(index){
 
-    fetch("data/places.json")
-    .then(response => response.json())
-    .then(places => {
 
-        // निवडलेल्या जिल्हा आणि Category नुसार स्थळे शोधणे
-        const filteredPlaces = places.filter(place =>
-            place.district === district &&
-            place.category === category
-        );
+const place =
+filteredPlaces[index];
 
-        // निवडलेले ठिकाण
-        const place = filteredPlaces[index];
 
-        if(!place){
-            alert("माहिती उपलब्ध नाही.");
-            return;
-        }
+if(!place){
 
-        // Gallery मध्ये photos नसतील तर
-        if(!place.gallery || place.gallery.length === 0){
+alert(
+"माहिती उपलब्ध नाही."
+);
 
-            alert("या पर्यटन स्थळाचे फोटो सध्या उपलब्ध नाहीत.");
-            return;
-
-        }
-
-        // फोटोची यादी तयार करणे
-        let galleryHTML = "";
-
-        place.gallery.forEach(photo => {
-
-            galleryHTML += `
-                <img
-                    src="${photo}"
-                    alt="${place.name}"
-                    style="
-                        width:100%;
-                        max-width:300px;
-                        height:200px;
-                        object-fit:cover;
-                        margin:10px;
-                        border-radius:10px;
-                    "
-                >
-            `;
-
-        });
-
-        // Gallery Popup
-        const galleryWindow = window.open(
-            "",
-            "_blank",
-            "width=900,height=700"
-        );
-
-        galleryWindow.document.write(`
-
-            <html>
-
-            <head>
-
-                <title>${place.name} - फोटो गॅलरी</title>
-
-                <style>
-
-                    body{
-                        font-family:Arial,sans-serif;
-                        background:#f5f5f5;
-                        text-align:center;
-                        padding:20px;
-                    }
-
-                    h1{
-                        color:#e65100;
-                    }
-
-                    .gallery{
-                        display:flex;
-                        flex-wrap:wrap;
-                        justify-content:center;
-                        gap:15px;
-                    }
-
-                    .gallery img{
-                        width:300px;
-                        height:200px;
-                        object-fit:cover;
-                        border-radius:12px;
-                        box-shadow:0 4px 12px rgba(0,0,0,.2);
-                    }
-
-                </style>
-
-            </head>
-
-            <body>
-
-                <h1>${place.name}</h1>
-
-                <div class="gallery">
-
-                    ${galleryHTML}
-
-                </div>
-
-            </body>
-
-            </html>
-
-        `);
-
-        galleryWindow.document.close();
-
-    })
-
-    .catch(error => {
-
-        console.error(
-            "Gallery Error:",
-            error
-        );
-
-        alert(
-            "फोटो लोड करताना समस्या आली."
-        );
-
-    });
+return;
 
 }
+
+
+if(
+!place.gallery ||
+place.gallery.length === 0
+){
+
+alert(
+"या पर्यटन स्थळाचे फोटो सध्या उपलब्ध नाहीत."
+);
+
+return;
+
+}
+
+
+let galleryHTML = "";
+
+
+place.gallery.forEach(
+photo => {
+
+
+galleryHTML += `
+
+<img
+
+src="${photo}"
+
+alt="${place.name}"
+
+>
+
+`;
+
+});
+
+
+// Gallery Popup
+
+const galleryWindow =
+window.open(
+"",
+"_blank",
+"width=900,height=700"
+);
+
+
+galleryWindow.document.write(`
+
+<!DOCTYPE html>
+
+<html lang="mr">
+
+
+<head>
+
+<meta charset="UTF-8">
+
+
+<title>
+
+${place.name} - फोटो गॅलरी
+
+</title>
+
+
+<style>
+
+body{
+
+font-family:Arial,sans-serif;
+
+background:#f5f5f5;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+h1{
+
+color:#e65100;
+
+margin-bottom:20px;
+
+}
+
+.gallery{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:15px;
+
+}
+
+.gallery img{
+
+width:300px;
+
+height:200px;
+
+object-fit:cover;
+
+border-radius:12px;
+
+box-shadow:
+0 4px 12px rgba(0,0,0,.2);
+
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<h1>
+
+${place.name}
+
+</h1>
+
+
+<div class="gallery">
+
+${galleryHTML}
+
+</div>
+
+
+</body>
+
+
+</html>
+
+`);
+
+
+galleryWindow.document.close();
+
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
