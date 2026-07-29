@@ -305,7 +305,9 @@ loadDistricts(filtered);
 
 function selectDistrict(name){
 
-alert(name+" निवडला.\n\nPart 2 मध्ये येथे Categories उघडतील.");
+    localStorage.setItem("district", name);
+
+    window.location.href = "category.html";
 
 }
 
