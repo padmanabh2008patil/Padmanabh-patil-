@@ -3,14 +3,174 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Categories</title>
+<title>Tourism Categories</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:linear-gradient(135deg,#ff9800,#e65100);
+color:white;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:34px;
+}
+
+header p{
+margin-top:10px;
+font-size:20px;
+}
+
+.container{
+width:90%;
+max-width:1000px;
+margin:auto;
+padding:20px 0;
+}
+
+.back-btn{
+
+display:inline-block;
+
+background:#333;
+
+color:white;
+
+padding:12px 20px;
+
+text-decoration:none;
+
+border-radius:8px;
+
+margin-bottom:25px;
+
+font-size:18px;
+
+}
+
+.title{
+
+text-align:center;
+
+color:#e65100;
+
+font-size:32px;
+
+margin-bottom:30px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+
+padding:25px;
+
+text-align:center;
+
+border-radius:15px;
+
+cursor:pointer;
+
+transition:.3s;
+
+box-shadow:0 4px 12px rgba(0,0,0,.15);
+
+}
+
+.card:hover{
+
+background:#fff3e0;
+
+transform:translateY(-5px);
+
+}
+
+.card h2{
+
+margin-top:15px;
+
+font-size:24px;
+
+color:#333;
+
+}
+
+footer{
+
+margin-top:50px;
+
+background:#333;
+
+color:white;
+
+padding:20px;
+
+text-align:center;
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Category Page</h1>
+<header>
 
-<p>येथे Part 2 मध्ये Categories दिसतील.</p>
+<h1 id="districtName"></h1>
 
-</body>
-</html>
+<p>पर्यटन स्थळांचा प्रकार निवडा</p>
+
+</header>
+
+<div class="container">
+
+<a href="index.html" class="back-btn">
+⬅️ मागे जा
+</a>
+
+<h2 class="title">
+
+Tourism Categories
+
+</h2>
+
+<div class="grid">
+
+<div class="card" onclick="openCategory('hindu')">
+
+🛕
+<h2>हिंदू धार्मिक पर्यटन</h2>
+
+</div>
+
+<div class="card" onclick="openCategory('historical')">
+
+🏰
+<h2>ऐतिहासिक पर्यटन</h2>
+
+</div>
