@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="mr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tourism Categories</title>
+<!DOCTYPE html><html lang="mr"><head><meta charset="UTF-8"><meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-<style>
+<title>Tourism Categories</title><style>
+
 *{
 margin:0;
 padding:0;
@@ -89,88 +86,132 @@ background:#333;
 color:white;
 text-align:center;
 }
-</style>
 
-</head>
+</style></head><body><header><h1 id="districtName"></h1><p>
+पर्यटन स्थळांचा प्रकार निवडा
+</p></header><div class="container"><a href="index.html"
+class="back-btn">
 
-<body>
+⬅️ मागे जा
 
-<header>
+</a><h2 class="title">Tourism Categories
 
-<h1 id="districtName"></h1>
+</h2><div class="grid"><div class="card"
+onclick="openCategory('hindu')">🛕
 
-<p>पर्यटन स्थळांचा प्रकार निवडा</p>
+<h2>
+हिंदू धार्मिक पर्यटन
+</h2></div><div class="card"
+onclick="openCategory('historical')">🏰
 
-</header>
+<h2>
+ऐतिहासिक पर्यटन
+</h2></div><div class="card"
+onclick="openCategory('nature')">🌄
 
-<div class="container">
+<h2>
+नैसर्गिक पर्यटन
+</h2></div><div class="card"
+onclick="openCategory('wildlife')">🐅
 
-<a href="index.html" class="back-btn">⬅️ मागे जा</a>
+<h2>
+वन्यजीव पर्यटन
+</h2></div><div class="card"
+onclick="openCategory('other')">🎡
 
-<h2 class="title">
-Tourism Categories
-</h2>
+<h2>
+इतर पर्यटन
+</h2></div></div></div><footer>© 2026 Maharashtra Tourism Explorer
 
-<div class="grid">
+</footer><script>
 
-<div class="card" onclick="openCategory('hindu')">
-🛕
-<h2>हिंदू धार्मिक पर्यटन</h2>
-</div>
 
-<div class="card" onclick="openCategory('historical')">
-🏰
-<h2>ऐतिहासिक पर्यटन</h2>
-</div>
+// Index HTML मधून निवडलेला जिल्हा मिळवणे
 
-<div class="card" onclick="openCategory('nature')">
-🌄
-<h2>नैसर्गिक पर्यटन</h2>
-</div>
+const district =
+localStorage.getItem("district")
+|| "महाराष्ट्र";
 
-<div class="card" onclick="openCategory('wildlife')">
-🐅
-<h2>वन्यजीव पर्यटन</h2>
-</div>
 
-<div class="card" onclick="openCategory('other')">
-🎡
-<h2>इतर पर्यटन</h2>
-</div>
-
-</div>
-
-</div>
-
-<footer>
-
-© 2026 Maharashtra Tourism Explorer
-
-</footer>
-
-<script>
-
-const district = localStorage.getItem("district") || "महाराष्ट्र";
+// जिल्ह्याचे नाव दाखवणे
 
 document.getElementById("districtName").innerHTML =
 district + " जिल्हा";
 
+
+// Category निवडल्यानंतर
+
 function openCategory(category){
 
-localStorage.setItem("category",category);
 
-alert(
-"जिल्हा : " + district +
-"\nCategory : " + category +
-"\n\nPart 3 मध्ये येथे पर्यटन स्थळे दिसतील."
-);
+let categoryName = "";
 
-// पुढे हे वापरू
-// window.location.href="place.html";
+
+// Hindu
+
+if(category === "hindu"){
+
+categoryName =
+"हिंदू धार्मिक पर्यटन";
 
 }
 
-</script>
 
-</body>
-</html>
+// Historical
+
+else if(category === "historical"){
+
+categoryName =
+"ऐतिहासिक पर्यटन";
+
+}
+
+
+// Nature
+
+else if(category === "nature"){
+
+categoryName =
+"नैसर्गिक पर्यटन";
+
+}
+
+
+// Wildlife
+
+else if(category === "wildlife"){
+
+categoryName =
+"वन्यजीव पर्यटन";
+
+}
+
+
+// Other
+
+else if(category === "other"){
+
+categoryName =
+"इतर पर्यटन";
+
+}
+
+
+// Category Local Storage मध्ये सेव्ह करणे
+
+localStorage.setItem(
+"category",
+categoryName
+);
+
+
+// Place HTML वर जाणे
+
+window.location.href =
+"place.html";
+
+
+}
+
+
+</script></body></html>
