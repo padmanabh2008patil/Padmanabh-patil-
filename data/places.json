@@ -1,55 +1,38 @@
 [
   {
     "district": "छत्रपती संभाजीनगर",
-    "category": "hindu",
+    "category": "हिंदू धार्मिक पर्यटन स्थळ",
     "name": "घृष्णेश्वर ज्योतिर्लिंग मंदिर",
-    "image": "images/grishneshwar/main.jpg",
-    "description": "घृष्णेश्वर हे भगवान शिवाच्या १२ ज्योतिर्लिंगांपैकी एक प्रसिद्ध तीर्थक्षेत्र आहे.",
     "location": "वेरूळ, छत्रपती संभाजीनगर",
-    "map": "https://maps.google.com/?q=Grishneshwar+Temple",
+    "description": "भगवान शिवाचे प्रसिद्ध बारावे ज्योतिर्लिंग मंदिर. वेरूळ लेण्यांच्या जवळ असलेले हे एक महत्त्वाचे हिंदू धार्मिक पर्यटन स्थळ आहे.",
+    "image": "images/grishneshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Grishneshwar+Jyotirlinga",
     "gallery": [
-      "images/grishneshwar/1.jpg",
-      "images/grishneshwar/2.jpg",
-      "images/grishneshwar/3.jpg"
+      "images/grishneshwar.jpg"
     ]
   },
   {
     "district": "छत्रपती संभाजीनगर",
-    "category": "hindu",
-    "name": "भद्रा मारुती मंदिर",
-    "image": "images/bhadra_maruti/main.jpg",
-    "description": "भद्रा मारुती हे श्री हनुमानाचे प्रसिद्ध मंदिर आहे.",
+    "category": "हिंदू धार्मिक पर्यटन स्थळ",
+    "name": "भद्र मारुती मंदिर",
     "location": "खुलताबाद, छत्रपती संभाजीनगर",
-    "map": "https://maps.google.com/?q=Bhadra+Maruti+Temple",
+    "description": "श्री भद्र मारुती मंदिर हे महाराष्ट्रातील प्रसिद्ध धार्मिक स्थळ असून येथे मारुतीची निद्रिस्त अवस्थेतील मूर्ती आहे.",
+    "image": "images/bhadra-maruti.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhadra+Maruti+Temple+Khuldabad",
     "gallery": [
-      "images/bhadra_maruti/1.jpg",
-      "images/bhadra_maruti/2.jpg"
+      "images/bhadra-maruti.jpg"
     ]
   },
   {
     "district": "छत्रपती संभाजीनगर",
-    "category": "historical",
-    "name": "वेरूळ लेणी",
-    "image": "images/ellora/main.jpg",
-    "description": "युनेस्को जागतिक वारसा स्थळ.",
-    "location": "वेरूळ",
-    "map": "https://maps.google.com/?q=Ellora+Caves",
+    "category": "हिंदू धार्मिक पर्यटन स्थळ",
+    "name": "एकनाथ महाराज मंदिर",
+    "location": "पैठण, छत्रपती संभाजीनगर",
+    "description": "संत एकनाथ महाराज यांच्या पवित्र भूमीतील प्रसिद्ध धार्मिक स्थळ.",
+    "image": "images/eknath-maharaj.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Eknath+Maharaj+Temple+Paithan",
     "gallery": [
-      "images/ellora/1.jpg",
-      "images/ellora/2.jpg"
-    ]
-  },
-  {
-    "district": "छत्रपती संभाजीनगर",
-    "category": "historical",
-    "name": "अजिंठा लेणी",
-    "image": "images/ajanta/main.jpg",
-    "description": "प्रसिद्ध बौद्ध लेणी.",
-    "location": "अजिंठा",
-    "map": "https://maps.google.com/?q=Ajanta+Caves",
-    "gallery": [
-      "images/ajanta/1.jpg",
-      "images/ajanta/2.jpg"
+      "images/eknath-maharaj.jpg"
     ]
   }
 ]
