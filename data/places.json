@@ -36,3 +36,153 @@
     ]
   }
 ]
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "अजिंठा लेणी",
+    "location": "अजिंठा, छत्रपती संभाजीनगर",
+    "description": "प्राचीन बौद्ध शैलगुहांसाठी प्रसिद्ध असलेले अजिंठा लेणी हे युनेस्को जागतिक वारसा स्थळ आहे. येथील भित्तीचित्रे आणि शिल्पकला विशेष प्रसिद्ध आहेत.",
+    "image": "images/ajanta.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ajanta+Caves",
+    "gallery": [
+      "images/ajanta.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "वेरूळ लेणी",
+    "location": "वेरूळ, छत्रपती संभाजीनगर",
+    "description": "बौद्ध, हिंदू आणि जैन परंपरेतील शैलगुहांचा अद्भुत समूह. कैलास मंदिर हे येथील प्रमुख आकर्षण आहे.",
+    "image": "images/ellora.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ellora+Caves",
+    "gallery": [
+      "images/ellora.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "दौलताबाद किल्ला",
+    "location": "दौलताबाद, छत्रपती संभाजीनगर",
+    "description": "देवगिरी म्हणून प्रसिद्ध असलेला हा भव्य डोंगरी किल्ला आपल्या मजबूत संरक्षणव्यवस्था आणि ऐतिहासिक महत्त्वासाठी प्रसिद्ध आहे.",
+    "image": "images/daulatabad.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Daulatabad+Fort",
+    "gallery": [
+      "images/daulatabad.jpg"
+    ]
+  },
+
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "म्हैसमाळ",
+    "location": "म्हैसमाळ, छत्रपती संभाजीनगर",
+    "description": "डोंगराळ परिसर, हिरवाई आणि आल्हाददायक वातावरणासाठी प्रसिद्ध असलेले निसर्गरम्य पर्यटनस्थळ.",
+    "image": "images/mhaismal.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mhaismal+Aurangabad",
+    "gallery": [
+      "images/mhaismal.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "जायकवाडी धरण",
+    "location": "पैठण, छत्रपती संभाजीनगर",
+    "description": "गोदावरी नदीवरील जायकवाडी धरण हे परिसरातील महत्त्वाचे जलसाठा आणि निसर्गपर्यटनाचे ठिकाण आहे. पक्षीनिरीक्षणासाठीही परिसर प्रसिद्ध आहे.",
+    "image": "images/jayakwadi.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jayakwadi+Dam",
+    "gallery": [
+      "images/jayakwadi.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "पितळखोरा लेणी परिसर",
+    "location": "पितळखोरा, छत्रपती संभाजीनगर",
+    "description": "प्राचीन शैलगुहांसोबत हिरवाईने नटलेला परिसर आणि निसर्गरम्य वातावरण यामुळे हे ठिकाण विशेष आकर्षक आहे.",
+    "image": "images/pitalkhora.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pitalkhora+Caves",
+    "gallery": [
+      "images/pitalkhora.jpg"
+    ]
+  },
+
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "गौताळा औट्रमघाट अभयारण्य",
+    "location": "गौताळा, छत्रपती संभाजीनगर",
+    "description": "वनराई, डोंगर आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेला हा परिसर निसर्ग व वन्यजीवप्रेमींसाठी आकर्षणाचा केंद्रबिंदू आहे.",
+    "image": "images/gautala.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Gautala+Autramghat+Wildlife+Sanctuary",
+    "gallery": [
+      "images/gautala.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "जायकवाडी पक्षी अभयारण्य",
+    "location": "पैठण, छत्रपती संभाजीनगर",
+    "description": "जायकवाडी जलाशयाच्या परिसरात विविध स्थानिक आणि स्थलांतरित पक्षी पाहायला मिळतात. पक्षीनिरीक्षणासाठी हे महत्त्वाचे ठिकाण आहे.",
+    "image": "images/jayakwadi-birds.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jayakwadi+Bird+Sanctuary",
+    "gallery": [
+      "images/jayakwadi-birds.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "सिद्धार्थ उद्यान प्राणीसंग्रहालय",
+    "location": "छत्रपती संभाजीनगर शहर",
+    "description": "शहरातील प्रसिद्ध उद्यान आणि प्राणीसंग्रहालय. कुटुंबासोबत भेट देण्यासाठी लोकप्रिय ठिकाण.",
+    "image": "images/siddharth-zoo.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siddharth+Garden+Zoo+Aurangabad",
+    "gallery": [
+      "images/siddharth-zoo.jpg"
+    ]
+  },
+
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "बीबी का मकबरा",
+    "location": "छत्रपती संभाजीनगर शहर",
+    "description": "मुघलकालीन स्थापत्यकलेचा सुंदर नमुना असलेले हे प्रसिद्ध स्मारक 'दख्खनचा ताजमहाल' म्हणूनही ओळखले जाते.",
+    "image": "images/bibi-ka-maqbara.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bibi+Ka+Maqbara",
+    "gallery": [
+      "images/bibi-ka-maqbara.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "पाणचक्की",
+    "location": "छत्रपती संभाजीनगर शहर",
+    "description": "ऐतिहासिक जलचक्कीसाठी प्रसिद्ध असलेले पाणचक्की हे मध्ययुगीन जलव्यवस्थापन आणि अभियांत्रिकीचे आकर्षक उदाहरण आहे.",
+    "image": "images/panchakki.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Panchakki+Aurangabad",
+    "gallery": [
+      "images/panchakki.jpg"
+    ]
+  },
+  {
+    "district": "छत्रपती संभाजीनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "सोनेरी महाल",
+    "location": "छत्रपती संभाजीनगर शहर",
+    "description": "राजपूत शैलीतील ऐतिहासिक वास्तू असलेला सोनेरी महाल आता संग्रहालय म्हणून प्रसिद्ध आहे.",
+    "image": "images/soneri-mahal.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Soneri+Mahal+Aurangabad",
+    "gallery": [
+      "images/soneri-mahal.jpg"
+    ]
+  }
+]
