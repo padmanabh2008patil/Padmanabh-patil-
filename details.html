@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Tourism Details</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:linear-gradient(135deg,#ff9800,#e65100);
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+font-size:30px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+.container{
+width:90%;
+max-width:800px;
+margin:30px auto;
+}
+
+.back-btn{
+display:inline-block;
+background:#333;
+color:white;
+text-decoration:none;
+padding:12px 20px;
+border-radius:8px;
+margin-bottom:25px;
+}
+
+.place-name{
+text-align:center;
+color:#e65100;
+font-size:28px;
+margin-bottom:25px;
+}
+
+.options{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.option-card{
+background:white;
+padding:30px 20px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.15);
+cursor:pointer;
+transition:.3s;
+}
+
+.option-card:hover{
+background:#fff3e0;
+transform:translateY(-5px);
+}
+
+.option-card .icon{
+font-size:45px;
+}
+
+.option-card h2{
+margin-top:15px;
+color:#e65100;
+font-size:22px;
+}
+
+.option-card p{
+margin-top:8px;
+color:#555;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+background:#333;
+color:white;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1 id="districtName"></h1>
+
+<p>पर्यटन स्थळाची माहिती</p>
+
+</header>
+
+
+<div class="container">
+
+<a href="place.html"
+class="back-btn">
+
+⬅️ मागे जा
+
+</a>
+
+
+<h2 id="placeName"
+class="place-name">
+
+</h2>
+
+
+<div class="options">
+
+
+<!-- माहिती -->
+
+<div class="option-card"
+onclick="openInfo()">
+
+<div class="icon">
+📝
+</div>
+
+<h2>
+माहिती
+</h2>
+
+<p>
+पर्यटन स्थळाची संपूर्ण माहिती
+</p>
+
+</div>
+
+
+<!-- Photo -->
+
+<div class="option-card"
+onclick="openPhoto()">
+
+<div class="icon">
+📸
+</div>
+
+<h2>
+Photo
+</h2>
+
+<p>
+पर्यटन स्थळाचे फोटो
+</p>
+
+</div>
+
+
+<!-- Location -->
+
+<div class="option-card"
+onclick="openLocation()">
+
+<div class="icon">
+📍
+</div>
+
+<h2>
+Location
+</h2>
+
+<p>
+पर्यटन स्थळाचे ठिकाण
+</p>
+
+</div>
+
+
+<!-- Map -->
+
+<div class="option-card"
+onclick="openMap()">
+
+<div class="icon">
+🗺️
+</div>
+
+<h2>
+नकाशा
+</h2>
+
+<p>
+Google Maps वर ठिकाण पहा
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<footer>
+
+© 2026 Maharashtra Tourism Explorer
+
+</footer>
+
+
+<script>
+
+// Selected Place मिळवणे
+
+const placeData =
+localStorage.getItem("selectedPlace");
+
+
+// जर data नसेल
+
+if(!placeData){
+
+alert(
+"पर्यटन स्थळाची माहिती सापडली नाही."
+);
+
+window.location.href =
+"index.html";
+
+}
+
+
+// JSON मध्ये convert करणे
+
+const place =
+JSON.parse(placeData);
+
+
+// नाव दाखवणे
+
+document.getElementById(
+"districtName"
+).innerHTML =
+place.district + " जिल्हा";
+
+
+document.getElementById(
+"placeName"
+).innerHTML =
+place.name;
+
+
+// माहिती Page
+
+function openInfo(){
+
+localStorage.setItem(
+"selectedPlace",
+JSON.stringify(place)
+);
+
+window.location.href =
+"info.html";
+
+}
+
+
+// Photo Page
+
+function openPhoto(){
+
+localStorage.setItem(
+"selectedPlace",
+JSON.stringify(place)
+);
+
+window.location.href =
+"photo.html";
+
+}
+
+
+// Location Page
+
+function openLocation(){
+
+localStorage.setItem(
+"selectedPlace",
+JSON.stringify(place)
+);
+
+window.location.href =
+"location.html";
+
+}
+
+
+// Map Page
+
+function openMap(){
+
+window.location.href =
+"map.html";
+
+}
+
+</script>
+
+</body>
+
+  </html>
