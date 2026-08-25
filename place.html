@@ -10,7 +10,6 @@ content="width=device-width, initial-scale=1.0">
 
 <title>Tourism Places</title>
 
-
 <style>
 
 *{
@@ -32,7 +31,7 @@ padding:25px;
 }
 
 header h1{
-font-size:32px;
+font-size:30px;
 }
 
 header p{
@@ -42,7 +41,7 @@ font-size:18px;
 
 .container{
 width:90%;
-max-width:1200px;
+max-width:1100px;
 margin:30px auto;
 }
 
@@ -60,13 +59,13 @@ margin-bottom:25px;
 text-align:center;
 color:#e65100;
 margin-bottom:25px;
+font-size:28px;
 }
 
 #placesContainer{
 display:grid;
 grid-template-columns:
-repeat(auto-fit,minmax(320px,1fr));
-
+repeat(auto-fit,minmax(280px,1fr));
 gap:25px;
 }
 
@@ -74,8 +73,7 @@ gap:25px;
 background:white;
 border-radius:15px;
 overflow:hidden;
-box-shadow:
-0 4px 12px rgba(0,0,0,.15);
+box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
 
 .place-card img{
@@ -85,12 +83,13 @@ object-fit:cover;
 }
 
 .place-content{
-padding:18px;
+padding:20px;
 }
 
 .place-content h2{
 color:#e65100;
-margin-bottom:10px;
+margin-bottom:12px;
+font-size:23px;
 }
 
 .place-content p{
@@ -100,14 +99,15 @@ line-height:1.6;
 
 .btn{
 display:inline-block;
-margin-top:12px;
-padding:10px 16px;
+margin-top:15px;
+padding:12px 18px;
 background:#ff9800;
 color:white;
 text-decoration:none;
 border-radius:8px;
 border:none;
 cursor:pointer;
+font-size:16px;
 }
 
 footer{
@@ -122,9 +122,7 @@ text-align:center;
 
 </head>
 
-
 <body>
-
 
 <header>
 
@@ -134,9 +132,7 @@ text-align:center;
 
 </header>
 
-
 <div class="container">
-
 
 <a href="category.html"
 class="back-btn">
@@ -145,21 +141,14 @@ class="back-btn">
 
 </a>
 
-
 <h2 id="placeTitle">
-
 पर्यटन स्थळे
-
 </h2>
 
-
 <div id="placesContainer">
-
 </div>
 
-
 </div>
-
 
 <footer>
 
@@ -167,38 +156,35 @@ class="back-btn">
 
 </footer>
 
-
-
 <script>
 
-
-// =====================================
-// Selected District & Category
-// =====================================
+// जिल्हा आणि Category मिळवणे
 
 const district =
-localStorage.getItem("district") || "महाराष्ट्र";
+localStorage.getItem("district")
+|| "महाराष्ट्र";
 
 const category =
-localStorage.getItem("category") || "";
+localStorage.getItem("category")
+|| "";
 
+
+// नाव दाखवणे
 
 document.getElementById(
 "districtName"
-).innerHTML = district;
-
+).innerHTML =
+district + " जिल्हा";
 
 document.getElementById(
 "categoryName"
-).innerHTML = category;
+).innerHTML =
+category;
 
 
-// =====================================
-// Part 3B - Load Places
-// =====================================
+// Places load करणे
 
 let filteredPlaces = [];
-
 
 fetch("data/places.json")
 
@@ -216,9 +202,7 @@ return response.json();
 
 })
 
-
 .then(places => {
-
 
 const container =
 document.getElementById(
@@ -238,12 +222,12 @@ place.category === category
 );
 
 
-// जुनी माहिती काढणे
+// Places दाखवणे
 
 container.innerHTML = "";
 
 
-// कोणतेही स्थळ सापडले नाही
+// जर data नसेल
 
 if(filteredPlaces.length === 0){
 
@@ -258,22 +242,15 @@ border-radius:15px;
 ">
 
 <h2 style="color:red;">
-
-या Category मध्ये सध्या
-पर्यटन स्थळांची माहिती उपलब्ध नाही.
-
+या Category मध्ये पर्यटन स्थळांची माहिती उपलब्ध नाही.
 </h2>
 
 <p style="margin-top:15px;">
-
 जिल्हा : ${district}
-
 </p>
 
 <p>
-
 Category : ${category}
-
 </p>
 
 </div>
@@ -285,82 +262,44 @@ return;
 }
 
 
-// प्रत्येक पर्यटन स्थळ दाखवणे
+// प्रत्येक Place चे Card
 
-filteredPlaces.forEach(
-(place,index) => {
-
+filteredPlaces.forEach((place,index) => {
 
 container.innerHTML += `
 
 <div class="place-card">
 
-
 <img
-
 src="${place.image}"
-
 alt="${place.name}"
-
 >
-
 
 <div class="place-content">
 
-
 <h2>
-
 ${place.name}
-
 </h2>
 
-
 <p>
-
 <b>📍 स्थान :</b>
-
 ${place.location}
-
 </p>
-
 
 <p>
-
 ${place.description}
-
 </p>
-
-
-<a
-
-class="btn"
-
-href="${place.map}"
-
-target="_blank"
-
->
-
-🗺️ Google Maps वर पहा
-
-</a>
-
 
 <button
-
 class="btn"
-
-onclick="showGallery(${index})"
-
+onclick="openDetails(${index})"
 >
 
-📸 फोटो पहा
+📖 पुढे पहा
 
 </button>
 
-
 </div>
-
 
 </div>
 
@@ -370,15 +309,9 @@ onclick="showGallery(${index})"
 
 })
 
-
 .catch(error => {
 
-
-console.error(
-"Error:",
-error
-);
-
+console.error(error);
 
 document.getElementById(
 "placesContainer"
@@ -392,16 +325,11 @@ color:red;
 ">
 
 <h2>
-
 डेटा लोड करताना समस्या आली.
-
 </h2>
 
 <p>
-
-कृपया data/places.json
-फाईल तपासा.
-
+कृपया places.json फाईल तपासा.
 </p>
 
 </div>
@@ -411,17 +339,12 @@ color:red;
 });
 
 
+// पर्यटनस्थळाच्या Details Page वर जाणे
 
-// =====================================
-// Part 3C - Photo Gallery
-// =====================================
-
-function showGallery(index){
-
+function openDetails(index){
 
 const place =
 filteredPlaces[index];
-
 
 if(!place){
 
@@ -434,159 +357,22 @@ return;
 }
 
 
-if(
-!place.gallery ||
-place.gallery.length === 0
-){
+// निवडलेले पर्यटनस्थळ Save करणे
 
-alert(
-"या पर्यटन स्थळाचे फोटो सध्या उपलब्ध नाहीत."
-);
-
-return;
-
-}
-
-
-let galleryHTML = "";
-
-
-place.gallery.forEach(
-photo => {
-
-
-galleryHTML += `
-
-<img
-
-src="${photo}"
-
-alt="${place.name}"
-
->
-
-`;
-
-});
-
-
-// Gallery Popup
-
-const galleryWindow =
-window.open(
-"",
-"_blank",
-"width=900,height=700"
+localStorage.setItem(
+"selectedPlace",
+JSON.stringify(place)
 );
 
 
-galleryWindow.document.write(`
+// नवीन Page उघडणे
 
-<!DOCTYPE html>
-
-<html lang="mr">
-
-
-<head>
-
-<meta charset="UTF-8">
-
-
-<title>
-
-${place.name} - फोटो गॅलरी
-
-</title>
-
-
-<style>
-
-body{
-
-font-family:Arial,sans-serif;
-
-background:#f5f5f5;
-
-text-align:center;
-
-padding:20px;
+window.location.href =
+"details.html";
 
 }
-
-h1{
-
-color:#e65100;
-
-margin-bottom:20px;
-
-}
-
-.gallery{
-
-display:flex;
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:15px;
-
-}
-
-.gallery img{
-
-width:300px;
-
-height:200px;
-
-object-fit:cover;
-
-border-radius:12px;
-
-box-shadow:
-0 4px 12px rgba(0,0,0,.2);
-
-}
-
-</style>
-
-
-</head>
-
-
-<body>
-
-
-<h1>
-
-${place.name}
-
-</h1>
-
-
-<div class="gallery">
-
-${galleryHTML}
-
-</div>
-
-
-</body>
-
-
-</html>
-
-`);
-
-
-galleryWindow.document.close();
-
-
-}
-
 
 </script>
-
 
 </body>
 
