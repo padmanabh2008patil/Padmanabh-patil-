@@ -1210,5 +1210,401 @@
   "gallery": [
     "images/poharadevi.jpg"
   ]
+},
+{
+  "district": "नागपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "टेकडी गणपती मंदिर",
+  "location": "नागपूर शहर",
+  "description": "नागपूर रेल्वे स्थानकाजवळील प्रसिद्ध श्री गणेश मंदिर. नागपूर शहरातील प्रमुख हिंदू धार्मिक स्थळांपैकी एक.",
+  "image": "images/tekdi-ganpati.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tekdi+Ganpati+Temple+Nagpur",
+  "gallery": [
+    "images/tekdi-ganpati.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "कोराडी जगदंबा मंदिर",
+  "location": "कोराडी, नागपूर",
+  "description": "कोराडी येथील प्रसिद्ध श्री महालक्ष्मी जगदंबा देवी मंदिर. हे नागपूर परिसरातील महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/koradi-temple.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Koradi+Jagdamba+Temple+Nagpur",
+  "gallery": [
+    "images/koradi-temple.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "रामटेक मंदिर",
+  "location": "रामटेक, नागपूर",
+  "description": "रामटेक येथील भगवान श्रीरामाशी संबंधित प्रसिद्ध हिंदू धार्मिक क्षेत्र. राम मंदिर आणि टेकडीवरील मंदिरसमूहासाठी हे ठिकाण प्रसिद्ध आहे.",
+  "image": "images/ramtek-temple.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ramtek+Temple+Nagpur",
+  "gallery": [
+    "images/ramtek-temple.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "सीताबर्डी किल्ला",
+  "location": "सीताबर्डी, नागपूर",
+  "description": "नागपूर शहराच्या मध्यभागी असलेला ऐतिहासिक किल्ला. 1817 च्या सीताबर्डीच्या लढाईशी त्याचा इतिहास जोडलेला आहे.",
+  "image": "images/sitabardi-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sitabuldi+Fort+Nagpur",
+  "gallery": [
+    "images/sitabardi-fort.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "दीक्षाभूमी",
+  "location": "नागपूर शहर",
+  "description": "डॉ. बाबासाहेब आंबेडकर यांच्या बौद्ध धम्मदीक्षेशी संबंधित ऐतिहासिक स्मारक आणि महत्त्वाचे सांस्कृतिक स्थळ.",
+  "image": "images/deekshabhoomi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Deekshabhoomi+Nagpur",
+  "gallery": [
+    "images/deekshabhoomi.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "अंबाझरी तलाव",
+  "location": "नागपूर शहर",
+  "description": "नागपूर शहरातील प्रसिद्ध तलाव आणि हिरवाईने नटलेला परिसर. नागरिक व पर्यटकांसाठी लोकप्रिय विरंगुळ्याचे ठिकाण.",
+  "image": "images/ambazari-lake.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ambazari+Lake+Nagpur",
+  "gallery": [
+    "images/ambazari-lake.jpg"
+  ]
+},
+{
+  "district": "नागपूर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "पेंच व्याघ्र प्रकल्प",
+  "location": "रामटेक परिसर, नागपूर",
+  "description": "सातपुडा परिसरातील प्रसिद्ध व्याघ्र प्रकल्प. वाघासह विविध वन्यजीव आणि समृद्ध जंगलासाठी प्रसिद्ध.",
+  "image": "images/pench-tiger-reserve.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Pench+Tiger+Reserve+Nagpur",
+  "gallery": [
+    "images/pench-tiger-reserve.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "लक्ष्मीनारायण मंदिर",
+  "location": "वर्धा",
+  "description": "भगवान विष्णू आणि महालक्ष्मी यांना समर्पित प्रसिद्ध हिंदू मंदिर. मंदिराच्या आतील भागात संगमरवरी काम आहे.",
+  "image": "images/lakshminarayan-wardha.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Laxminarayan+Temple+Wardha",
+  "gallery": [
+    "images/lakshminarayan-wardha.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "गीताई मंदिर",
+  "location": "वर्धा",
+  "description": "गीताई मंदिर हे वर्धा शहरातील प्रसिद्ध धार्मिक स्थळ आहे.",
+  "image": "images/gitai-temple.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gitai+Mandir+Wardha",
+  "gallery": [
+    "images/gitai-temple.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "राम मंदिर गिरड",
+  "location": "गिरड, वर्धा",
+  "description": "गिरड गावातील तलावाच्या काठावर असलेले भगवान श्रीरामाचे हिंदू मंदिर. रामनवमीला येथे मोठी यात्रा भरते.",
+  "image": "images/ram-temple-girad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ram+Temple+Girad+Wardha",
+  "gallery": [
+    "images/ram-temple-girad.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "सेवाग्राम आश्रम",
+  "location": "सेवाग्राम, वर्धा",
+  "description": "महात्मा गांधी यांच्या वास्तव्यामुळे प्रसिद्ध असलेला ऐतिहासिक आश्रम. येथे बापू कुटी, बा कुटी आणि इतर ऐतिहासिक वास्तू पाहता येतात.",
+  "image": "images/sevagram-ashram.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sevagram+Ashram+Wardha",
+  "gallery": [
+    "images/sevagram-ashram.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "मगन संग्रहालय",
+  "location": "वर्धा",
+  "description": "महात्मा गांधींच्या ग्रामोद्योग आणि ग्रामविकासाच्या विचारांशी संबंधित ऐतिहासिक संग्रहालय.",
+  "image": "images/magan-sangrahalaya.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Magan+Sangrahalaya+Wardha",
+  "gallery": [
+    "images/magan-sangrahalaya.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "बोर धरण",
+  "location": "सेलू, वर्धा",
+  "description": "बोर नदीवरील धरणाभोवती सुंदर बाग, डोंगर आणि जंगलाचा परिसर आहे. निसर्ग पर्यटनासाठी प्रसिद्ध.",
+  "image": "images/bor-dam-wardha.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Bor+Dam+Wardha",
+  "gallery": [
+    "images/bor-dam-wardha.jpg"
+  ]
+},
+{
+  "district": "वर्धा",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "बोर व्याघ्र प्रकल्प",
+  "location": "वर्धा",
+  "description": "वर्ध्यापासून सुमारे 40 किमी अंतरावर असलेला वन्यजीव परिसर. वाघ, अस्वल, हरीण, सांबर आणि विविध पक्षी येथे आढळतात.",
+  "image": "images/bor-tiger-reserve.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Bor+Tiger+Reserve+Wardha",
+  "gallery": [
+    "images/bor-tiger-reserve.jpg"
+  ]
+},
+{
+  "district": "यवतमाळ",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री चिंतामणी गणपती मंदिर",
+  "location": "कळंब, यवतमाळ",
+  "description": "विदर्भातील प्रसिद्ध अष्टगणेश मंदिरांपैकी एक. मंदिर जमिनीखाली सुमारे 27 ते 30 फूट असून भगवान गणेशाचे प्राचीन मंदिर आहे.",
+  "image": "images/chintamani-kalamb.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chintamani+Ganpati+Kalamb+Yavatmal",
+  "gallery": [
+    "images/chintamani-kalamb.jpg"
+  ]
+},
+{
+  "district": "यवतमाळ",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री जगदंबा देवी मंदिर",
+  "location": "केळापूर, यवतमाळ",
+  "description": "केळापूर येथील प्रसिद्ध हिंदू देवी मंदिर.",
+  "image": "images/jagdamba-kelapur.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jagdamba+Devi+Temple+Kelapur+Yavatmal",
+  "gallery": [
+    "images/jagdamba-kelapur.jpg"
+  ]
+},
+{
+  "district": "यवतमाळ",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "पंचमुखी महादेव मंदिर",
+  "location": "सहस्त्रकुंड, उमरखेड, यवतमाळ",
+  "description": "सहस्त्रकुंड धबधब्याच्या काठावर असलेले भगवान महादेवाचे हिंदू मंदिर. हे भाविकांसाठी श्रद्धास्थान आहे.",
+  "image": "images/panchmukhi-mahadev.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Panchmukhi+Mahadev+Temple+Sahastrakund",
+  "gallery": [
+    "images/panchmukhi-mahadev.jpg"
+  ]
+},
+{
+  "district": "यवतमाळ",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "सहस्त्रकुंड धबधबा",
+  "location": "उमरखेड, यवतमाळ",
+  "description": "मराठवाडा आणि विदर्भाच्या सीमेवर असलेला सुंदर धबधबा. पावसाळ्यात येथे मोठ्या संख्येने पर्यटक येतात.",
+  "image": "images/sahastrakund-yavatmal.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sahastrakund+Waterfall+Yavatmal",
+  "gallery": [
+    "images/sahastrakund-yavatmal.jpg"
+  ]
+},
+{
+  "district": "यवतमाळ",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "टिपेश्वर अभयारण्य परिसर",
+  "location": "पांढरकवडा, यवतमाळ",
+  "description": "वन्यजीव आणि निसर्गासाठी प्रसिद्ध असलेला परिसर. जंगल सफारीसाठी हे ठिकाण पर्यटकांमध्ये लोकप्रिय आहे.",
+  "image": "images/tipeshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tipeshwar+Wildlife+Sanctuary",
+  "gallery": [
+    "images/tipeshwar.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "नागरा शिव मंदिर",
+  "location": "नागरा, गोंदिया",
+  "description": "15व्या शतकातील हेमाडपंती शैलीतील भगवान शिवाचे प्राचीन मंदिर. नागरा गावातील प्रमुख हिंदू धार्मिक स्थळ.",
+  "image": "images/nagra-shiva-temple.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Nagra+Shiva+Temple+Gondia",
+  "gallery": [
+    "images/nagra-shiva-temple.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "मांडो देवी मंदिर",
+  "location": "गोंदिया",
+  "description": "डोंगरावर वसलेले मांडो देवी मंदिर. नवरात्र उत्सवाच्या काळात येथे मोठ्या संख्येने भाविक येतात.",
+  "image": "images/mando-devi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mando+Devi+Temple+Gondia",
+  "gallery": [
+    "images/mando-devi.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "प्रातापगड शिव मंदिर",
+  "location": "प्रातापगड, गोंदिया",
+  "description": "प्रातापगड परिसरातील भगवान शिवाचे प्रसिद्ध धार्मिक स्थळ. येथे सुमारे 30 फूट उंच शिवमूर्ती असून शिवरात्री उत्सव साजरा केला जातो.",
+  "image": "images/pratapgad-shiva.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Pratapgad+Shiva+Temple+Gondia",
+  "gallery": [
+    "images/pratapgad-shiva.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "पद्मपूर",
+  "location": "आमगाव, गोंदिया",
+  "description": "संस्कृत लेखक भवभूती यांच्या जन्मस्थानासाठी प्रसिद्ध ऐतिहासिक गाव. परिसरात प्राचीन मूर्तीही आढळल्या आहेत.",
+  "image": "images/padampur-gondia.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Padampur+Gondia",
+  "gallery": [
+    "images/padampur-gondia.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "नवेगाव राष्ट्रीय उद्यान",
+  "location": "अर्जुनी मोरगाव, गोंदिया",
+  "description": "गोंदिया जिल्ह्याच्या दक्षिण भागात असलेले राष्ट्रीय उद्यान. समृद्ध वन्यजीव आणि पक्षीजीवनासाठी प्रसिद्ध.",
+  "image": "images/navegaon-national-park.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Navegaon+National+Park",
+  "gallery": [
+    "images/navegaon-national-park.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "हाजरा धबधबा",
+  "location": "सालेकसा, गोंदिया",
+  "description": "हिरवाईने वेढलेला सुंदर धबधबा. पावसाळ्यात हे ठिकाण विशेष आकर्षक दिसते.",
+  "image": "images/hazra-waterfall.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Hazra+Waterfall+Gondia",
+  "gallery": [
+    "images/hazra-waterfall.jpg"
+  ]
+},
+{
+  "district": "गोंदिया",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "नागझिरा वन्यजीव अभयारण्य",
+  "location": "सडक अर्जुनी, गोंदिया",
+  "description": "घनदाट जंगल, तलाव आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेले अभयारण्य.",
+  "image": "images/nagzira.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Nagzira+Wildlife+Sanctuary",
+  "gallery": [
+    "images/nagzira.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "चौंडेश्वरी देवी मंदिर",
+  "location": "मोहाडी, भंडारा",
+  "description": "मोहाडी येथील प्रसिद्ध हिंदू देवी मंदिर. नवरात्रोत्सवात येथे मोठ्या संख्येने भाविक येतात.",
+  "image": "images/chaundeshwari-bhandara.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chaundeshwari+Devi+Temple+Mohadi+Bhandara",
+  "gallery": [
+    "images/chaundeshwari-bhandara.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "राम मंदिर रावणवाडी",
+  "location": "रावणवाडी, भंडारा",
+  "description": "शंभर वर्षांहून जुने भगवान श्रीरामाचे मंदिर. टेकडीवरील या मंदिराभोवती तलाव आणि जंगलाचा परिसर आहे.",
+  "image": "images/ram-temple-rawanwadi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ram+Temple+Rawanwadi+Bhandara",
+  "gallery": [
+    "images/ram-temple-rawanwadi.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "गाईमुख मंदिर",
+  "location": "गाईमुख, भंडारा",
+  "description": "खडकातून झरा बाहेर पडणाऱ्या गाईमुख परिसरातील गुहा मंदिर. हे स्थानिक धार्मिक श्रद्धेचे ठिकाण आहे.",
+  "image": "images/gaimukh-temple.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gaimukh+Temple+Bhandara",
+  "gallery": [
+    "images/gaimukh-temple.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "अंबागड किल्ला",
+  "location": "तुमसर, भंडारा",
+  "description": "सुमारे 1700 च्या आसपास बांधलेला मध्ययुगीन किल्ला. भोसले आणि ब्रिटिश काळातील इतिहासाशी त्याचा संबंध आहे.",
+  "image": "images/ambagad-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ambagad+Fort+Bhandara",
+  "gallery": [
+    "images/ambagad-fort.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "चांदपूर धरण",
+  "location": "तुमसर, भंडारा",
+  "description": "डोंगरांनी आणि घनदाट हिरवाईने वेढलेला जलाशय. धरणाच्या परिसरातून सुंदर निसर्गदृश्य दिसते.",
+  "image": "images/chandpur-dam.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chandpur+Dam+Bhandara",
+  "gallery": [
+    "images/chandpur-dam.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "कोका जंगल व तलाव",
+  "location": "भंडारा",
+  "description": "घनदाट जंगल आणि तलावासाठी प्रसिद्ध परिसर. हिवाळ्यात स्थलांतरित पक्षी येथे पाहायला मिळतात.",
+  "image": "images/koka-lake.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Koka+Lake+Bhandara",
+  "gallery": [
+    "images/koka-lake.jpg"
+  ]
+},
+{
+  "district": "भंडारा",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "नागझिरा वन्यजीव अभयारण्य",
+  "location": "भंडारा-गोंदिया परिसर",
+  "description": "भंडारा आणि गोंदिया जिल्ह्यांच्या सीमेच्या परिसरातील प्रसिद्ध वन्यजीव अभयारण्य. घनदाट जंगल आणि विविध वन्यजीवांसाठी प्रसिद्ध.",
+  "image": "images/nagzira-bhandara.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Nagzira+Wildlife+Sanctuary",
+  "gallery": [
+    "images/nagzira-bhandara.jpg"
+  ]
 }
 ]
