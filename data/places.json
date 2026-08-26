@@ -178,5 +178,366 @@
     "gallery": [
       "images/soneri-mahal.jpg"
     ]
+  },
+  {
+    "district": "जालना",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "मत्स्योदरी देवी मंदिर",
+    "location": "जालना",
+    "description": "मत्स्योदरी देवी हे जालना शहरातील प्रसिद्ध हिंदू देवीचे मंदिर आणि धार्मिक स्थळ आहे.",
+    "image": "images/matsyodari-devi.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Matsyodari+Devi+Temple+Jalna",
+    "gallery": [
+      "images/matsyodari-devi.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री राम मंदिर, जांब समर्थ",
+    "location": "जांब समर्थ, जालना",
+    "description": "समर्थ रामदास स्वामींच्या जन्मभूमीशी संबंधित असलेले जांब समर्थ हे महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+    "image": "images/jamb-samarth.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jamb+Samarth+Jalna",
+    "gallery": [
+      "images/jamb-samarth.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री रेणुका माता मंदिर",
+    "location": "राजूर, जालना",
+    "description": "राजूर परिसरातील प्रसिद्ध हिंदू देवीचे मंदिर आणि भाविकांचे श्रद्धास्थान.",
+    "image": "images/renuka-mata-jalna.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Renuka+Mata+Temple+Rajur+Jalna",
+    "gallery": [
+      "images/renuka-mata-jalna.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "जालना किल्ला",
+    "location": "जालना",
+    "description": "जालना परिसरातील ऐतिहासिक वास्तू आणि शहराच्या इतिहासाशी संबंधित महत्त्वाचे ठिकाण.",
+    "image": "images/jalna-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Fort",
+    "gallery": [
+      "images/jalna-fort.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "जांब समर्थ ऐतिहासिक परिसर",
+    "location": "जांब समर्थ, जालना",
+    "description": "समर्थ रामदास स्वामींच्या जीवनाशी संबंधित ऐतिहासिक आणि सांस्कृतिक महत्त्व असलेला परिसर.",
+    "image": "images/jamb-historical.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jamb+Samarth+Jalna",
+    "gallery": [
+      "images/jamb-historical.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "अंबड ऐतिहासिक परिसर",
+    "location": "अंबड, जालना",
+    "description": "अंबड शहर आणि परिसरातील ऐतिहासिक वास्तू व सांस्कृतिक वारसा पाहण्यासाठी महत्त्वाचे ठिकाण.",
+    "image": "images/ambad-jalna.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambad+Jalna",
+    "gallery": [
+      "images/ambad-jalna.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "घनसावंगी परिसर",
+    "location": "घनसावंगी, जालना",
+    "description": "ग्रामीण आणि निसर्गरम्य वातावरणासाठी ओळखला जाणारा जालना जिल्ह्यातील परिसर.",
+    "image": "images/ghansawangi.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ghansawangi+Jalna",
+    "gallery": [
+      "images/ghansawangi.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "जांब समर्थ परिसर",
+    "location": "जांब समर्थ, जालना",
+    "description": "हिरवाई आणि ग्रामीण निसर्गाने नटलेला शांत परिसर.",
+    "image": "images/jamb-nature.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jamb+Samarth+Jalna",
+    "gallery": [
+      "images/jamb-nature.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "जालना ग्रामीण निसर्ग परिसर",
+    "location": "जालना जिल्हा",
+    "description": "जालना जिल्ह्यातील ग्रामीण भागातील निसर्गरम्य वातावरण आणि शेतीप्रधान परिसर.",
+    "image": "images/jalna-nature.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Maharashtra",
+    "gallery": [
+      "images/jalna-nature.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "जालना वनपरिसर",
+    "location": "जालना जिल्हा",
+    "description": "जालना जिल्ह्यातील वनक्षेत्र आणि जैवविविधतेचा अनुभव घेण्यासाठी योग्य परिसर.",
+    "image": "images/jalna-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Forest+Maharashtra",
+    "gallery": [
+      "images/jalna-forest.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "घनसावंगी वनपरिसर",
+    "location": "घनसावंगी, जालना",
+    "description": "वनराई आणि ग्रामीण जैवविविधतेचा अनुभव घेता येणारा परिसर.",
+    "image": "images/ghansawangi-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ghansawangi+Jalna",
+    "gallery": [
+      "images/ghansawangi-forest.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "अंबड वनपरिसर",
+    "location": "अंबड, जालना",
+    "description": "अंबड परिसरातील वनक्षेत्र आणि स्थानिक जैवविविधता अनुभवण्यासाठी योग्य परिसर.",
+    "image": "images/ambad-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambad+Jalna",
+    "gallery": [
+      "images/ambad-forest.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "जालना शहर",
+    "location": "जालना",
+    "description": "जालना शहरातील विविध सांस्कृतिक, बाजारपेठ आणि स्थानिक पर्यटन आकर्षणे.",
+    "image": "images/jalna-city.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Maharashtra",
+    "gallery": [
+      "images/jalna-city.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "जालना बाजारपेठ",
+    "location": "जालना",
+    "description": "जालना शहरातील स्थानिक बाजारपेठ आणि शहराच्या दैनंदिन जीवनाचा अनुभव देणारे ठिकाण.",
+    "image": "images/jalna-market.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Market",
+    "gallery": [
+      "images/jalna-market.jpg"
+    ]
+  },
+  {
+    "district": "जालना",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "जालना सांस्कृतिक परिसर",
+    "location": "जालना",
+    "description": "जालना जिल्ह्याची स्थानिक संस्कृती आणि परंपरा अनुभवण्यासाठी उपयुक्त परिसर.",
+    "image": "images/jalna-cultural.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jalna+Maharashtra",
+    "gallery": [
+      "images/jalna-cultural.jpg"
+    ]
+  },
+
+  {
+    "district": "बीड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "योगेश्वरी देवी मंदिर",
+    "location": "अंबाजोगाई, बीड",
+    "description": "अंबाजोगाई येथील प्रसिद्ध योगेश्वरी देवी मंदिर हे महाराष्ट्रातील महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+    "image": "images/yogeshwari-devi.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Yogeshwari+Devi+Temple+Ambajogai",
+    "gallery": [
+      "images/yogeshwari-devi.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "परळी वैजनाथ ज्योतिर्लिंग मंदिर",
+    "location": "परळी वैजनाथ, बीड",
+    "description": "भगवान शिवाचे प्रसिद्ध ज्योतिर्लिंग मंदिर आणि महत्त्वाचे हिंदू तीर्थक्षेत्र.",
+    "image": "images/parli-vaijnath.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Parli+Vaijnath+Temple",
+    "gallery": [
+      "images/parli-vaijnath.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "कंकालेश्वर मंदिर",
+    "location": "बीड",
+    "description": "बीड शहरातील प्रसिद्ध प्राचीन हिंदू शिव मंदिर.",
+    "image": "images/kankaleshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kankaleshwar+Temple+Beed",
+    "gallery": [
+      "images/kankaleshwar.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "धारूर किल्ला",
+    "location": "धारूर, बीड",
+    "description": "धारूर परिसरातील ऐतिहासिक किल्ला आणि मध्ययुगीन वास्तुकलेचा नमुना.",
+    "image": "images/dharur-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dharur+Fort+Beed",
+    "gallery": [
+      "images/dharur-fort.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "कंकालेश्वर मंदिर परिसर",
+    "location": "बीड",
+    "description": "प्राचीन मंदिर वास्तुकलेसाठी प्रसिद्ध असलेला ऐतिहासिक परिसर.",
+    "image": "images/kankaleshwar-history.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kankaleshwar+Temple+Beed",
+    "gallery": [
+      "images/kankaleshwar-history.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "अंबाजोगाई ऐतिहासिक परिसर",
+    "location": "अंबाजोगाई, बीड",
+    "description": "अंबाजोगाईतील प्राचीन मंदिरे आणि ऐतिहासिक वारसा असलेला परिसर.",
+    "image": "images/ambajogai-history.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambajogai+Beed",
+    "gallery": [
+      "images/ambajogai-history.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "सौताडा धबधबा",
+    "location": "पाटोदा, बीड",
+    "description": "पावसाळ्यात विशेष आकर्षक दिसणारा निसर्गरम्य धबधबा.",
+    "image": "images/sautada-waterfall.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sautada+Waterfall+Beed",
+    "gallery": [
+      "images/sautada-waterfall.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "कपिलधार धबधबा",
+    "location": "बीड",
+    "description": "हिरवाई आणि डोंगराळ परिसरातील निसर्गरम्य धबधबा.",
+    "image": "images/kapildhar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kapildhar+Waterfall+Beed",
+    "gallery": [
+      "images/kapildhar.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "अंबाजोगाई निसर्ग परिसर",
+    "location": "अंबाजोगाई, बीड",
+    "description": "डोंगर, हिरवाई आणि शांत वातावरणासाठी प्रसिद्ध परिसर.",
+    "image": "images/ambajogai-nature.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambajogai+Beed",
+    "gallery": [
+      "images/ambajogai-nature.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "बीड वनपरिसर",
+    "location": "बीड जिल्हा",
+    "description": "जिल्ह्यातील वनक्षेत्र आणि स्थानिक जैवविविधतेचा अनुभव घेण्यासाठी परिसर.",
+    "image": "images/beed-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Beed+Forest+Maharashtra",
+    "gallery": [
+      "images/beed-forest.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "अंबाजोगाई वनपरिसर",
+    "location": "अंबाजोगाई, बीड",
+    "description": "निसर्ग आणि स्थानिक जैवविविधतेसाठी महत्त्वाचा परिसर.",
+    "image": "images/ambajogai-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambajogai+Beed",
+    "gallery": [
+      "images/ambajogai-forest.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "धारूर वनपरिसर",
+    "location": "धारूर, बीड",
+    "description": "डोंगराळ आणि वनक्षेत्र असलेला निसर्गरम्य परिसर.",
+    "image": "images/dharur-forest.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dharur+Beed",
+    "gallery": [
+      "images/dharur-forest.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "अंबाजोगाई शहर",
+    "location": "अंबाजोगाई, बीड",
+    "description": "धार्मिक आणि सांस्कृतिक वारशासाठी प्रसिद्ध असलेले शहर.",
+    "image": "images/ambajogai-city.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambajogai+Beed",
+    "gallery": [
+      "images/ambajogai-city.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "परळी शहर",
+    "location": "परळी वैजनाथ, बीड",
+    "description": "धार्मिक वारसा आणि स्थानिक संस्कृतीसाठी प्रसिद्ध शहर.",
+    "image": "images/parli-city.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Parli+Vaijnath",
+    "gallery": [
+      "images/parli-city.jpg"
+    ]
+  },
+  {
+    "district": "बीड",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "बीड शहर",
+    "location": "बीड",
+    "description": "बीड जिल्ह्याचे प्रमुख शहर आणि स्थानिक सांस्कृतिक केंद्र.",
+    "image": "images/beed-city.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Beed+Maharashtra",
+    "gallery": [
+      "images/beed-city.jpg"
+    ]
   }
 ]
