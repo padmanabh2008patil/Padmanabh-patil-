@@ -1606,5 +1606,521 @@
   "gallery": [
     "images/nagzira-bhandara.jpg"
   ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री साईबाबा मंदिर, शिर्डी",
+  "location": "शिर्डी, अहिल्यानगर",
+  "description": "शिर्डी येथील श्री साईबाबा मंदिर हे महाराष्ट्रातील आणि भारतातील प्रसिद्ध धार्मिक स्थळांपैकी एक आहे. देशभरातून भाविक येथे दर्शनासाठी येतात.",
+  "image": "images/shirdi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Shirdi+Sai+Baba+Temple",
+  "gallery": [
+    "images/shirdi.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री म्हाळसाकांत देवस्थान",
+  "location": "नेवासा, अहिल्यानगर",
+  "description": "नेवासा येथील श्री म्हाळसाकांत देवस्थान हे भगवान शिवाला समर्पित प्राचीन मंदिर असून धार्मिक आणि ऐतिहासिक महत्त्व असलेले ठिकाण आहे.",
+  "image": "images/mhalsakant.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mhalasakant+Temple+Nevasa",
+  "gallery": [
+    "images/mhalsakant.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री मोहटादेवी मंदिर",
+  "location": "मोहटा, अहिल्यानगर",
+  "description": "मोहटा येथील श्री मोहटादेवी मंदिर हे देवी उपासनेचे प्रसिद्ध हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/mohatadevi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mohata+Devi+Temple+Mohol",
+  "gallery": [
+    "images/mohatadevi.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "अहिल्यादेवी होळकर किल्ला",
+  "location": "अहिल्यादेवी नगर, अहिल्यानगर",
+  "description": "अहिल्यादेवी होळकर यांच्या कार्याशी संबंधित ऐतिहासिक वारसा असलेले हे ठिकाण अहिल्यानगरच्या इतिहासातील महत्त्वाचे आकर्षण आहे.",
+  "image": "images/ahilyadevi-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ahilyadevi+Holkar+Fort+Ahmednagar",
+  "gallery": [
+    "images/ahilyadevi-fort.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "चांदबीबी महाल",
+  "location": "अहिल्यानगर शहर, अहिल्यानगर",
+  "description": "चांदबीबी महाल हे अहिल्यानगरच्या ऐतिहासिक वारशातील प्रसिद्ध वास्तू असून निजामशाही काळाशी संबंधित आहे.",
+  "image": "images/chandbibi-mahal.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chand+Bibi+Mahal+Ahmednagar",
+  "gallery": [
+    "images/chandbibi-mahal.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "हरिश्चंद्रगड",
+  "location": "अकोले, अहिल्यानगर",
+  "description": "सह्याद्री पर्वतरांगांमध्ये वसलेला हरिश्चंद्रगड हा ऐतिहासिक किल्ला आणि ट्रेकिंगसाठी प्रसिद्ध पर्यटनस्थळ आहे. कोकणकडा हे येथील प्रमुख आकर्षण आहे.",
+  "image": "images/harishchandragad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Harishchandragad",
+  "gallery": [
+    "images/harishchandragad.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "भंडारदरा धरण व तलाव",
+  "location": "भंडारदरा, अकोले, अहिल्यानगर",
+  "description": "सह्याद्रीच्या डोंगररांगांमध्ये वसलेले भंडारदरा हे तलाव, हिरवाई आणि पर्वतीय निसर्गासाठी प्रसिद्ध पर्यटनस्थळ आहे.",
+  "image": "images/bhandardara.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Bhandardara+Lake",
+  "gallery": [
+    "images/bhandardara.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "मुळा धरण",
+  "location": "मुळा, अहिल्यानगर",
+  "description": "मुळा धरणाचा विशाल जलाशय आणि आजूबाजूचा डोंगराळ परिसर निसर्गप्रेमी आणि सहलीसाठी आकर्षक आहे.",
+  "image": "images/mula-dam.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mula+Dam+Ahmednagar",
+  "gallery": [
+    "images/mula-dam.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "कळसूबाई शिखर",
+  "location": "बारी, अकोले, अहिल्यानगर",
+  "description": "कळसूबाई हे महाराष्ट्रातील सर्वोच्च शिखर असून ट्रेकिंग आणि सह्याद्रीच्या निसर्गदृश्यांसाठी प्रसिद्ध आहे.",
+  "image": "images/kalsubai.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kalsubai+Peak",
+  "gallery": [
+    "images/kalsubai.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "रेहकुरी काळवीट अभयारण्य",
+  "location": "कर्जत, अहिल्यानगर",
+  "description": "रेहकुरी काळवीट अभयारण्य हे भारतीय काळविटांच्या संवर्धनासाठी प्रसिद्ध असून वन्यजीवप्रेमींसाठी महत्त्वाचे ठिकाण आहे.",
+  "image": "images/rehkuri.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Rehekuri+Blackbuck+Sanctuary",
+  "gallery": [
+    "images/rehkuri.jpg"
+  ]
+},
+{
+  "district": "अहिल्यानगर",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "संदहन दरी",
+  "location": "साम्रद, अकोले, अहिल्यानगर",
+  "description": "सह्याद्री पर्वतरांगांमध्ये तयार झालेली खोल दरी, साहसी पर्यटन आणि ट्रेकिंगसाठी प्रसिद्ध आहे.",
+  "image": "images/sandhan-valley.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sandhan+Valley",
+  "gallery": [
+    "images/sandhan-valley.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री तुळजाभवानी मंदिर",
+  "location": "तुळजापूर, धाराशिव",
+  "description": "तुळजापूर येथील श्री तुळजाभवानी मंदिर हे महाराष्ट्रातील साडेतीन शक्तिपीठांपैकी एक प्रसिद्ध हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/tuljabhavani.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tulja+Bhavani+Temple+Tuljapur",
+  "gallery": [
+    "images/tuljabhavani.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री सिद्धेश्वर मंदिर",
+  "location": "धाराशिव शहर, धाराशिव",
+  "description": "भगवान शिवाला समर्पित श्री सिद्धेश्वर मंदिर हे धाराशिवमधील प्रसिद्ध हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/siddheshwar-dharashiv.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Siddheshwar+Temple+Dharashiv",
+  "gallery": [
+    "images/siddheshwar-dharashiv.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री नृसिंह मंदिर, तेर",
+  "location": "तेर, धाराशिव",
+  "description": "तेर येथील श्री नृसिंह मंदिर हे प्राचीन धार्मिक परंपरेशी संबंधित हिंदू मंदिर आहे.",
+  "image": "images/nrusinha-ter.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Nrusinha+Temple+Ter+Dharashiv",
+  "gallery": [
+    "images/nrusinha-ter.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "नळदुर्ग किल्ला",
+  "location": "नळदुर्ग, धाराशिव",
+  "description": "नळदुर्ग किल्ला हा महाराष्ट्रातील प्रसिद्ध ऐतिहासिक किल्ल्यांपैकी एक असून त्याची भव्य तटबंदी आणि ऐतिहासिक वास्तू विशेष आकर्षण आहेत.",
+  "image": "images/naldurg.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Naldurg+Fort",
+  "gallery": [
+    "images/naldurg.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "धाराशिव लेणी",
+  "location": "धाराशिव शहराजवळ, धाराशिव",
+  "description": "बालाघाट पर्वतरांगांमध्ये असलेल्या धाराशिव लेणी प्राचीन शैलगुहा आणि ऐतिहासिक वारशासाठी प्रसिद्ध आहेत.",
+  "image": "images/dharashiv-caves.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Dharashiv+Caves",
+  "gallery": [
+    "images/dharashiv-caves.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "परंडा किल्ला",
+  "location": "परंडा, धाराशिव",
+  "description": "परंडा किल्ला हा ऐतिहासिकदृष्ट्या महत्त्वाचा भुईकोट किल्ला असून त्याची तटबंदी आणि संरक्षणरचना विशेष उल्लेखनीय आहे.",
+  "image": "images/paranda-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Paranda+Fort",
+  "gallery": [
+    "images/paranda-fort.jpg"
+  ]
+},
+{
+  "district": "धाराशिव",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "किल्लारी परिसर",
+  "location": "किल्लारी, धाराशिव",
+  "description": "किल्लारी परिसरातील ग्रामीण आणि नैसर्गिक वातावरणामुळे येथे स्थानिक निसर्ग आणि परिसराचा अनुभव घेता येतो.",
+  "image": "images/killari.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Killari+Dharashiv",
+  "gallery": [
+    "images/killari.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री एकवीरा देवी मंदिर",
+  "location": "धुळे, महाराष्ट्र",
+  "description": "श्री एकवीरा देवी मंदिर हे धुळे परिसरातील हिंदू भक्तांसाठी श्रद्धास्थान आहे.",
+  "image": "images/ekvira-dhule.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ekvira+Devi+Temple+Dhule",
+  "gallery": [
+    "images/ekvira-dhule.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "लळिंग किल्ला",
+  "location": "लळिंग, धुळे",
+  "description": "लळिंग किल्ला हा डोंगरावर वसलेला प्राचीन किल्ला असून धुळे जिल्ह्याच्या ऐतिहासिक वारशाचे प्रतीक आहे.",
+  "image": "images/laling-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Laling+Fort",
+  "gallery": [
+    "images/laling-fort.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "थाळनेर किल्ला",
+  "location": "थाळनेर, शिरपूर, धुळे",
+  "description": "तापी नदीच्या काठावर वसलेला थाळनेर किल्ला हा धुळे जिल्ह्यातील महत्त्वाचा ऐतिहासिक किल्ला आहे.",
+  "image": "images/thalner-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Thalner+Fort",
+  "gallery": [
+    "images/thalner-fort.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "व्ही. एस. राजवाडे संग्रहालय",
+  "location": "धुळे शहर, धुळे",
+  "description": "व्ही. एस. राजवाडे संग्रहालयात इतिहासाशी संबंधित विविध वस्तू आणि संशोधनसामग्री जतन करण्यात आली आहे.",
+  "image": "images/rajwade-museum.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=V+S+Rajwade+Museum+Dhule",
+  "gallery": [
+    "images/rajwade-museum.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "अलालदरी धबधबा",
+  "location": "अमळी, साक्री, धुळे",
+  "description": "पावसाळ्यात हिरवाईने नटलेला अलालदरी धबधबा हे धुळे जिल्ह्यातील सुंदर निसर्गरम्य पर्यटनस्थळ आहे.",
+  "image": "images/alaladari.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Alaladari+Waterfall",
+  "gallery": [
+    "images/alaladari.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "लळिंग कुरण धबधबा",
+  "location": "लळिंग, धुळे",
+  "description": "पावसाळ्यात सक्रिय होणारा लळिंग कुरण धबधबा आणि परिसरातील हिरवाई निसर्गप्रेमींना आकर्षित करते.",
+  "image": "images/laling-kuran.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Laling+Kuran+Waterfall",
+  "gallery": [
+    "images/laling-kuran.jpg"
+  ]
+},
+{
+  "district": "धुळे",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "अनेर धरण अभयारण्य",
+  "location": "शिरपूर, धुळे",
+  "description": "अनेर नदीच्या परिसरातील अनेर धरण अभयारण्य हे विविध वन्यजीव आणि पक्ष्यांसाठी महत्त्वाचे संरक्षित क्षेत्र आहे.",
+  "image": "images/aner-sanctuary.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Aner+Dam+Sanctuary",
+  "gallery": [
+    "images/aner-sanctuary.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "महाकाली मंदिर",
+  "location": "चंद्रपूर शहर, चंद्रपूर",
+  "description": "चंद्रपूर शहरातील महाकाली मंदिर हे देवी महाकालीला समर्पित प्रसिद्ध हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/mahakali-chandrapur.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mahakali+Temple+Chandrapur",
+  "gallery": [
+    "images/mahakali-chandrapur.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "अंचलेश्वर महादेव मंदिर",
+  "location": "चंद्रपूर शहर, चंद्रपूर",
+  "description": "भगवान शिवाला समर्पित अंचलेश्वर महादेव मंदिर हे चंद्रपूरमधील प्राचीन आणि महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+  "image": "images/anchaleshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Anchaleshwar+Mahadev+Temple",
+  "gallery": [
+    "images/anchaleshwar.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "गणेश मंदिर, बल्लारपूर",
+  "location": "बल्लारपूर, चंद्रपूर",
+  "description": "बल्लारपूर परिसरातील प्रसिद्ध गणेश मंदिर हे स्थानिक हिंदू भाविकांचे श्रद्धास्थान आहे.",
+  "image": "images/ganesh-ballarpur.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ganesh+Temple+Ballarpur+Chandrapur",
+  "gallery": [
+    "images/ganesh-ballarpur.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "चंद्रपूर किल्ला",
+  "location": "चंद्रपूर शहर, चंद्रपूर",
+  "description": "गोंड राजवटीच्या इतिहासाशी संबंधित चंद्रपूर किल्ला हा शहराच्या ऐतिहासिक वारशाचा महत्त्वाचा भाग आहे.",
+  "image": "images/chandrapur-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chandrapur+Fort",
+  "gallery": [
+    "images/chandrapur-fort.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "बल्लारपूर किल्ला",
+  "location": "बल्लारपूर, चंद्रपूर",
+  "description": "बल्लारपूर किल्ला हा गोंड राजवटीच्या इतिहासाशी संबंधित ऐतिहासिक वास्तू आहे.",
+  "image": "images/ballarpur-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ballarpur+Fort",
+  "gallery": [
+    "images/ballarpur-fort.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "माणिकगड किल्ला",
+  "location": "माणिकगड, चंद्रपूर",
+  "description": "डोंगरावर वसलेला माणिकगड किल्ला हा प्राचीन ऐतिहासिक वारसा असून ट्रेकिंगसाठीही ओळखला जातो.",
+  "image": "images/manikgad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Manikgad+Fort+Chandrapur",
+  "gallery": [
+    "images/manikgad.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "रामाळा तलाव",
+  "location": "चंद्रपूर शहर, चंद्रपूर",
+  "description": "रामाळा तलाव हे चंद्रपूर शहरातील शांत आणि निसर्गरम्य ठिकाण असून कुटुंबासोबत वेळ घालवण्यासाठी लोकप्रिय आहे.",
+  "image": "images/ramala-lake.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ramala+Lake+Chandrapur",
+  "gallery": [
+    "images/ramala-lake.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "नीलपाणी",
+  "location": "चंद्रपूर जिल्हा",
+  "description": "हिरवाई आणि शांत वातावरणासाठी प्रसिद्ध असलेले नीलपाणी हे चंद्रपूरमधील निसर्गरम्य ठिकाण आहे.",
+  "image": "images/neel-pani.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Neel+Pani+Chandrapur",
+  "gallery": [
+    "images/neel-pani.jpg"
+  ]
+},
+{
+  "district": "चंद्रपूर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "ताडोबा-अंधारी व्याघ्र प्रकल्प",
+  "location": "चंद्रपूर जिल्हा",
+  "description": "ताडोबा-अंधारी व्याघ्र प्रकल्प हे महाराष्ट्रातील प्रमुख वन्यजीव पर्यटनस्थळ असून वाघांसह विविध वन्यजीव पाहण्यासाठी प्रसिद्ध आहे.",
+  "image": "images/tadoba.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tadoba+Andhari+Tiger+Reserve",
+  "gallery": [
+    "images/tadoba.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री महालक्ष्मी अंबाबाई मंदिर",
+  "location": "कोल्हापूर शहर, कोल्हापूर",
+  "description": "श्री महालक्ष्मी अंबाबाई मंदिर हे कोल्हापूरचे प्रमुख हिंदू धार्मिक आणि तीर्थक्षेत्र असून महाराष्ट्रातील प्रसिद्ध शक्तीपीठांपैकी एक आहे.",
+  "image": "images/mahalaxmi-kolhapur.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mahalaxmi+Temple+Kolhapur",
+  "gallery": [
+    "images/mahalaxmi-kolhapur.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री ज्योतिबा मंदिर",
+  "location": "ज्योतिबा डोंगर, कोल्हापूर",
+  "description": "ज्योतिबा डोंगरावरील श्री ज्योतिबा मंदिर हे प्रसिद्ध हिंदू धार्मिक स्थळ असून दरवर्षी मोठ्या संख्येने भाविक येथे येतात.",
+  "image": "images/jyotiba.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jyotiba+Temple+Kolhapur",
+  "gallery": [
+    "images/jyotiba.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "सिद्धगिरी महासंस्थान मठ",
+  "location": "कणेरी, कोल्हापूर",
+  "description": "कणेरी येथील सिद्धगिरी महासंस्थान मठ हे श्री काडसिद्धेश्वर स्वामींच्या परंपरेशी संबंधित धार्मिक स्थळ असून येथे ग्रामजीवन संग्रहालयही आहे.",
+  "image": "images/kaneri-math.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Siddhagiri+Math+Kaneri+Kolhapur",
+  "gallery": [
+    "images/kaneri-math.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "पन्हाळा किल्ला",
+  "location": "पन्हाळा, कोल्हापूर",
+  "description": "सह्याद्रीच्या डोंगररांगांमध्ये वसलेला पन्हाळा किल्ला हा मराठा इतिहासातील अत्यंत महत्त्वाचा ऐतिहासिक किल्ला आहे.",
+  "image": "images/panhala.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Panhala+Fort",
+  "gallery": [
+    "images/panhala.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "नवा राजवाडा",
+  "location": "कोल्हापूर शहर, कोल्हापूर",
+  "description": "नवा राजवाडा हा कोल्हापूरच्या राजघराण्याशी संबंधित प्रसिद्ध ऐतिहासिक वास्तू असून येथे संग्रहालय आहे.",
+  "image": "images/new-palace-kolhapur.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=New+Palace+Kolhapur",
+  "gallery": [
+    "images/new-palace-kolhapur.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "शालिनी पॅलेस",
+  "location": "रंकाळा तलाव, कोल्हापूर",
+  "description": "रंकाळा तलावाच्या काठावर असलेला शालिनी पॅलेस हा कोल्हापूरच्या राजेशाही वारशातील प्रसिद्ध ऐतिहासिक वास्तू आहे.",
+  "image": "images/shalini-palace.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Shalini+Palace+Kolhapur",
+  "gallery": [
+    "images/shalini-palace.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "रंकाळा तलाव",
+  "location": "कोल्हापूर शहर, कोल्हापूर",
+  "description": "रंकाळा तलाव हे कोल्हापूर शहरातील प्रसिद्ध निसर्गरम्य ठिकाण असून फेरफटका आणि नौकाविहारासाठी लोकप्रिय आहे.",
+  "image": "images/rankala.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Rankala+Lake+Kolhapur",
+  "gallery": [
+    "images/rankala.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "राधानगरी धरण",
+  "location": "राधानगरी, कोल्हापूर",
+  "description": "भोगावती नदीवरील राधानगरी धरण आणि आजूबाजूचा हिरवाईने नटलेला परिसर निसर्गप्रेमींसाठी आकर्षक आहे.",
+  "image": "images/radhanagari-dam.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Radhanagari+Dam",
+  "gallery": [
+    "images/radhanagari-dam.jpg"
+  ]
+},
+{
+  "district": "कोल्हापूर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "राधानगरी वन्यजीव अभयारण्य",
+  "location": "राधानगरी, कोल्हापूर",
+  "description": "पश्चिम घाटातील राधानगरी वन्यजीव अभयारण्य हे जैवविविधता आणि वन्यजीवांसाठी प्रसिद्ध संरक्षित क्षेत्र आहे.",
+  "image": "images/radhanagari-wildlife.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Radhanagari+Wildlife+Sanctuary",
+  "gallery": [
+    "images/radhanagari-wildlife.jpg"
+  ]
 }
 ]
