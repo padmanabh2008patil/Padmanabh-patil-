@@ -539,5 +539,328 @@
     "gallery": [
       "images/beed-city.jpg"
     ]
+  },
+    {
+    "district": "लातूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री सिद्धेश्वर रत्नेश्वर मंदिर",
+    "location": "लातूर",
+    "description": "भगवान सिद्धरामेश्वरांना समर्पित 12व्या शतकातील प्राचीन हिंदू मंदिर. महाशिवरात्रीच्या काळात येथे मोठी यात्रा भरते.",
+    "image": "images/siddheshwar-latur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siddheshwar+Ratneshwar+Temple+Latur",
+    "gallery": [
+      "images/siddheshwar-latur.jpg"
+    ]
+  },
+  {
+    "district": "लातूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री अष्टविनायक मंदिर",
+    "location": "लातूर",
+    "description": "भगवान गणेश आणि भगवान शिव यांच्या मूर्ती असलेले सुंदर हिंदू मंदिर. मंदिर परिसरात बाग आणि शांत वातावरण आहे.",
+    "image": "images/ashtavinayak-latur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ashtavinayak+Temple+Latur",
+    "gallery": [
+      "images/ashtavinayak-latur.jpg"
+    ]
+  },
+  {
+    "district": "लातूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री विराट हनुमान मंदिर",
+    "location": "लातूर",
+    "description": "भगवान हनुमानाची सुमारे 25 फूट उंच मूर्ती असलेले प्रसिद्ध हिंदू मंदिर.",
+    "image": "images/virat-hanuman-latur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Virat+Hanuman+Temple+Latur",
+    "gallery": [
+      "images/virat-hanuman-latur.jpg"
+    ]
+  },
+
+  {
+    "district": "लातूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "उदगीर किल्ला",
+    "location": "उदगीर, लातूर",
+    "description": "ऐतिहासिकदृष्ट्या महत्त्वाचा किल्ला. येथे भूमिगत मार्ग, शिलालेख आणि संरक्षणात्मक वास्तू पाहायला मिळतात.",
+    "image": "images/udgir-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Udgir+Fort",
+    "gallery": [
+      "images/udgir-fort.jpg"
+    ]
+  },
+  {
+    "district": "लातूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "औसा किल्ला",
+    "location": "औसा, लातूर",
+    "description": "दख्खनच्या सुलतानतकालीन इतिहासाशी संबंधित असलेला ऐतिहासिक किल्ला.",
+    "image": "images/ausa-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ausa+Fort+Latur",
+    "gallery": [
+      "images/ausa-fort.jpg"
+    ]
+  },
+  {
+    "district": "लातूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "खरसा लेणी",
+    "location": "खरसा, लातूर",
+    "description": "सुमारे 6व्या शतकातील प्राचीन लेणी. येथे विविध शिल्पे आणि धार्मिक प्रतिमा पाहायला मिळतात.",
+    "image": "images/kharosa-caves.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kharosa+Caves+Latur",
+    "gallery": [
+      "images/kharosa-caves.jpg"
+    ]
+  },
+
+  {
+    "district": "लातूर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "वृंदावन पार्क चाकूर",
+    "location": "चाकूर, लातूर",
+    "description": "लातूर-नांदेड मार्गावरील चाकूर परिसरातील पर्यटनस्थळ.",
+    "image": "images/vrundavan-park-chakur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vrundavan+Park+Chakur+Latur",
+    "gallery": [
+      "images/vrundavan-park-chakur.jpg"
+    ]
+  },
+  {
+    "district": "लातूर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "उदगीर हत्तीबेट-देवरजन",
+    "location": "उदगीर, लातूर",
+    "description": "उदगीर तालुक्यातील निसर्गरम्य परिसर आणि पर्यटनासाठी प्रसिद्ध ठिकाण.",
+    "image": "images/hattibet-deverjan.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hattibet+Deverjan+Udgir",
+    "gallery": [
+      "images/hattibet-deverjan.jpg"
+    ]
+  },
+
+  {
+    "district": "लातूर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "गंज गोलाई",
+    "location": "लातूर शहर",
+    "description": "1917 मध्ये बांधलेली प्रसिद्ध गोलाकार बाजारपेठ. मध्यभागी देवी जगदंबा मंदिर असून 15 रस्ते येथे एकत्र येतात.",
+    "image": "images/ganj-golai.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ganj+Golai+Latur",
+    "gallery": [
+      "images/ganj-golai.jpg"
+    ]
+  },
+
+  {
+    "district": "नांदेड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "रेणुका देवी मंदिर",
+    "location": "माहूर, नांदेड",
+    "description": "माहूर येथील प्रसिद्ध हिंदू देवी मंदिर. महाराष्ट्रातील साडेतीन शक्तीपीठांपैकी एक म्हणून याचे धार्मिक महत्त्व आहे.",
+    "image": "images/renuka-devi-mahur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Renuka+Devi+Temple+Mahur",
+    "gallery": [
+      "images/renuka-devi-mahur.jpg"
+    ]
+  },
+  {
+    "district": "नांदेड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री सिद्धेश्वर मंदिर",
+    "location": "होट्टल, नांदेड",
+    "description": "भगवान शिवाला समर्पित प्राचीन हिंदू मंदिर. चालुक्यकालीन स्थापत्यकलेचा सुंदर नमुना.",
+    "image": "images/siddheshwar-hottal.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siddheshwar+Temple+Hottal+Nanded",
+    "gallery": [
+      "images/siddheshwar-hottal.jpg"
+    ]
+  },
+  {
+    "district": "नांदेड",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "खंडोबा मंदिर",
+    "location": "माळेगाव, नांदेड",
+    "description": "भगवान खंडोबांच्या सन्मानार्थ प्रसिद्ध असलेले हिंदू धार्मिक स्थळ. येथे मोठी यात्रा भरते.",
+    "image": "images/khandoba-malegaon.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Khandoba+Temple+Malegaon+Nanded",
+    "gallery": [
+      "images/khandoba-malegaon.jpg"
+    ]
+  },
+
+  {
+    "district": "नांदेड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "नांदेड किल्ला",
+    "location": "नांदेड",
+    "description": "गोदावरी नदीच्या परिसरात असलेला ऐतिहासिक किल्ला. किल्ल्याभोवती सुंदर हिरवाई आणि बाग आहे.",
+    "image": "images/nanded-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nanded+Fort",
+    "gallery": [
+      "images/nanded-fort.jpg"
+    ]
+  },
+  {
+    "district": "नांदेड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "कंधार किल्ला",
+    "location": "कंधार, नांदेड",
+    "description": "राष्ट्रकूट राजा कृष्ण तृतीय याच्याशी संबंधित प्राचीन ऐतिहासिक किल्ला.",
+    "image": "images/kandhar-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kandhar+Fort+Nanded",
+    "gallery": [
+      "images/kandhar-fort.jpg"
+    ]
+  },
+  {
+    "district": "नांदेड",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "होट्टल मंदिर परिसर",
+    "location": "होट्टल, नांदेड",
+    "description": "कल्याणी चालुक्यकालीन स्थापत्यकलेचा महत्त्वाचा वारसा असलेला प्राचीन परिसर.",
+    "image": "images/hottal-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hottal+Temple+Nanded",
+    "gallery": [
+      "images/hottal-temple.jpg"
+    ]
+  },
+
+  {
+    "district": "नांदेड",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "सहस्त्रकुंड धबधबा",
+    "location": "नांदेड परिसर",
+    "description": "पैनगंगा नदीवरील सुंदर धबधबा. पावसाळ्यात येथे हिरवाई आणि धबधब्याचे सौंदर्य विशेष खुलते.",
+    "image": "images/sahastrakund.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sahastrakund+Waterfall",
+    "gallery": [
+      "images/sahastrakund.jpg"
+    ]
+  },
+  {
+    "district": "नांदेड",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "गोदावरी नदी परिसर",
+    "location": "नांदेड",
+    "description": "गोदावरी नदीच्या काठावरील निसर्गरम्य परिसर.",
+    "image": "images/godavari-nanded.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Godavari+River+Nanded",
+    "gallery": [
+      "images/godavari-nanded.jpg"
+    ]
+  },
+
+  {
+    "district": "नांदेड",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "हजूर साहिब परिसर",
+    "location": "नांदेड",
+    "description": "नांदेड शहरातील प्रसिद्ध ऐतिहासिक आणि सांस्कृतिक पर्यटन परिसर.",
+    "image": "images/hazur-sahib.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hazur+Sahib+Nanded",
+    "gallery": [
+      "images/hazur-sahib.jpg"
+    ]
+  },
+
+  {
+    "district": "परभणी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "मृत्युंजय परडेश्वर मंदिर",
+    "location": "परभणी",
+    "description": "भगवान शिवाला समर्पित भव्य मंदिर. येथे 80 फूट उंच पारद शिवलिंग असल्याचे महाराष्ट्र पर्यटन विभागाच्या माहितीत नमूद आहे.",
+    "image": "images/mrityunjay-pardeshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mrityunjay+Pardeshwar+Temple+Parbhani",
+    "gallery": [
+      "images/mrityunjay-pardeshwar.jpg"
+    ]
+  },
+  {
+    "district": "परभणी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री नृसिंह मंदिर पोखर्णी",
+    "location": "पोखर्णी, परभणी",
+    "description": "भगवान नृसिंहाचे प्रसिद्ध हिंदू मंदिर. महाराष्ट्र आणि शेजारील राज्यांमधून भाविक येथे येतात.",
+    "image": "images/narasimha-pokharni.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Narasimha+Temple+Pokharni+Parbhani",
+    "gallery": [
+      "images/narasimha-pokharni.jpg"
+    ]
+  },
+  {
+    "district": "परभणी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "संत जानाबाई मंदिर",
+    "location": "गंगाखेड, परभणी",
+    "description": "संत परंपरेशी संबंधित महत्त्वाचे हिंदू धार्मिक स्थळ.",
+    "image": "images/sant-janabai.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sant+Janabai+Temple+Gangakhed",
+    "gallery": [
+      "images/sant-janabai.jpg"
+    ]
+  },
+
+  {
+    "district": "परभणी",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "चारठाणा",
+    "location": "चारठाणा, जिंतूर, परभणी",
+    "description": "प्राचीन धार्मिक आणि ऐतिहासिक वारसा असलेला चारठाणा परिसर.",
+    "image": "images/charthana.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Charthana+Parbhani",
+    "gallery": [
+      "images/charthana.jpg"
+    ]
+  },
+  {
+    "district": "परभणी",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "मुद्गलेश्वर मंदिर परिसर",
+    "location": "मुद्गल, परभणी",
+    "description": "गोदावरी नदीच्या काठावरील प्राचीन मंदिर परिसर आणि ऐतिहासिक वारसा.",
+    "image": "images/mudgaleshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mudgaleshwar+Temple+Parbhani",
+    "gallery": [
+      "images/mudgaleshwar.jpg"
+    ]
+  },
+
+  {
+    "district": "परभणी",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "जांभूळ बेट",
+    "location": "परभणी जिल्हा",
+    "description": "गोदावरी नदीच्या खोऱ्यातील पाण्याने वेढलेले निसर्गरम्य बेट. येथे नौकेने पोहोचता येते.",
+    "image": "images/jambhul-bet.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jambhul+Bet+Parbhani",
+    "gallery": [
+      "images/jambhul-bet.jpg"
+    ]
+  },
+  {
+    "district": "परभणी",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "येळदरी धरण",
+    "location": "येळदरी, परभणी",
+    "description": "पूर्णा नदीवर बांधलेले धरण. पावसाळ्यात परिसराचे निसर्गसौंदर्य विशेष आकर्षक दिसते.",
+    "image": "images/yeldari-dam.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Yeldari+Dam+Parbhani",
+    "gallery": [
+      "images/yeldari-dam.jpg"
+    ]
+  },
+
+  {
+    "district": "परभणी",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "पाथरी",
+    "location": "पाथरी, परभणी",
+    "description": "धार्मिक आणि सांस्कृतिक महत्त्वासाठी प्रसिद्ध असलेले पाथरी शहर.",
+    "image": "images/pathri.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pathri+Parbhani",
+    "gallery": [
+      "images/pathri.jpg"
+    ]
   }
 ]
