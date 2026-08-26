@@ -850,5 +850,365 @@
     "gallery": [
       "images/pathri.jpg"
     ]
-  }
+  },
+{
+  "district": "हिंगोली",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "औंढा नागनाथ मंदिर",
+  "location": "औंढा नागनाथ, हिंगोली",
+  "description": "भगवान शिवाला समर्पित प्रसिद्ध ज्योतिर्लिंग मंदिर. हिंगोली जिल्ह्यातील प्रमुख हिंदू धार्मिक पर्यटन स्थळांपैकी एक आहे.",
+  "image": "images/aundha-nagnath.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Aundha+Nagnath+Temple",
+  "gallery": [
+    "images/aundha-nagnath.jpg"
+  ]
+},
+{
+  "district": "हिंगोली",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "तुळजादेवी संस्थान",
+  "location": "हिंगोली जिल्हा",
+  "description": "तुळजादेवीला समर्पित प्रसिद्ध हिंदू धार्मिक स्थळ. या मंदिराची स्थापना स्वामी केशवराज यांनी केल्याची माहिती महाराष्ट्र पर्यटन विभागाने दिली आहे.",
+  "image": "images/tuljadevi-hingoli.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tuljadevi+Sansthan+Hingoli",
+  "gallery": [
+    "images/tuljadevi-hingoli.jpg"
+  ]
+},
+{
+  "district": "हिंगोली",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "संत नामदेव संस्थान",
+  "location": "नरसी, हिंगोली",
+  "description": "संत नामदेव महाराज यांचे जन्मस्थान म्हणून नरसी गाव प्रसिद्ध आहे. येथे संत नामदेव संस्थान हे महत्त्वाचे धार्मिक व सांस्कृतिक स्थळ आहे.",
+  "image": "images/sant-namdev-narsi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sant+Namdev+Sansthan+Narsi",
+  "gallery": [
+    "images/sant-namdev-narsi.jpg"
+  ]
+},
+{
+  "district": "हिंगोली",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "नरसी गाव",
+  "location": "नरसी, हिंगोली",
+  "description": "संत नामदेव महाराज यांच्या जन्मभूमीमुळे नरसी गावाला विशेष ऐतिहासिक व सांस्कृतिक महत्त्व आहे.",
+  "image": "images/narsi-hingoli.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Narsi+Hingoli",
+  "gallery": [
+    "images/narsi-hingoli.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "माँ कालंका देवी मंदिर",
+  "location": "बार्शी टाकळी, अकोला",
+  "description": "बार्शी टाकळी येथील प्रसिद्ध हिंदू देवी मंदिर. अकोला जिल्हा प्रशासनाच्या पर्यटन माहितीत या मंदिराचा धार्मिक पर्यटन स्थळ म्हणून उल्लेख आहे.",
+  "image": "images/kalanka-devi-akola.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kalanka+Devi+Temple+Barsi+Takli",
+  "gallery": [
+    "images/kalanka-devi-akola.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "राजेश्वर मंदिर",
+  "location": "अकोला",
+  "description": "भगवान शिवाला समर्पित प्राचीन हिंदू मंदिर. मंदिराची वास्तू आणि धार्मिक महत्त्व यामुळे हे अकोला शहरातील महत्त्वाचे स्थळ आहे.",
+  "image": "images/rajeshwar-temple-akola.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Rajeshwar+Temple+Akola",
+  "gallery": [
+    "images/rajeshwar-temple-akola.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री क्षेत्र वारीची मूर्ती",
+  "location": "वारी, तेल्हारा, अकोला",
+  "description": "तेल्हारा तालुक्यातील वारी येथील प्रसिद्ध धार्मिक स्थळ. अकोला जिल्ह्याच्या अधिकृत पर्यटन यादीत या स्थळाचा समावेश आहे.",
+  "image": "images/vari-akola.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Shri+Shetra+Vari+Akola",
+  "gallery": [
+    "images/vari-akola.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "बाळापूर किल्ला",
+  "location": "बाळापूर, अकोला",
+  "description": "माण आणि म्हैस या नद्यांच्या संगमाजवळ असलेला ऐतिहासिक किल्ला. अकोला जिल्हा प्रशासनाच्या माहितीनुसार हा किल्ला ऐतिहासिक महत्त्वाचा आहे.",
+  "image": "images/balapur-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Balapur+Fort+Akola",
+  "gallery": [
+    "images/balapur-fort.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "नर्नाळा किल्ला",
+  "location": "अकोट, अकोला",
+  "description": "नर्नाळा किंवा शहानूर किल्ला म्हणून ओळखला जाणारा डोंगरी किल्ला. हा अकोला जिल्ह्यातील महत्त्वाचा ऐतिहासिक वारसा आहे.",
+  "image": "images/narnala-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Narnala+Fort",
+  "gallery": [
+    "images/narnala-fort.jpg"
+  ]
+},
+{
+  "district": "अकोला",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "काटेपूर्णा अभयारण्य",
+  "location": "अकोला",
+  "description": "दक्षिण उष्णकटिबंधीय कोरड्या पानझडी जंगलासाठी प्रसिद्ध असलेले वन्य व निसर्गरम्य क्षेत्र.",
+  "image": "images/katepurna.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Katepurna+Wildlife+Sanctuary",
+  "gallery": [
+    "images/katepurna.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "अंबादेवी मंदिर",
+  "location": "अमरावती शहर",
+  "description": "अमरावतीची ग्रामदेवता म्हणून प्रसिद्ध असलेले प्राचीन हिंदू मंदिर. नवरात्रीच्या काळात येथे मोठ्या प्रमाणात भाविक येतात.",
+  "image": "images/ambadevi-amravati.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ambadevi+Temple+Amravati",
+  "gallery": [
+    "images/ambadevi-amravati.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "एकवीरा देवी मंदिर",
+  "location": "चिखलदरा, अमरावती",
+  "description": "चिखलदरा परिसरातील प्रसिद्ध हिंदू देवी मंदिर. मंदिर परिसरातून आसपासच्या डोंगर व दऱ्यांचे सुंदर दृश्य दिसते.",
+  "image": "images/ekvira-devi-amravati.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ekvira+Devi+Temple+Chikhaldara",
+  "gallery": [
+    "images/ekvira-devi-amravati.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "इस्कॉन मंदिर अमरावती",
+  "location": "सरस्वती कॉलनी, राठी नगर, अमरावती",
+  "description": "अमरावती शहरातील प्रसिद्ध हिंदू मंदिर व आध्यात्मिक केंद्र.",
+  "image": "images/iskcon-amravati.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=ISKCON+Temple+Amravati",
+  "gallery": [
+    "images/iskcon-amravati.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "गाविलगड किल्ला",
+  "location": "चिखलदरा, अमरावती",
+  "description": "मेलघाट परिसरातील प्रसिद्ध ऐतिहासिक डोंगरी किल्ला. किल्ल्याला मोठे ऐतिहासिक आणि स्थापत्य महत्त्व आहे.",
+  "image": "images/gawilgarh-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gawilgarh+Fort",
+  "gallery": [
+    "images/gawilgarh-fort.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "चिखलदरा",
+  "location": "चिखलदरा, अमरावती",
+  "description": "महाराष्ट्रातील प्रसिद्ध डोंगरी पर्यटनस्थळ. हिरवीगार जंगले, डोंगर आणि दऱ्यांमुळे चिखलदरा निसर्गप्रेमींसाठी आकर्षणाचे ठिकाण आहे.",
+  "image": "images/chikhaldara.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chikhaldara",
+  "gallery": [
+    "images/chikhaldara.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "मेळघाट व्याघ्र प्रकल्प",
+  "location": "मेळघाट, अमरावती",
+  "description": "सातपुडा पर्वतरांगांमध्ये पसरलेला प्रसिद्ध व्याघ्र प्रकल्प. येथे विविध वन्यजीव आणि समृद्ध जैवविविधता पाहायला मिळते.",
+  "image": "images/melghat.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Melghat+Tiger+Reserve",
+  "gallery": [
+    "images/melghat.jpg"
+  ]
+},
+{
+  "district": "अमरावती",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "छत्री तलाव",
+  "location": "अमरावती",
+  "description": "1888 मध्ये बांधलेला ऐतिहासिक जलाशय. आज हा परिसर निसर्गरम्य पर्यटन व विरंगुळ्यासाठी प्रसिद्ध आहे.",
+  "image": "images/chatri-talao.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Chatri+Talao+Amravati",
+  "gallery": [
+    "images/chatri-talao.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "गजानन महाराज मंदिर",
+  "location": "शेगाव, बुलढाणा",
+  "description": "श्री गजानन महाराज यांचे प्रसिद्ध मंदिर आणि प्रमुख हिंदू धार्मिक तीर्थक्षेत्र.",
+  "image": "images/gajanan-maharaj-shegaon.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gajanan+Maharaj+Temple+Shegaon",
+  "gallery": [
+    "images/gajanan-maharaj-shegaon.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "रेणुका देवी मंदिर",
+  "location": "चिखली, बुलढाणा",
+  "description": "चिखली शहराच्या मध्यभागी असलेले प्रसिद्ध हिंदू देवी मंदिर. चैत्र पौर्णिमेला येथे यात्रा भरते.",
+  "image": "images/renuka-devi-chikhli.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Renuka+Devi+Temple+Chikhli+Buldhana",
+  "gallery": [
+    "images/renuka-devi-chikhli.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "हनुमान मूर्ती नांदुरा",
+  "location": "नांदुरा, बुलढाणा",
+  "description": "नांदुरा येथे भगवान हनुमानाची सुमारे 105 फूट उंच मूर्ती आहे. हे जिल्ह्यातील प्रसिद्ध हिंदू धार्मिक पर्यटन स्थळ आहे.",
+  "image": "images/hanuman-nandura.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Hanuman+Statue+Nandura",
+  "gallery": [
+    "images/hanuman-nandura.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "राजमाता जिजाऊ जन्मस्थळ",
+  "location": "सिंदखेड राजा, बुलढाणा",
+  "description": "राजमाता जिजाऊ यांचे जन्मस्थान. भुईकोट राजवाडा आणि प्राचीन वास्तूंच्या दृष्टीने हे महत्त्वाचे ऐतिहासिक पर्यटन स्थळ आहे.",
+  "image": "images/jijau-birthplace.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jijau+Birthplace+Sindkhed+Raja",
+  "gallery": [
+    "images/jijau-birthplace.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "लोणार सरोवर",
+  "location": "लोणार, बुलढाणा",
+  "description": "उल्कापातामुळे तयार झालेले बेसाल्ट खडकातील प्रसिद्ध लोणार सरोवर. हे जगप्रसिद्ध नैसर्गिक भूवैज्ञानिक स्थळ आहे.",
+  "image": "images/lonar-lake.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Lonar+Crater+Lake",
+  "gallery": [
+    "images/lonar-lake.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "ज्ञानगंगा अभयारण्य",
+  "location": "बुलढाणा",
+  "description": "बुलढाणा-खामगाव मार्गावरील वन्यजीव व निसर्गरम्य परिसर. विविध वनस्पती आणि वन्यजीवांसाठी हे क्षेत्र प्रसिद्ध आहे.",
+  "image": "images/dnyanganga.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Dnyanganga+Wildlife+Sanctuary",
+  "gallery": [
+    "images/dnyanganga.jpg"
+  ]
+},
+{
+  "district": "बुलढाणा",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "अंबाबरवा अभयारण्य",
+  "location": "संग्रामपूर, बुलढाणा",
+  "description": "सातपुडा पर्वतरांगांमध्ये वसलेले निसर्गरम्य वनक्षेत्र. जैवविविधतेसाठी आणि निसर्ग पर्यटनासाठी महत्त्वाचे ठिकाण.",
+  "image": "images/ambabarwa.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ambabarwa+Wildlife+Sanctuary",
+  "gallery": [
+    "images/ambabarwa.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "बालाजी मंदिर",
+  "location": "वाशिम",
+  "description": "1779 मध्ये बांधलेले वाशिम शहरातील प्राचीन आणि प्रसिद्ध हिंदू मंदिर.",
+  "image": "images/balaji-washim.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Balaji+Temple+Washim",
+  "gallery": [
+    "images/balaji-washim.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री गुरुदत्त मंदिर",
+  "location": "कारंजा लाड, वाशिम",
+  "description": "कारंजा लाड येथील प्रसिद्ध श्री गुरुदत्त मंदिर. हे महत्त्वाचे हिंदू धार्मिक तीर्थक्षेत्र आहे.",
+  "image": "images/gurudatta-karanja.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gurudatta+Temple+Karanja+Lad",
+  "gallery": [
+    "images/gurudatta-karanja.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्री मुरुडेश्वर मंदिर",
+  "location": "रिठाड, वाशिम",
+  "description": "रिठाड येथील प्राचीन हिंदू मंदिर. स्थानिक धार्मिक परंपरेशी संबंधित महत्त्वाचे स्थळ.",
+  "image": "images/murudeshwar-rithad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Murudeshwar+Temple+Rithad+Washim",
+  "gallery": [
+    "images/murudeshwar-rithad.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "बंजारा विरासत नगारा संग्रहालय",
+  "location": "पोहरादेवी, मानोरा, वाशिम",
+  "description": "बंजारा समाजाचा इतिहास, संस्कृती आणि परंपरा जतन करणारे चार मजली संग्रहालय.",
+  "image": "images/banjara-virasat.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Banjara+Virasat+Nangara+Museum+Poharadevi",
+  "gallery": [
+    "images/banjara-virasat.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "सोनल धरण",
+  "location": "मंगरुळपीर, वाशिम",
+  "description": "अरन नदीवर बांधलेले सोनल किंवा सोनाळा धरण. परिसरातील निसर्गरम्य पर्यटनस्थळ.",
+  "image": "images/sonal-dam-washim.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sonal+Dam+Washim",
+  "gallery": [
+    "images/sonal-dam-washim.jpg"
+  ]
+},
+{
+  "district": "वाशिम",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "पोहरादेवी",
+  "location": "मानोरा, वाशिम",
+  "description": "बंजारा समाजासाठी महत्त्वाचे धार्मिक व सांस्कृतिक केंद्र म्हणून पोहरादेवी प्रसिद्ध आहे.",
+  "image": "images/poharadevi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Poharadevi+Washim",
+  "gallery": [
+    "images/poharadevi.jpg"
+  ]
+}
 ]
