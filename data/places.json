@@ -2123,4 +2123,738 @@
     "images/radhanagari-wildlife.jpg"
   ]
 }
+[
+  {
+    "district": "गडचिरोली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "मार्कंडा देव मंदिर",
+    "location": "मार्कंडा, चामोर्शी, गडचिरोली",
+    "description": "वैनगंगा नदीच्या काठावर असलेले भगवान शिवाला समर्पित प्राचीन हिंदू मंदिर. हे गडचिरोली जिल्ह्यातील प्रसिद्ध धार्मिक स्थळ आहे.",
+    "image": "images/markanda-deo.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Markanda+Deo+Temple+Gadchiroli",
+    "gallery": [
+      "images/markanda-deo.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "चपराळा हनुमान मंदिर",
+    "location": "चपराळा, चामोर्शी, गडचिरोली",
+    "description": "चपराळा परिसरातील प्रसिद्ध हिंदू मंदिर. हनुमान मंदिरामुळे हे स्थान भाविकांसाठी महत्त्वाचे आहे.",
+    "image": "images/chaprala-hanuman.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hanuman+Temple+Chaprala+Gadchiroli",
+    "gallery": [
+      "images/chaprala-hanuman.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "सिरोंचा पुष्कर कुंभ मेळा स्थळ",
+    "location": "सिरोंचा, गडचिरोली",
+    "description": "प्राणहिता नदीच्या परिसरात आयोजित होणारा धार्मिक कुंभमेळा. गडचिरोली जिल्हा प्रशासनाच्या पर्यटन माहितीत या स्थळाचा धार्मिक पर्यटन म्हणून उल्लेख आहे.",
+    "image": "images/sironcha-kumbh.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sironcha+Pushkar+Kumbh+Mela",
+    "gallery": [
+      "images/sironcha-kumbh.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "वैरागड किल्ला",
+    "location": "वैरागड, आरमोरी, गडचिरोली",
+    "description": "गडचिरोली जिल्ह्यातील ऐतिहासिक किल्ला. वैरागड परिसरातील ऐतिहासिक वारशाचे हे महत्त्वाचे ठिकाण आहे.",
+    "image": "images/vairagad-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vairagad+Fort+Gadchiroli",
+    "gallery": [
+      "images/vairagad-fort.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "ब्रिटिशकालीन विश्रामगृह",
+    "location": "सिरोंचा, गडचिरोली",
+    "description": "ब्रिटिश काळातील ऐतिहासिक वास्तू. सिरोंचा तालुक्यातील या विश्रामगृहाला ऐतिहासिक महत्त्व आहे.",
+    "image": "images/british-rest-house-sironcha.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=British+Rest+House+Sironcha",
+    "gallery": [
+      "images/british-rest-house-sironcha.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "जिल्हा कारागृह गडचिरोली",
+    "location": "गडचिरोली शहर",
+    "description": "गडचिरोली जिल्ह्याच्या अधिकृत छायाचित्र दालनात नोंद असलेली ऐतिहासिक वास्तू.",
+    "image": "images/district-jail-gadchiroli.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=District+Jail+Gadchiroli",
+    "gallery": [
+      "images/district-jail-gadchiroli.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "सोमनूर संगम",
+    "location": "सोमनूर, सिरोंचा, गडचिरोली",
+    "description": "गोदावरी आणि इंद्रावती नद्यांचा संगम असलेले निसर्गरम्य ठिकाण.",
+    "image": "images/somnur-sangam.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Somnur+Sangam+Gadchiroli",
+    "gallery": [
+      "images/somnur-sangam.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "अल्लापल्ली वन वैभव",
+    "location": "अल्लापल्ली, अहेरी, गडचिरोली",
+    "description": "अल्लापल्ली वनक्षेत्रातील हिरवाई आणि जंगलाच्या नैसर्गिक सौंदर्यासाठी प्रसिद्ध ठिकाण.",
+    "image": "images/allapalli-van-vaibhav.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Allapalli+Van+Vaibhav",
+    "gallery": [
+      "images/allapalli-van-vaibhav.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "दिना सिंचन प्रकल्प",
+    "location": "रेगडी, चामोर्शी, गडचिरोली",
+    "description": "गडचिरोली जिल्ह्यातील महत्त्वाचा सिंचन प्रकल्प. जलसाठा आणि परिसरातील नैसर्गिक वातावरणामुळे हे ठिकाण पाहण्यासारखे आहे.",
+    "image": "images/dina-irrigation.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dina+Irrigation+Project+Gadchiroli",
+    "gallery": [
+      "images/dina-irrigation.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "चपराळा वन्यजीव अभयारण्य",
+    "location": "चपराळा, चामोर्शी, गडचिरोली",
+    "description": "घनदाट जंगल, विविध वन्यजीव आणि प्राणहिता नदीच्या परिसरामुळे प्रसिद्ध वन्यजीव अभयारण्य.",
+    "image": "images/chaprala-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chaprala+Wildlife+Sanctuary",
+    "gallery": [
+      "images/chaprala-wildlife.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "भामरागड वन्यजीव अभयारण्य",
+    "location": "भामरागड, गडचिरोली",
+    "description": "घनदाट जंगल, नद्या आणि विविध वन्यजीवांसाठी प्रसिद्ध अभयारण्य.",
+    "image": "images/bhamragarh-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhamragarh+Wildlife+Sanctuary",
+    "gallery": [
+      "images/bhamragarh-wildlife.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "प्राणहिता वन्यजीव अभयारण्य",
+    "location": "सिरोंचा परिसर, गडचिरोली",
+    "description": "प्राणहिता नदीच्या परिसरातील संरक्षित वनक्षेत्र. विविध वन्यजीव आणि नैसर्गिक अधिवासासाठी महत्त्वाचे ठिकाण.",
+    "image": "images/pranhita-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pranhita+Wildlife+Sanctuary",
+    "gallery": [
+      "images/pranhita-wildlife.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "लोक बिरादरी प्रकल्प, हेमलकसा",
+    "location": "हेमलकसा, भामरागड, गडचिरोली",
+    "description": "आदिवासी भागातील आरोग्य, शिक्षण आणि सामाजिक कार्यासाठी प्रसिद्ध असलेला लोक बिरादरी प्रकल्प.",
+    "image": "images/lok-biradari-hemalkasa.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lok+Biradari+Prakalp+Hemalkasa",
+    "gallery": [
+      "images/lok-biradari-hemalkasa.jpg"
+    ]
+  },
+  {
+    "district": "गडचिरोली",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "वडधाम जीवाश्म उद्यान",
+    "location": "वडधाम, सिरोंचा, गडचिरोली",
+    "description": "सिरोंचा तालुक्यातील वडधाम गावाजवळील जीवाश्म उद्यान.",
+    "image": "images/wadadham-fossil-park.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Wadadham+Fossil+Park",
+    "gallery": [
+      "images/wadadham-fossil-park.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री सिद्धिविनायक मंदिर",
+    "location": "प्रभादेवी, मुंबई शहर",
+    "description": "भगवान गणेशाला समर्पित मुंबईतील प्रसिद्ध हिंदू मंदिर.",
+    "image": "images/siddhivinayak-mumbai.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siddhivinayak+Temple+Mumbai",
+    "gallery": [
+      "images/siddhivinayak-mumbai.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "महालक्ष्मी मंदिर",
+    "location": "महालक्ष्मी, मुंबई शहर",
+    "description": "देवी महालक्ष्मीला समर्पित मुंबईतील प्रसिद्ध हिंदू मंदिर.",
+    "image": "images/mahalakshmi-temple-mumbai.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mahalakshmi+Temple+Mumbai",
+    "gallery": [
+      "images/mahalakshmi-temple-mumbai.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "बाबुलनाथ मंदिर",
+    "location": "गिरगाव, मुंबई शहर",
+    "description": "भगवान शिवाला समर्पित मुंबईतील प्रसिद्ध प्राचीन हिंदू मंदिर.",
+    "image": "images/babulnath-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Babulnath+Temple+Mumbai",
+    "gallery": [
+      "images/babulnath-temple.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "गेटवे ऑफ इंडिया",
+    "location": "अपोलो बंदर, मुंबई शहर",
+    "description": "मुंबईच्या ऐतिहासिक वारशाचे प्रसिद्ध प्रतीक असलेली भव्य कमान.",
+    "image": "images/gateway-of-india.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Gateway+of+India+Mumbai",
+    "gallery": [
+      "images/gateway-of-india.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "छत्रपती शिवाजी महाराज टर्मिनस",
+    "location": "मुंबई शहर",
+    "description": "मुंबईतील प्रसिद्ध ऐतिहासिक रेल्वे स्थानक आणि युनेस्को जागतिक वारसा स्थळ.",
+    "image": "images/csmt.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chhatrapati+Shivaji+Maharaj+Terminus",
+    "gallery": [
+      "images/csmt.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "छत्रपती शिवाजी महाराज वस्तुसंग्रहालय",
+    "location": "फोर्ट, मुंबई शहर",
+    "description": "कला, इतिहास आणि पुरातत्त्वीय वस्तूंच्या संग्रहासाठी प्रसिद्ध ऐतिहासिक संग्रहालय.",
+    "image": "images/csmvs.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chhatrapati+Shivaji+Maharaj+Vastu+Sangrahalaya",
+    "gallery": [
+      "images/csmvs.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "मरीन ड्राइव्ह",
+    "location": "मुंबई शहर",
+    "description": "अरबी समुद्रालगतचा प्रसिद्ध समुद्रकिनारी मार्ग आणि मुंबईचे 'क्वीन्‍स नेकलेस' म्हणून ओळखले जाणारे ठिकाण.",
+    "image": "images/marine-drive.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Marine+Drive+Mumbai",
+    "gallery": [
+      "images/marine-drive.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "गिरगाव चौपाटी",
+    "location": "गिरगाव, मुंबई शहर",
+    "description": "अरबी समुद्राच्या किनाऱ्यावरील मुंबईतील प्रसिद्ध चौपाटी.",
+    "image": "images/girgaon-chowpatty.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Girgaon+Chowpatty",
+    "gallery": [
+      "images/girgaon-chowpatty.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "वरळी सी फेस",
+    "location": "वरळी, मुंबई शहर",
+    "description": "समुद्रकिनारी फेरफटका आणि सूर्यास्ताच्या दृश्यांसाठी प्रसिद्ध मुंबईतील ठिकाण.",
+    "image": "images/worli-sea-face.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Worli+Sea+Face",
+    "gallery": [
+      "images/worli-sea-face.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "वीरमाता जिजाबाई भोसले उद्यान व प्राणीसंग्रहालय",
+    "location": "भायखळा, मुंबई शहर",
+    "description": "मुंबईतील प्रसिद्ध उद्यान आणि प्राणीसंग्रहालय.",
+    "image": "images/byculla-zoo.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Veermata+Jijabai+Bhosale+Udyan+Zoo",
+    "gallery": [
+      "images/byculla-zoo.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "सेवरी खाडी परिसर",
+    "location": "सेवरी, मुंबई शहर",
+    "description": "हिवाळ्यात स्थलांतरित पक्ष्यांसाठी प्रसिद्ध असलेला मुंबईतील खाडी परिसर.",
+    "image": "images/sewri-mudflats.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sewri+Mudflats+Mumbai",
+    "gallery": [
+      "images/sewri-mudflats.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "कोलाबा कॉजवे",
+    "location": "कोलाबा, मुंबई शहर",
+    "description": "खरेदी, खाद्यपदार्थ आणि शहरातील वातावरणासाठी प्रसिद्ध बाजारपेठ.",
+    "image": "images/colaba-causeway.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Colaba+Causeway",
+    "gallery": [
+      "images/colaba-causeway.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "नरिमन पॉइंट",
+    "location": "नरिमन पॉइंट, मुंबई शहर",
+    "description": "मुंबईच्या समुद्रकिनाऱ्यावरील प्रसिद्ध व्यावसायिक आणि पर्यटन परिसर.",
+    "image": "images/nariman-point.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nariman+Point+Mumbai",
+    "gallery": [
+      "images/nariman-point.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई शहर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "नेहरू तारांगण",
+    "location": "वरळी, मुंबई शहर",
+    "description": "खगोलशास्त्र आणि अवकाशविज्ञानाविषयी माहिती देणारे प्रसिद्ध तारांगण.",
+    "image": "images/nehru-planetarium.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nehru+Planetarium+Mumbai",
+    "gallery": [
+      "images/nehru-planetarium.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "इस्कॉन श्री श्री राधा रासबिहारी मंदिर",
+    "location": "जुहू, मुंबई उपनगर",
+    "description": "श्रीकृष्ण आणि राधाराणी यांना समर्पित प्रसिद्ध हिंदू मंदिर.",
+    "image": "images/iskcon-juhu.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=ISKCON+Juhu+Mumbai",
+    "gallery": [
+      "images/iskcon-juhu.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "वाघेश्वरी मंदिर",
+    "location": "गोरेगाव पूर्व, मुंबई उपनगर",
+    "description": "वाघेश्वरी देवीला समर्पित हिंदू मंदिर.",
+    "image": "images/wagheshwari-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Wagheshwari+Temple+Goregaon",
+    "gallery": [
+      "images/wagheshwari-temple.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री स्वामीनारायण मंदिर",
+    "location": "कांदिवली, मुंबई उपनगर",
+    "description": "कांदिवली परिसरातील प्रसिद्ध हिंदू स्वामीनारायण मंदिर.",
+    "image": "images/swaminarayan-kandivali.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Swaminarayan+Mandir+Kandivali+Mumbai",
+    "gallery": [
+      "images/swaminarayan-kandivali.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "कान्हेरी लेणी",
+    "location": "बोरिवली, मुंबई उपनगर",
+    "description": "संजय गांधी राष्ट्रीय उद्यानातील प्राचीन शैलगुहा आणि ऐतिहासिक बौद्ध वास्तूंचा समूह.",
+    "image": "images/kanheri-caves.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kanheri+Caves",
+    "gallery": [
+      "images/kanheri-caves.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "महाकाली लेणी",
+    "location": "अंधेरी पूर्व, मुंबई उपनगर",
+    "description": "प्राचीन शैलगुहांसाठी प्रसिद्ध ऐतिहासिक स्थळ.",
+    "image": "images/mahakali-caves.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mahakali+Caves+Mumbai",
+    "gallery": [
+      "images/mahakali-caves.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "मुंबई फिल्म सिटी",
+    "location": "गोरेगाव, मुंबई उपनगर",
+    "description": "भारतीय चित्रपटसृष्टीशी संबंधित प्रसिद्ध चित्रनगरी आणि पर्यटनस्थळ.",
+    "image": "images/mumbai-film-city.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mumbai+Film+City+Goregaon",
+    "gallery": [
+      "images/mumbai-film-city.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "जुहू बीच",
+    "location": "जुहू, मुंबई उपनगर",
+    "description": "मुंबईतील प्रसिद्ध समुद्रकिनारा आणि सूर्यास्तासाठी लोकप्रिय ठिकाण.",
+    "image": "images/juhu-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Juhu+Beach",
+    "gallery": [
+      "images/juhu-beach.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "आरे कॉलनी",
+    "location": "गोरेगाव, मुंबई उपनगर",
+    "description": "हिरवाई आणि नैसर्गिक वातावरणासाठी ओळखला जाणारा मुंबईतील परिसर.",
+    "image": "images/aarey-colony.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Aarey+Colony+Mumbai",
+    "gallery": [
+      "images/aarey-colony.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "विहार तलाव",
+    "location": "संजय गांधी राष्ट्रीय उद्यान परिसर, मुंबई उपनगर",
+    "description": "मुंबईच्या जलस्रोतांपैकी एक महत्त्वाचा तलाव आणि हिरवाईने वेढलेला परिसर.",
+    "image": "images/vihar-lake.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vihar+Lake+Mumbai",
+    "gallery": [
+      "images/vihar-lake.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "संजय गांधी राष्ट्रीय उद्यान",
+    "location": "बोरिवली, मुंबई उपनगर",
+    "description": "मुंबई शहराच्या परिसरातील मोठे राष्ट्रीय उद्यान. येथे विविध वन्यजीव, पक्षी आणि नैसर्गिक अधिवास आढळतात.",
+    "image": "images/sanjay-gandhi-national-park.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sanjay+Gandhi+National+Park",
+    "gallery": [
+      "images/sanjay-gandhi-national-park.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "बांद्रा-वर्ली सी लिंक",
+    "location": "बांद्रा, मुंबई उपनगर",
+    "description": "मुंबईतील प्रसिद्ध केबल-स्टेड समुद्री पूल आणि आधुनिक स्थापत्याचे आकर्षण.",
+    "image": "images/bandra-worli-sea-link.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bandra+Worli+Sea+Link",
+    "gallery": [
+      "images/bandra-worli-sea-link.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "वॉटर किंगडम",
+    "location": "गोराई, मुंबई उपनगर",
+    "description": "मुंबईतील प्रसिद्ध वॉटर पार्क आणि मनोरंजनाचे ठिकाण.",
+    "image": "images/water-kingdom.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Water+Kingdom+Mumbai",
+    "gallery": [
+      "images/water-kingdom.jpg"
+    ]
+  },
+  {
+    "district": "मुंबई उपनगर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "ग्लोबल विपश्यना पॅगोडा",
+    "location": "गोराई, मुंबई उपनगर",
+    "description": "गोराई परिसरातील प्रसिद्ध ध्यान आणि वास्तुशिल्पाचे आकर्षण.",
+    "image": "images/global-vipassana-pagoda.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Global+Vipassana+Pagoda",
+    "gallery": [
+      "images/global-vipassana-pagoda.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "अस्थांबा",
+    "location": "अक्राणी, नंदुरबार",
+    "description": "नंदुरबारमधील प्रसिद्ध हिंदू धार्मिक स्थळ. महाभारतातील अश्वत्थामाशी संबंधित धार्मिक परंपरेमुळे हे स्थान महत्त्वाचे मानले जाते.",
+    "image": "images/ashtamba.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ashtamba+Nandurbar",
+    "gallery": [
+      "images/ashtamba.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "प्रकाशा केदारेश्वर मंदिर",
+    "location": "प्रकाशा, शहादा, नंदुरबार",
+    "description": "तापी नदीच्या काठावरील प्रकाशा हे दक्षिण काशी म्हणून प्रसिद्ध धार्मिक क्षेत्र असून येथे प्राचीन केदारेश्वर मंदिर आहे.",
+    "image": "images/prakasha-kedareshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kedareshwar+Temple+Prakasha+Nandurbar",
+    "gallery": [
+      "images/prakasha-kedareshwar.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "शिरीषकुमार मेहता स्मारक",
+    "location": "नंदुरबार शहर",
+    "description": "भारत छोडो आंदोलनात हौतात्म्य पत्करलेल्या शिरीषकुमार मेहता यांच्या स्मृतीला समर्पित स्मारक.",
+    "image": "images/shirishkumar-memorial.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shirishkumar+Mehta+Memorial+Nandurbar",
+    "gallery": [
+      "images/shirishkumar-memorial.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "तोरणमाळ हिल स्टेशन",
+    "location": "तोरणमाळ, नंदुरबार",
+    "description": "सातपुडा पर्वतरांगांमधील प्रसिद्ध हिल स्टेशन. यशवंत तलाव, दऱ्या, हिरवाई आणि धबधबे हे येथील प्रमुख आकर्षण.",
+    "image": "images/toranmal.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Toranmal+Hill+Station",
+    "gallery": [
+      "images/toranmal.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "सारंगखेडा",
+    "location": "सारंगखेडा, नंदुरबार",
+    "description": "घोड्यांच्या मोठ्या बाजारासाठी आणि प्रसिद्ध यात्रेसाठी ओळखले जाणारे ठिकाण.",
+    "image": "images/sarangkheda.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sarangkheda+Nandurbar",
+    "gallery": [
+      "images/sarangkheda.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "दंडपाणेश्वर पार्क",
+    "location": "नंदुरबार शहर",
+    "description": "नंदुरबार जिल्हा प्रशासनाच्या पर्यटन माहितीत नोंद असलेले शहरातील उद्यान.",
+    "image": "images/dandapaneshwar-park.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dandapaneshwar+Park+Nandurbar",
+    "gallery": [
+      "images/dandapaneshwar-park.jpg"
+    ]
+  },
+  {
+    "district": "नंदुरबार",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "हुतात्मा उद्यान",
+    "location": "नंदुरबार शहर",
+    "description": "नंदुरबार शहरातील उद्यान आणि स्थानिक पर्यटनस्थळ.",
+    "image": "images/hutatma-garden-nandurbar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Hutatma+Garden+Nandurbar",
+    "gallery": [
+      "images/hutatma-garden-nandurbar.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "त्र्यंबकेश्वर ज्योतिर्लिंग मंदिर",
+    "location": "त्र्यंबकेश्वर, नाशिक",
+    "description": "भगवान शिवाचे बारा ज्योतिर्लिंगांपैकी एक प्रसिद्ध हिंदू तीर्थक्षेत्र.",
+    "image": "images/trimbakeshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Trimbakeshwar+Jyotirlinga",
+    "gallery": [
+      "images/trimbakeshwar.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "सप्तशृंगी गड",
+    "location": "वणी, नाशिक",
+    "description": "सप्तशृंगी देवीला समर्पित प्रसिद्ध हिंदू शक्तीपीठ आणि तीर्थक्षेत्र.",
+    "image": "images/saptashrungi.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Saptashrungi+Gad+Vani",
+    "gallery": [
+      "images/saptashrungi.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "काळाराम मंदिर",
+    "location": "पंचवटी, नाशिक",
+    "description": "भगवान श्रीरामाला समर्पित नाशिकमधील प्रसिद्ध प्राचीन हिंदू मंदिर.",
+    "image": "images/kalaram-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kalaram+Temple+Nashik",
+    "gallery": [
+      "images/kalaram-temple.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "पांडवलेणी",
+    "location": "त्रिरश्मी टेकडी, नाशिक",
+    "description": "नाशिकजवळील प्राचीन शैलगुहांचा समूह. येथील गुहा आणि शिलालेख ऐतिहासिकदृष्ट्या महत्त्वाचे आहेत.",
+    "image": "images/pandavleni.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pandavleni+Caves+Nashik",
+    "gallery": [
+      "images/pandavleni.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "रामशेज किल्ला",
+    "location": "रामशेज, नाशिक",
+    "description": "नाशिक जिल्ह्यातील ऐतिहासिक डोंगरी किल्ला. मराठा इतिहासाशी संबंधित महत्त्वाचे ठिकाण.",
+    "image": "images/ramshej-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ramshej+Fort+Nashik",
+    "gallery": [
+      "images/ramshej-fort.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "अंजनेरी किल्ला",
+    "location": "अंजनेरी, नाशिक",
+    "description": "ऐतिहासिक किल्ला, प्राचीन गुहा आणि धार्मिक परंपरेसाठी प्रसिद्ध अंजनेरी परिसर.",
+    "image": "images/anjaneri-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Anjaneri+Fort+Nashik",
+    "gallery": [
+      "images/anjaneri-fort.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "ब्रह्मगिरी पर्वत",
+    "location": "त्र्यंबकेश्वर, नाशिक",
+    "description": "त्र्यंबकेश्वरजवळील पवित्र पर्वतरांग आणि गोदावरी नदीच्या उगमाशी संबंधित निसर्गरम्य परिसर.",
+    "image": "images/brahmagiri.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Brahmagiri+Hill+Trimbakeshwar",
+    "gallery": [
+      "images/brahmagiri.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "सोमेश्वर धबधबा",
+    "location": "नाशिक शहराजवळ",
+    "description": "पावसाळ्यात विशेष सुंदर दिसणारा प्रसिद्ध धबधबा.",
+    "image": "images/someshwar-waterfall.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Someshwar+Waterfall+Nashik",
+    "gallery": [
+      "images/someshwar-waterfall.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "कळसूबाई शिखर",
+    "location": "इगतपुरी परिसर, नाशिक जिल्हा",
+    "description": "सह्याद्री पर्वतरांगांमधील महाराष्ट्रातील सर्वोच्च शिखर आणि ट्रेकिंगसाठी प्रसिद्ध ठिकाण.",
+    "image": "images/kalsubai.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kalsubai+Peak",
+    "gallery": [
+      "images/kalsubai.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "नांदूर मध्यमेश्वर पक्षी अभयारण्य",
+    "location": "निफाड परिसर, नाशिक",
+    "description": "जलाशय, पाणथळ प्रदेश आणि विविध स्थानिक व स्थलांतरित पक्ष्यांसाठी प्रसिद्ध पक्षी अभयारण्य.",
+    "image": "images/nandur-madhmeshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Nandur+Madhmeshwar+Bird+Sanctuary",
+    "gallery": [
+      "images/nandur-madhmeshwar.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "सुला व्हाइनयार्ड्स",
+    "location": "गंगापूर, नाशिक",
+    "description": "नाशिकच्या प्रसिद्ध द्राक्ष आणि वाईन पर्यटनाचा भाग असलेले लोकप्रिय पर्यटनस्थळ.",
+    "image": "images/sula-vineyards.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sula+Vineyards+Nashik",
+    "gallery": [
+      "images/sula-vineyards.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "एचएएल संग्रहालय",
+    "location": "ओझर, नाशिक",
+    "description": "हवाई क्षेत्राशी संबंधित विमान आणि तंत्रज्ञानाचा इतिहास पाहण्यासाठी प्रसिद्ध संग्रहालय.",
+    "image": "images/hal-museum-nashik.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=HAL+Museum+Nashik",
+    "gallery": [
+      "images/hal-museum-nashik.jpg"
+    ]
+  },
+  {
+    "district": "नाशिक",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "दादासाहेब फाळके स्मारक",
+    "location": "नाशिक",
+    "description": "भारतीय चित्रपटसृष्टीचे जनक दादासाहेब फाळके यांच्या स्मृतीशी संबंधित पर्यटनस्थळ.",
+    "image": "images/phalkesmarak.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Dadasaheb+Phalke+Smarak+Nashik",
+    "gallery": [
+      "images/phalkesmarak.jpg"
+    ]
+  }
 ]
+
