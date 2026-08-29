@@ -3849,6 +3849,439 @@
     "gallery": [
       "images/panchgani.jpg"
     ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री वाघेश्वर मंदिर",
+    "location": "सिंधुदुर्ग",
+    "description": "भगवान शिवाला समर्पित असलेले प्रसिद्ध हिंदू धार्मिक स्थळ.",
+    "image": "images/wageshwar-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shri+Wageshwar+Temple+Sindhudurg",
+    "gallery": [
+      "images/wageshwar-temple.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "जय गणेश मंदिर",
+    "location": "मालवण, सिंधुदुर्ग",
+    "description": "भगवान गणेशाला समर्पित असलेले सुंदर मंदिर. येथे गणेशाची रिद्धी-सिद्धीसह मूर्ती आहे.",
+    "image": "images/jai-ganesh-mandir.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jai+Ganesh+Mandir+Malvan",
+    "gallery": [
+      "images/jai-ganesh-mandir.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री भद्रकाली मंदिर",
+    "location": "रेवंडी, सिंधुदुर्ग",
+    "description": "देवी भद्रकालीला समर्पित प्राचीन हिंदू मंदिर. हे रेवंडी परिसरातील श्रद्धास्थान आहे.",
+    "image": "images/bhadrakali-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhadrakali+Temple+Revandi+Sindhudurg",
+    "gallery": [
+      "images/bhadrakali-temple.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "सिंधुदुर्ग किल्ला",
+    "location": "मालवण, सिंधुदुर्ग",
+    "description": "अरबी समुद्रातील खडकाळ बेटावर बांधलेला प्रसिद्ध सागरी किल्ला. छत्रपती शिवाजी महाराजांनी 1664 ते 1667 दरम्यान हा किल्ला बांधला.",
+    "image": "images/sindhudurg-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sindhudurg+Fort",
+    "gallery": [
+      "images/sindhudurg-fort.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "सरजेकोट किल्ला",
+    "location": "मालवण, सिंधुदुर्ग",
+    "description": "कोकण किनारपट्टीच्या संरक्षणासाठी महत्त्वाचा असलेला ऐतिहासिक किल्ला.",
+    "image": "images/sarjekot-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sarjekot+Fort+Malvan",
+    "gallery": [
+      "images/sarjekot-fort.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "विजयदुर्ग किल्ला",
+    "location": "विजयदुर्ग, सिंधुदुर्ग",
+    "description": "कोकण किनारपट्टीवरील प्रसिद्ध सागरी किल्ला आणि मराठा आरमाराच्या इतिहासातील महत्त्वाचे ठिकाण.",
+    "image": "images/vijaydurg-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vijaydurg+Fort",
+    "gallery": [
+      "images/vijaydurg-fort.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "तारकर्ली बीच",
+    "location": "तारकर्ली, सिंधुदुर्ग",
+    "description": "स्वच्छ समुद्रकिनारा, निळे पाणी आणि निसर्गरम्य वातावरणासाठी प्रसिद्ध असलेले पर्यटनस्थळ.",
+    "image": "images/tarkarli-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tarkarli+Beach",
+    "gallery": [
+      "images/tarkarli-beach.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "देवबाग संगम",
+    "location": "देवबाग, सिंधुदुर्ग",
+    "description": "करळी नदी आणि अरबी समुद्राच्या संगमाजवळील निसर्गरम्य परिसर.",
+    "image": "images/devbagh-sangam.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Devbagh+Sangam+Sindhudurg",
+    "gallery": [
+      "images/devbagh-sangam.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "भोगवे बीच",
+    "location": "भोगवे, सिंधुदुर्ग",
+    "description": "शांत वातावरण, सोनेरी वाळू आणि स्वच्छ समुद्रासाठी ओळखला जाणारा निसर्गरम्य समुद्रकिनारा.",
+    "image": "images/bhogave-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhogave+Beach+Sindhudurg",
+    "gallery": [
+      "images/bhogave-beach.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "मालवण सागरी अभयारण्य",
+    "location": "मालवण, सिंधुदुर्ग",
+    "description": "प्रवाळ, मॉलस्क आणि विविध सागरी जैवविविधतेसाठी प्रसिद्ध असलेले महाराष्ट्रातील महत्त्वाचे सागरी अभयारण्य.",
+    "image": "images/malvan-marine-sanctuary.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Malvan+Marine+Sanctuary",
+    "gallery": [
+      "images/malvan-marine-sanctuary.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "रॉक गार्डन",
+    "location": "मालवण, सिंधुदुर्ग",
+    "description": "समुद्रकिनाऱ्यालगत खडकाळ परिसरात विकसित केलेले सुंदर पर्यटनस्थळ. सूर्यास्ताचे दृश्य पाहण्यासाठी प्रसिद्ध.",
+    "image": "images/rock-garden-malvan.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Rock+Garden+Malvan",
+    "gallery": [
+      "images/rock-garden-malvan.jpg"
+    ]
+  },
+  {
+    "district": "सिंधुदुर्ग",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "तारकर्ली जलक्रीडा",
+    "location": "तारकर्ली, सिंधुदुर्ग",
+    "description": "स्कूबा डायव्हिंग, स्नॉर्केलिंग आणि विविध जलक्रीडांसाठी प्रसिद्ध असलेला पर्यटन परिसर.",
+    "image": "images/tarkarli-water-sports.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tarkarli+Water+Sports",
+    "gallery": [
+      "images/tarkarli-water-sports.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री सिद्धरामेश्वर मंदिर",
+    "location": "सोलापूर शहर",
+    "description": "सोलापूरचे ग्रामदैवत मानले जाणारे भगवान शिवाला समर्पित प्रसिद्ध मंदिर.",
+    "image": "images/siddheshwar-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Siddheshwar+Temple+Solapur",
+    "gallery": [
+      "images/siddheshwar-temple.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "रुक्मिणी मंदिर",
+    "location": "पंढरपूर, सोलापूर",
+    "description": "देवी रुक्मिणीला समर्पित प्रसिद्ध हिंदू धार्मिक स्थळ.",
+    "image": "images/rukmini-temple-pandharpur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Rukmini+Temple+Pandharpur",
+    "gallery": [
+      "images/rukmini-temple-pandharpur.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री स्वामी समर्थ मंदिर",
+    "location": "अक्कलकोट, सोलापूर",
+    "description": "श्री स्वामी समर्थ महाराजांच्या भक्तांसाठी अत्यंत महत्त्वाचे हिंदू तीर्थक्षेत्र.",
+    "image": "images/swami-samarth-akkalkot.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Swami+Samarth+Temple+Akkalkot",
+    "gallery": [
+      "images/swami-samarth-akkalkot.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "भुईकोट किल्ला",
+    "location": "सोलापूर शहर",
+    "description": "बहमनी काळातील ऐतिहासिक किल्ला. सोलापूरच्या इतिहासातील महत्त्वाची वास्तू.",
+    "image": "images/bhuikot-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhuikot+Fort+Solapur",
+    "gallery": [
+      "images/bhuikot-fort.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "बारा कमान",
+    "location": "सोलापूर शहर",
+    "description": "1672 मध्ये बांधलेली ऐतिहासिक वास्तू. सोलापूरच्या स्थापत्य वारशातील प्रसिद्ध स्मारक.",
+    "image": "images/bara-kaman.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bara+Kaman+Solapur",
+    "gallery": [
+      "images/bara-kaman.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "सोलापूर किल्ला परिसर",
+    "location": "सोलापूर शहर",
+    "description": "सोलापूरच्या मध्ययुगीन इतिहासाशी संबंधित ऐतिहासिक किल्ला परिसर.",
+    "image": "images/solapur-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Solapur+Fort",
+    "gallery": [
+      "images/solapur-fort.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "उजनी धरण",
+    "location": "उजनी, सोलापूर",
+    "description": "उजनी जलाशय परिसरातील निसर्गरम्य ठिकाण. जलसाठा, मत्स्यव्यवसाय आणि निसर्गदृश्यांसाठी प्रसिद्ध.",
+    "image": "images/ujjani-dam.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ujjani+Dam",
+    "gallery": [
+      "images/ujjani-dam.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "कंबर तलाव",
+    "location": "सोलापूर",
+    "description": "मोतीबाग तलाव म्हणूनही ओळखला जाणारा हा तलाव निसर्गप्रेमी आणि पक्षीनिरीक्षकांसाठी आकर्षणाचे ठिकाण आहे.",
+    "image": "images/kambar-lake.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kambar+Lake+Solapur",
+    "gallery": [
+      "images/kambar-lake.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "ग्रेट इंडियन बस्टर्ड अभयारण्य",
+    "location": "नन्नज, सोलापूर",
+    "description": "माळढोक या दुर्मिळ पक्ष्याच्या संवर्धनासाठी प्रसिद्ध असलेले महत्त्वाचे वन्यजीव क्षेत्र.",
+    "image": "images/great-indian-bustard-sanctuary.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Great+Indian+Bustard+Sanctuary+Nannaj",
+    "gallery": [
+      "images/great-indian-bustard-sanctuary.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "महात्मा गांधी प्राणीसंग्रहालय",
+    "location": "सोलापूर",
+    "description": "विविध प्राणी आणि पक्ष्यांचे दर्शन घडवणारे सोलापूर शहरातील प्राणीसंग्रहालय.",
+    "image": "images/mahatma-gandhi-zoo.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mahatma+Gandhi+Zoo+Solapur",
+    "gallery": [
+      "images/mahatma-gandhi-zoo.jpg"
+    ]
+  },
+  {
+    "district": "सोलापूर",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "फ्रॅटेली वाईन्स",
+    "location": "अकलूज, सोलापूर",
+    "description": "द्राक्षबाग आणि वाईन निर्मितीशी संबंधित पर्यटन अनुभवासाठी प्रसिद्ध ठिकाण.",
+    "image": "images/fratelli-wines.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Fratelli+Wines+Akluj",
+    "gallery": [
+      "images/fratelli-wines.jpg"
+    ]
+  },
+
+  {
+    "district": "ठाणे",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "टिटवाळा गणपती मंदिर",
+    "location": "टिटवाळा, ठाणे",
+    "description": "भगवान गणेशाला समर्पित प्रसिद्ध हिंदू मंदिर. गणेश भक्तांसाठी महत्त्वाचे तीर्थक्षेत्र.",
+    "image": "images/titwala-ganpati.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Titwala+Ganpati+Temple",
+    "gallery": [
+      "images/titwala-ganpati.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "अंबरनाथ शिव मंदिर",
+    "location": "अंबरनाथ, ठाणे",
+    "description": "भगवान शिवाला समर्पित प्राचीन हेमाडपंथी शैलीतील प्रसिद्ध हिंदू मंदिर.",
+    "image": "images/ambarnath-shiv-mandir.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ambarnath+Shiv+Mandir",
+    "gallery": [
+      "images/ambarnath-shiv-mandir.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "कोपिनेश्वर मंदिर",
+    "location": "ठाणे शहर",
+    "description": "भगवान शिवाला समर्पित ठाणे शहरातील प्राचीन हिंदू मंदिर.",
+    "image": "images/kopineshwar-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kopineshwar+Temple+Thane",
+    "gallery": [
+      "images/kopineshwar-temple.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "महुली किल्ला",
+    "location": "शहापूर, ठाणे",
+    "description": "सह्याद्री पर्वतरांगांमध्ये असलेला ऐतिहासिक किल्ला आणि प्रसिद्ध ट्रेकिंग स्थळ.",
+    "image": "images/mahuli-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Mahuli+Fort+Thane",
+    "gallery": [
+      "images/mahuli-fort.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "गोरखगड किल्ला",
+    "location": "मुरबाड, ठाणे",
+    "description": "डोंगरमाथ्यावर असलेला ऐतिहासिक किल्ला. ट्रेकिंग आणि ऐतिहासिक वारशासाठी प्रसिद्ध.",
+    "image": "images/gorakhgad-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Gorakhgad+Fort",
+    "gallery": [
+      "images/gorakhgad-fort.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "घोडबंदर किल्ला",
+    "location": "घोडबंदर, ठाणे",
+    "description": "ठाणे परिसरातील ऐतिहासिक किल्ला. उल्हास नदीकडे पाहणाऱ्या डोंगरावर वसलेला हा किल्ला ऐतिहासिक वारशासाठी प्रसिद्ध आहे.",
+    "image": "images/ghodbunder-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ghodbunder+Fort",
+    "gallery": [
+      "images/ghodbunder-fort.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "येऊर हिल्स",
+    "location": "ठाणे",
+    "description": "हिरवाईने नटलेला डोंगराळ परिसर. निसर्गभ्रमंती आणि शांत वातावरणासाठी प्रसिद्ध.",
+    "image": "images/yeoor-hills.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Yeoor+Hills+Thane",
+    "gallery": [
+      "images/yeoor-hills.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "उपवन तलाव",
+    "location": "ठाणे शहर",
+    "description": "ठाणे शहरातील प्रसिद्ध तलाव आणि हिरवाईने वेढलेला निसर्गरम्य परिसर.",
+    "image": "images/upvan-lake.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Upvan+Lake+Thane",
+    "gallery": [
+      "images/upvan-lake.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "मासुंदा तलाव",
+    "location": "ठाणे शहर",
+    "description": "ठाणे शहराच्या मध्यवर्ती भागातील प्रसिद्ध तलाव. संध्याकाळच्या वेळेस येथे पर्यटकांची वर्दळ असते.",
+    "image": "images/masunda-lake.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Masunda+Lake+Thane",
+    "gallery": [
+      "images/masunda-lake.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "तानसा वन्यजीव अभयारण्य",
+    "location": "शहापूर, ठाणे",
+    "description": "घनदाट जंगल आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेले महत्त्वाचे वन्यजीव क्षेत्र.",
+    "image": "images/tansa-wildlife-sanctuary.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tansa+Wildlife+Sanctuary",
+    "gallery": [
+      "images/tansa-wildlife-sanctuary.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "ठाणे क्रीक फ्लेमिंगो अभयारण्य",
+    "location": "ठाणे क्रीक परिसर",
+    "description": "फ्लेमिंगो आणि इतर पक्ष्यांसाठी प्रसिद्ध असलेले महत्त्वाचे सागरी आणि पक्षी अधिवास क्षेत्र.",
+    "image": "images/thane-creek-flamingo.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Thane+Creek+Flamingo+Sanctuary",
+    "gallery": [
+      "images/thane-creek-flamingo.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "एल्विस बटरफ्लाय गार्डन",
+    "location": "ठाणे",
+    "description": "विविध प्रजातींच्या फुलपाखरांसाठी प्रसिद्ध असलेले निसर्ग आणि जैवविविधता केंद्र.",
+    "image": "images/elvis-butterfly-garden.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Elvis+Butterfly+Garden+Thane",
+    "gallery": [
+      "images/elvis-butterfly-garden.jpg"
+    ]
+  },
+  {
+    "district": "ठाणे",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "सूरज वॉटर पार्क",
+    "location": "ठाणे",
+    "description": "कुटुंब आणि मित्रांसोबत मनोरंजनासाठी प्रसिद्ध जलक्रीडा आणि वॉटर पार्क.",
+    "image": "images/suraj-water-park.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Suraj+Water+Park+Thane",
+    "gallery": [
+      "images/suraj-water-park.jpg"
+    ]
   }
     ]
   
