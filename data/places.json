@@ -2885,7 +2885,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Vajreshwari+Temple+Palghar",
   "gallery": ["images/vajreshwari.jpg"]
 },
-
 {
   "district": "पालघर",
   "category": "ऐतिहासिक पर्यटन स्थळ",
@@ -2978,7 +2977,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Wildlife+Palghar",
   "gallery": ["images/wildlife-palghar.jpg"]
 },
-
 {
   "district": "पालघर",
   "category": "इतर पर्यटन स्थळ",
@@ -3009,7 +3007,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Hanuman+Point+Jawhar",
   "gallery": ["images/hanuman-point.jpg"]
 },
-
 {
   "district": "पुणे",
   "category": "धार्मिक पर्यटन स्थळ",
@@ -3040,7 +3037,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Bhimashankar+Jyotirlinga",
   "gallery": ["images/bhimashankar.jpg"]
 },
-
 {
   "district": "पुणे",
   "category": "ऐतिहासिक पर्यटन स्थळ",
@@ -3071,7 +3067,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Aga+Khan+Palace+Pune",
   "gallery": ["images/aga-khan-palace.jpg"]
 },
-
 {
   "district": "पुणे",
   "category": "नैसर्गिक पर्यटन स्थळ",
@@ -3102,7 +3097,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Panshet+Dam",
   "gallery": ["images/panshet.jpg"]
 },
-
 {
   "district": "पुणे",
   "category": "वन्यजीव पर्यटन स्थळ",
@@ -3133,7 +3127,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Mayureshwar+Wildlife+Sanctuary",
   "gallery": ["images/mayureshwar.jpg"]
 },
-
 {
   "district": "पुणे",
   "category": "इतर पर्यटन स्थळ",
@@ -3164,7 +3157,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Parvati+Hill+Pune",
   "gallery": ["images/parvati-hill.jpg"]
 },
-
 {
   "district": "रायगड",
   "category": "धार्मिक पर्यटन स्थळ",
@@ -3195,7 +3187,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Harihareshwar+Temple",
   "gallery": ["images/harihareshwar.jpg"]
 },
-
 {
   "district": "रायगड",
   "category": "ऐतिहासिक पर्यटन स्थळ",
@@ -3226,7 +3217,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Karnala+Fort",
   "gallery": ["images/karnala-fort.jpg"]
 },
-
 {
   "district": "रायगड",
   "category": "नैसर्गिक पर्यटन स्थळ",
@@ -3257,7 +3247,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Matheran",
   "gallery": ["images/matheran.jpg"]
 },
-
 {
   "district": "रायगड",
   "category": "वन्यजीव पर्यटन स्थळ",
@@ -3288,7 +3277,6 @@
   "map": "https://www.google.com/maps/search/?api=1&query=Karnala+Forest",
   "gallery": ["images/karnala-forest.jpg"]
 },
-
 {
   "district": "रायगड",
   "category": "इतर पर्यटन स्थळ",
@@ -3320,6 +3308,6 @@
   "gallery": ["images/raigad-museum.jpg"]
 }
 ]
-}
-]
+
+
 
