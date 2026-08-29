@@ -3306,8 +3306,554 @@
   "image": "images/raigad-museum.jpg",
   "map": "https://www.google.com/maps/search/?api=1&query=Raigad+Museum",
   "gallery": ["images/raigad-museum.jpg"]
-}
-]
+},
+  {
+    "district": "रत्नागिरी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र गणपतीपुळे मंदिर",
+    "location": "गणपतीपुळे, रत्नागिरी",
+    "description": "समुद्रकिनाऱ्यालगत वसलेले स्वयंभू श्री गणपती मंदिर हे रत्नागिरी जिल्ह्यातील प्रसिद्ध हिंदू धार्मिक तीर्थक्षेत्र आहे.",
+    "image": "images/ganpatipule.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ganpatipule+Temple",
+    "gallery": [
+      "images/ganpatipule.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र परशुराम मंदिर",
+    "location": "चिपळूण, रत्नागिरी",
+    "description": "परशुराम भगवानांना समर्पित हे प्राचीन हिंदू मंदिर चिपळूणजवळील प्रसिद्ध धार्मिक स्थळ आहे.",
+    "image": "images/parshuram-temple.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Parshuram+Temple+Chiplun",
+    "gallery": [
+      "images/parshuram-temple.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री देवी भगवती मंदिर",
+    "location": "रत्नागिरी शहर, रत्नागिरी",
+    "description": "रत्नागिरी शहरातील प्रसिद्ध देवी भगवती मंदिर हे स्थानिक भक्तांसाठी महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+    "image": "images/bhagwati-temple-ratnagiri.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhagwati+Temple+Ratnagiri",
+    "gallery": [
+      "images/bhagwati-temple-ratnagiri.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "रत्नदुर्ग किल्ला",
+    "location": "रत्नागिरी शहर, रत्नागिरी",
+    "description": "अरबी समुद्राच्या किनाऱ्यावर वसलेला रत्नदुर्ग किल्ला रत्नागिरीच्या इतिहासातील महत्त्वाचा समुद्रकिनारी किल्ला आहे.",
+    "image": "images/ratnadurg-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ratnadurg+Fort",
+    "gallery": [
+      "images/ratnadurg-fort.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "विजयदुर्ग किल्ला",
+    "location": "विजयदुर्ग, रत्नागिरी",
+    "description": "कोकण किनाऱ्यावरील प्रसिद्ध ऐतिहासिक समुद्रकिल्ला. मराठा आरमाराच्या इतिहासात विजयदुर्गाला महत्त्वाचे स्थान आहे.",
+    "image": "images/vijaydurg-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vijaydurg+Fort",
+    "gallery": [
+      "images/vijaydurg-fort.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "जयगड किल्ला",
+    "location": "जयगड, रत्नागिरी",
+    "description": "जयगड खाडीच्या मुखाशी असलेला हा ऐतिहासिक किल्ला कोकणच्या सागरी इतिहासातील महत्त्वाचे ठिकाण आहे.",
+    "image": "images/jaigad-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jaigad+Fort+Ratnagiri",
+    "gallery": [
+      "images/jaigad-fort.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "गणपतीपुळे समुद्रकिनारा",
+    "location": "गणपतीपुळे, रत्नागिरी",
+    "description": "स्वच्छ समुद्रकिनारा, निळे पाणी आणि निसर्गरम्य कोकण किनाऱ्यासाठी गणपतीपुळे प्रसिद्ध आहे.",
+    "image": "images/ganpatipule-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ganpatipule+Beach",
+    "gallery": [
+      "images/ganpatipule-beach.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "भाट्ये समुद्रकिनारा",
+    "location": "रत्नागिरी, रत्नागिरी",
+    "description": "रत्नागिरी शहराजवळील लांब व निसर्गरम्य समुद्रकिनारा म्हणून भाट्ये बीच प्रसिद्ध आहे.",
+    "image": "images/bhatye-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bhatye+Beach+Ratnagiri",
+    "gallery": [
+      "images/bhatye-beach.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "आरे-वारे समुद्रकिनारा",
+    "location": "रत्नागिरी, रत्नागिरी",
+    "description": "आरे आणि वारे गावांदरम्यानचा सुंदर किनारा, हिरवाई आणि समुद्राचे विहंगम दृश्य यासाठी प्रसिद्ध आहे.",
+    "image": "images/are-ware-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Aare+Ware+Beach+Ratnagiri",
+    "gallery": [
+      "images/are-ware-beach.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "कासव महोत्सव वेळास",
+    "location": "वेळास, रत्नागिरी",
+    "description": "वेळास समुद्रकिनारा ऑलिव्ह रिडले समुद्री कासवांच्या घरट्यांसाठी आणि त्यांच्या संवर्धनासाठी प्रसिद्ध आहे.",
+    "image": "images/velas-turtle.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Velas+Beach+Ratnagiri",
+    "gallery": [
+      "images/velas-turtle.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "जयगड खाडी",
+    "location": "जयगड, रत्नागिरी",
+    "description": "खाडीचा परिसर विविध जलचर आणि पक्ष्यांसाठी महत्त्वाचा असून निसर्ग निरीक्षणासाठी आकर्षक आहे.",
+    "image": "images/jaigad-creek.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Jaigad+Creek+Ratnagiri",
+    "gallery": [
+      "images/jaigad-creek.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "गुहागर समुद्रकिनारा",
+    "location": "गुहागर, रत्नागिरी",
+    "description": "निसर्गरम्य किनारा आणि समुद्रकिनारी जैवविविधतेसाठी ओळखला जाणारा कोकणातील परिसर.",
+    "image": "images/guhagar-beach.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Guhagar+Beach",
+    "gallery": [
+      "images/guhagar-beach.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "लोकमान्य टिळक जन्मस्थान",
+    "location": "रत्नागिरी शहर, रत्नागिरी",
+    "description": "लोकमान्य बाळ गंगाधर टिळक यांच्या जन्माशी संबंधित ऐतिहासिक वास्तू आणि स्मृतिस्थळ.",
+    "image": "images/tilak-birthplace.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lokmanya+Tilak+Birthplace+Ratnagiri",
+    "gallery": [
+      "images/tilak-birthplace.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "थिबा पॅलेस",
+    "location": "रत्नागिरी शहर, रत्नागिरी",
+    "description": "म्यानमारच्या माजी राजाला नजरकैदेत ठेवण्यासाठी बांधण्यात आलेली ऐतिहासिक वास्तू म्हणजे थिबा पॅलेस.",
+    "image": "images/thiba-palace.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Thiba+Palace+Ratnagiri",
+    "gallery": [
+      "images/thiba-palace.jpg"
+    ]
+  },
+  {
+    "district": "रत्नागिरी",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "रत्नागिरी मत्स्यालय",
+    "location": "रत्नागिरी शहर, रत्नागिरी",
+    "description": "समुद्री आणि गोड्या पाण्यातील विविध माशांच्या प्रजाती पाहण्यासाठी प्रसिद्ध असलेले मत्स्यालय.",
+    "image": "images/ratnagiri-aquarium.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ratnagiri+Aquarium",
+    "gallery": [
+      "images/ratnagiri-aquarium.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री गणपती मंदिर",
+    "location": "सांगली शहर, सांगली",
+    "description": "कृष्णा नदीच्या काठावर वसलेले सांगलीचे प्रसिद्ध श्री गणपती मंदिर हे शहरातील महत्त्वाचे हिंदू धार्मिक स्थळ आहे.",
+    "image": "images/sangli-ganpati.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sangli+Ganpati+Temple",
+    "gallery": [
+      "images/sangli-ganpati.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र औदुंबर",
+    "location": "औदुंबर, सांगली",
+    "description": "कृष्णा नदीच्या काठावरील प्रसिद्ध दत्तक्षेत्र. श्री दत्तात्रेयांच्या भक्तांसाठी हे महत्त्वाचे हिंदू तीर्थक्षेत्र आहे.",
+    "image": "images/audumbar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Audumbar+Datta+Temple+Sangli",
+    "gallery": [
+      "images/audumbar.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र बत्तीस शिराळा",
+    "location": "शिराळा, सांगली",
+    "description": "शिराळा परिसरातील धार्मिक परंपरा आणि गोरक्षनाथ मंदिरासाठी प्रसिद्ध असलेले हिंदू धार्मिक क्षेत्र.",
+    "image": "images/shirala.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Gorakhnath+Temple+Shirala",
+    "gallery": [
+      "images/shirala.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "सांगली किल्ला",
+    "location": "सांगली शहर, सांगली",
+    "description": "सांगलीच्या इतिहासाशी संबंधित असलेली ऐतिहासिक वास्तू आणि परिसर.",
+    "image": "images/sangli-fort.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sangli+Fort",
+    "gallery": [
+      "images/sangli-fort.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "प्रचितगड किल्ला",
+    "location": "चांदोली परिसर, सांगली",
+    "description": "सह्याद्रीच्या डोंगररांगांमध्ये असलेला ऐतिहासिक किल्ला. दुर्गभ्रमंतीसाठी प्रसिद्ध आहे.",
+    "image": "images/prachitgad.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Prachitgad+Fort",
+    "gallery": [
+      "images/prachitgad.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "कृष्णा नदी घाट",
+    "location": "सांगली शहर, सांगली",
+    "description": "सांगली शहराच्या इतिहासाशी आणि सांस्कृतिक जीवनाशी जोडलेला कृष्णा नदीकाठचा परिसर.",
+    "image": "images/sangli-krishna-ghat.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Krishna+River+Sangli",
+    "gallery": [
+      "images/sangli-krishna-ghat.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "चांदोली धरण",
+    "location": "चांदोली, सांगली",
+    "description": "सह्याद्रीच्या निसर्गरम्य परिसरात असलेले चांदोली धरण आणि जलाशय हे निसर्गपर्यटनासाठी प्रसिद्ध आहे.",
+    "image": "images/chandoli-dam.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chandoli+Dam",
+    "gallery": [
+      "images/chandoli-dam.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "चांदोली धरण जलाशय",
+    "location": "चांदोली, सांगली",
+    "description": "डोंगररांगा आणि हिरवाईने वेढलेला जलाशय परिसर निसर्गप्रेमींसाठी आकर्षक आहे.",
+    "image": "images/chandoli-reservoir.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chandoli+Reservoir",
+    "gallery": [
+      "images/chandoli-reservoir.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "कृष्णा नदी परिसर",
+    "location": "सांगली, सांगली",
+    "description": "कृष्णा नदीचा विस्तीर्ण परिसर आणि नदीकाठचा निसर्ग सांगली शहराचे महत्त्वाचे नैसर्गिक आकर्षण आहे.",
+    "image": "images/krishna-river-sangli.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Krishna+River+Sangli",
+    "gallery": [
+      "images/krishna-river-sangli.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "चांदोली राष्ट्रीय उद्यान",
+    "location": "चांदोली परिसर, सांगली",
+    "description": "सह्याद्रीतील जैवविविधतेसाठी प्रसिद्ध असलेले चांदोली राष्ट्रीय उद्यान वन्यजीव आणि निसर्गप्रेमींसाठी महत्त्वाचे ठिकाण आहे.",
+    "image": "images/chandoli-national-park.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chandoli+National+Park",
+    "gallery": [
+      "images/chandoli-national-park.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "चांदोली अभयारण्य",
+    "location": "चांदोली, सांगली",
+    "description": "सह्याद्रीच्या जंगलातील जैवविविधता, वनस्पती आणि विविध वन्यजीवांसाठी प्रसिद्ध परिसर.",
+    "image": "images/chandoli-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Chandoli+Wildlife+Sanctuary",
+    "gallery": [
+      "images/chandoli-wildlife.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "सागरेश्वर अभयारण्य",
+    "location": "सागरेश्वर, सांगली",
+    "description": "मानवनिर्मित जंगल आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेले सागरेश्वर अभयारण्य सांगली जिल्ह्यातील महत्त्वाचे वन्यजीव क्षेत्र आहे.",
+    "image": "images/sagareshwar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sagareshwar+Wildlife+Sanctuary",
+    "gallery": [
+      "images/sagareshwar.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "सांगली गणपती मंदिर परिसर",
+    "location": "सांगली शहर, सांगली",
+    "description": "कृष्णा नदीच्या काठावरील प्रसिद्ध गणपती मंदिर आणि परिसर हे सांगली शहराचे प्रमुख सांस्कृतिक आकर्षण आहे.",
+    "image": "images/sangli-ganpati-area.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sangli+Ganpati+Temple",
+    "gallery": [
+      "images/sangli-ganpati-area.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "सागरेश्वर परिसर",
+    "location": "सागरेश्वर, सांगली",
+    "description": "वनक्षेत्र, मंदिर परिसर आणि निसर्ग यांचा संगम असलेले सागरेश्वर हे जिल्ह्यातील आकर्षक पर्यटनस्थळ आहे.",
+    "image": "images/sagareshwar-area.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sagareshwar+Sangli",
+    "gallery": [
+      "images/sagareshwar-area.jpg"
+    ]
+  },
+  {
+    "district": "सांगली",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "कृष्णा नदी काठ",
+    "location": "सांगली शहर, सांगली",
+    "description": "नदीकाठचा परिसर, घाट आणि शहराचे सांस्कृतिक वातावरण अनुभवण्यासाठी हे ठिकाण लोकप्रिय आहे.",
+    "image": "images/krishna-ghat-sangli.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Krishna+Ghat+Sangli",
+    "gallery": [
+      "images/krishna-ghat-sangli.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र सज्जनगड",
+    "location": "सज्जनगड, सातारा",
+    "description": "समर्थ रामदास स्वामींचे समाधीस्थान म्हणून प्रसिद्ध असलेले सज्जनगड हे महाराष्ट्रातील महत्त्वाचे हिंदू धार्मिक तीर्थक्षेत्र आहे.",
+    "image": "images/sajjangad.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sajjangad+Satara",
+    "gallery": [
+      "images/sajjangad.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "श्री क्षेत्र वाई",
+    "location": "वाई, सातारा",
+    "description": "कृष्णा नदीकाठची अनेक प्राचीन हिंदू मंदिरे आणि घाट यामुळे वाईला दक्षिण काशी म्हणून ओळखले जाते.",
+    "image": "images/wai-temples.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Wai+Temples+Satara",
+    "gallery": [
+      "images/wai-temples.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "धार्मिक पर्यटन स्थळ",
+    "name": "शिखर शिंगणापूर",
+    "location": "शिखर शिंगणापूर, सातारा",
+    "description": "भगवान शिवाच्या शंभूमहादेव मंदिरासाठी प्रसिद्ध असलेले हे सातारा जिल्ह्यातील महत्त्वाचे हिंदू तीर्थक्षेत्र आहे.",
+    "image": "images/shikhar-shinganapur.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Shikhar+Shinganapur+Temple",
+    "gallery": [
+      "images/shikhar-shinganapur.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "प्रतापगड किल्ला",
+    "location": "प्रतापगड, सातारा",
+    "description": "छत्रपती शिवाजी महाराजांच्या इतिहासातील अत्यंत महत्त्वाचा किल्ला. अफझलखानाशी झालेल्या ऐतिहासिक संघर्षामुळे प्रसिद्ध आहे.",
+    "image": "images/pratapgad.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Pratapgad+Fort",
+    "gallery": [
+      "images/pratapgad.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "अजिंक्यतारा किल्ला",
+    "location": "सातारा शहर, सातारा",
+    "description": "सातारा शहरावर नजर ठेवणारा ऐतिहासिक डोंगरी किल्ला. मराठा इतिहासात याला महत्त्वाचे स्थान आहे.",
+    "image": "images/ajinkyatara.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Ajinkyatara+Fort",
+    "gallery": [
+      "images/ajinkyatara.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "ऐतिहासिक पर्यटन स्थळ",
+    "name": "वसंतगड किल्ला",
+    "location": "वसंतगड, सातारा",
+    "description": "सह्याद्री परिसरातील ऐतिहासिक किल्ला आणि दुर्गभ्रमंतीसाठी प्रसिद्ध ठिकाण.",
+    "image": "images/vasantgad.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vasantgad+Fort+Satara",
+    "gallery": [
+      "images/vasantgad.jpg"
+    ]
+  },
+
+  {
+    "district": "सातारा",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "कास पठार",
+    "location": "कास, सातारा",
+    "description": "फुलांच्या हंगामात विविध रानफुलांनी बहरणारे कास पठार हे युनेस्कोच्या जागतिक वारसा क्षेत्रातील प्रसिद्ध नैसर्गिक स्थळ आहे.",
+    "image": "images/kas-pathar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kaas+Plateau",
+    "gallery": [
+      "images/kas-pathar.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "ठोसेघर धबधबा",
+    "location": "ठोसेघर, सातारा",
+    "description": "पावसाळ्यात विशेष आकर्षक दिसणारा ठोसेघर धबधबा सातारा जिल्ह्यातील प्रसिद्ध निसर्गस्थळ आहे.",
+    "image": "images/thoseghar.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Thoseghar+Waterfall",
+    "gallery": [
+      "images/thoseghar.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "नैसर्गिक पर्यटन स्थळ",
+    "name": "भांबवली वजराई धबधबा",
+    "location": "भांबवली, सातारा",
+    "description": "सह्याद्रीच्या निसर्गरम्य परिसरातील प्रसिद्ध धबधबा. पावसाळ्यात येथे निसर्गाचे सुंदर दृश्य पाहायला मिळते.",
+    "image": "images/vajrai-waterfall.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Vajrai+Waterfall",
+    "gallery": [
+      "images/vajrai-waterfall.jpg"
+    ]
+  },
+
+  {
+    "district": "सातारा",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "कोयना वन्यजीव अभयारण्य",
+    "location": "कोयना, सातारा",
+    "description": "सह्याद्रीतील घनदाट जंगल आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेले कोयना वन्यजीव अभयारण्य.",
+    "image": "images/koyna-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Koyna+Wildlife+Sanctuary",
+    "gallery": [
+      "images/koyna-wildlife.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "चंदोली परिसर",
+    "location": "सातारा जिल्ह्याच्या पश्चिम भागातील सह्याद्री परिसर",
+    "description": "सह्याद्रीच्या जंगल परिसरात विविध वनस्पती आणि वन्यजीव आढळतात. निसर्ग निरीक्षणासाठी हा परिसर महत्त्वाचा आहे.",
+    "image": "images/satara-sahyadri.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Sahyadri+Satara",
+    "gallery": [
+      "images/satara-sahyadri.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "वन्यजीव पर्यटन स्थळ",
+    "name": "कास परिसर",
+    "location": "कास, सातारा",
+    "description": "कास पठार व आसपासचा जैवविविधतेने समृद्ध परिसर विविध वनस्पती, फुलपाखरे आणि पक्ष्यांसाठी महत्त्वाचा आहे.",
+    "image": "images/kaas-wildlife.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kaas+Plateau+Satara",
+    "gallery": [
+      "images/kaas-wildlife.jpg"
+    ]
+  },
+
+  {
+    "district": "सातारा",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "चारभिंती",
+    "location": "सातारा शहर, सातारा",
+    "description": "सातारा शहराच्या ऐतिहासिक परिसरातील प्रसिद्ध ठिकाण. येथून शहर आणि आसपासच्या डोंगरांचे दृश्य पाहता येते.",
+    "image": "images/charbhinti.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Charbhinti+Satara",
+    "gallery": [
+      "images/charbhinti.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "मेणवली घाट",
+    "location": "मेणवली, वाई, सातारा",
+    "description": "कृष्णा नदीकाठचा ऐतिहासिक घाट आणि परिसर मराठा काळातील वास्तू व निसर्गासाठी प्रसिद्ध आहे.",
+    "image": "images/menavali-ghat.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Menavali+Ghat",
+    "gallery": [
+      "images/menavali-ghat.jpg"
+    ]
+  },
+  {
+    "district": "सातारा",
+    "category": "इतर पर्यटन स्थळ",
+    "name": "पाचगणी",
+    "location": "पाचगणी, सातारा",
+    "description": "सह्याद्रीच्या डोंगररांगांमध्ये वसलेले प्रसिद्ध थंड हवेचे ठिकाण. निसर्गरम्य दृश्ये आणि टेबल लँडसाठी प्रसिद्ध.",
+    "image": "images/panchgani.jpg",
+    "map": "https://www.google.com/maps/search/?api=1&query=Panchgani",
+    "gallery": [
+      "images/panchgani.jpg"
+    ]
+  }
+    ]
+  
+    
+
 
 
 
