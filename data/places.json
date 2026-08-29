@@ -2854,6 +2854,472 @@
     "gallery": [
       "images/phalkesmarak.jpg"
     ]
-  }
+  },
+{
+  "district": "पालघर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "जीवदानी मंदिर",
+  "location": "विरार, पालघर",
+  "description": "विरारच्या जीवदानी टेकडीवरील देवी जीवदानीचे प्रसिद्ध हिंदू मंदिर.",
+  "image": "images/jivdani.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jivdani+Temple+Virar",
+  "gallery": ["images/jivdani.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "महालक्ष्मी मंदिर",
+  "location": "डहाणू, पालघर",
+  "description": "डहाणू येथील देवी महालक्ष्मीचे प्रसिद्ध हिंदू धार्मिक मंदिर.",
+  "image": "images/mahalakshmi-dahanu.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mahalakshmi+Temple+Dahanu",
+  "gallery": ["images/mahalakshmi-dahanu.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "वज्रेश्वरी देवी मंदिर",
+  "location": "वज्रेश्वरी, पालघर",
+  "description": "देवी वज्रेश्वरीला समर्पित प्रसिद्ध हिंदू धार्मिक मंदिर.",
+  "image": "images/vajreshwari.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Vajreshwari+Temple+Palghar",
+  "gallery": ["images/vajreshwari.jpg"]
+},
+
+{
+  "district": "पालघर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "वसई किल्ला",
+  "location": "वसई, पालघर",
+  "description": "कोकण किनारपट्टीवरील प्रसिद्ध ऐतिहासिक किल्ला.",
+  "image": "images/vasai-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Vasai+Fort",
+  "gallery": ["images/vasai-fort.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "अर्नाळा किल्ला",
+  "location": "अर्नाळा, पालघर",
+  "description": "समुद्रातील बेटावर असलेला ऐतिहासिक किल्ला.",
+  "image": "images/arnala-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Arnala+Fort",
+  "gallery": ["images/arnala-fort.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "काळदुर्ग किल्ला",
+  "location": "पालघर",
+  "description": "डोंगरावर वसलेला प्राचीन किल्ला आणि ट्रेकिंगसाठी प्रसिद्ध ठिकाण.",
+  "image": "images/kaldurg-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kaldurg+Fort+Palghar",
+  "gallery": ["images/kaldurg-fort.jpg"]
+},
+
+{
+  "district": "पालघर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "कालमांडवी धबधबा",
+  "location": "जव्हार, पालघर",
+  "description": "जव्हार परिसरातील सुंदर आणि निसर्गरम्य धबधबा.",
+  "image": "images/kalmandavi.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kalmandavi+Waterfall",
+  "gallery": ["images/kalmandavi.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "हिराडपाडा धबधबा",
+  "location": "जव्हार, पालघर",
+  "description": "हिरवाईने नटलेल्या परिसरातील प्रसिद्ध नैसर्गिक धबधबा.",
+  "image": "images/hiradpada.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Hiradpada+Waterfall",
+  "gallery": ["images/hiradpada.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "केळवा बीच",
+  "location": "केळवा, पालघर",
+  "description": "पालघर जिल्ह्यातील प्रसिद्ध समुद्रकिनारा आणि निसर्गरम्य पर्यटनस्थळ.",
+  "image": "images/kelwa-beach.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kelva+Beach",
+  "gallery": ["images/kelwa-beach.jpg"]
+},
+
+{
+  "district": "पालघर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "तुंगारेश्वर वन्यजीव अभयारण्य",
+  "location": "वसई, पालघर",
+  "description": "वनराई आणि विविध वन्यजीवांसाठी प्रसिद्ध असलेले अभयारण्य.",
+  "image": "images/tungareshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Tungareshwar+Wildlife+Sanctuary",
+  "gallery": ["images/tungareshwar.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "जव्हार वनक्षेत्र",
+  "location": "जव्हार, पालघर",
+  "description": "सह्याद्रीच्या परिसरातील वनराई आणि जैवविविधतेसाठी प्रसिद्ध क्षेत्र.",
+  "image": "images/jawhar-forest.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jawhar+Forest+Palghar",
+  "gallery": ["images/jawhar-forest.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "संजय गांधी राष्ट्रीय उद्यान परिसर",
+  "location": "पालघर लगतचा परिसर",
+  "description": "मुंबई महानगर प्रदेशाच्या उत्तरेकडील वन्यजीव आणि जैवविविधतेशी संबंधित परिसर.",
+  "image": "images/wildlife-palghar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Wildlife+Palghar",
+  "gallery": ["images/wildlife-palghar.jpg"]
+},
+
+{
+  "district": "पालघर",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "वारली कला गाव",
+  "location": "जव्हार, पालघर",
+  "description": "वारली चित्रकला आणि आदिवासी संस्कृतीसाठी प्रसिद्ध असलेला परिसर.",
+  "image": "images/warli-art.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Warli+Art+Jawhar",
+  "gallery": ["images/warli-art.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "जव्हार राजवाडा",
+  "location": "जव्हार, पालघर",
+  "description": "जव्हारच्या ऐतिहासिक आणि सांस्कृतिक वारशाशी संबंधित राजवाडा.",
+  "image": "images/jawhar-palace.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Jawhar+Palace",
+  "gallery": ["images/jawhar-palace.jpg"]
+},
+{
+  "district": "पालघर",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "हनुमान पॉइंट",
+  "location": "जव्हार, पालघर",
+  "description": "डोंगर आणि दऱ्यांचे सुंदर दृश्य पाहण्यासाठी प्रसिद्ध ठिकाण.",
+  "image": "images/hanuman-point.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Hanuman+Point+Jawhar",
+  "gallery": ["images/hanuman-point.jpg"]
+},
+
+{
+  "district": "पुणे",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "श्रीमंत दगडूशेठ हलवाई गणपती मंदिर",
+  "location": "पुणे शहर",
+  "description": "पुणे शहरातील प्रसिद्ध गणपती मंदिर आणि प्रमुख हिंदू धार्मिक स्थळ.",
+  "image": "images/dagdusheth.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Dagdusheth+Ganpati+Temple+Pune",
+  "gallery": ["images/dagdusheth.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "पाताळेश्वर मंदिर",
+  "location": "पुणे शहर",
+  "description": "भगवान शिवाला समर्पित प्राचीन शैलकृत हिंदू मंदिर.",
+  "image": "images/pataleshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Pataleshwar+Cave+Temple+Pune",
+  "gallery": ["images/pataleshwar.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "भीमाशंकर ज्योतिर्लिंग मंदिर",
+  "location": "भीमाशंकर, पुणे",
+  "description": "भगवान शिवाचे प्रसिद्ध ज्योतिर्लिंग मंदिर आणि महत्त्वाचे हिंदू तीर्थक्षेत्र.",
+  "image": "images/bhimashankar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Bhimashankar+Jyotirlinga",
+  "gallery": ["images/bhimashankar.jpg"]
+},
+
+{
+  "district": "पुणे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "शनिवारवाडा",
+  "location": "पुणे शहर",
+  "description": "पेशव्यांच्या काळातील पुण्यातील प्रसिद्ध ऐतिहासिक वास्तू.",
+  "image": "images/shaniwar-wada.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Shaniwar+Wada",
+  "gallery": ["images/shaniwar-wada.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "सिंहगड किल्ला",
+  "location": "सिंहगड, पुणे",
+  "description": "मराठा इतिहासातील महत्त्वाचा आणि प्रसिद्ध डोंगरी किल्ला.",
+  "image": "images/sinhagad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Sinhagad+Fort",
+  "gallery": ["images/sinhagad.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "आगाखान पॅलेस",
+  "location": "पुणे शहर",
+  "description": "भारतीय स्वातंत्र्यलढ्याच्या इतिहासाशी संबंधित प्रसिद्ध ऐतिहासिक वास्तू.",
+  "image": "images/aga-khan-palace.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Aga+Khan+Palace+Pune",
+  "gallery": ["images/aga-khan-palace.jpg"]
+},
+
+{
+  "district": "पुणे",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "लोणावळा",
+  "location": "लोणावळा, पुणे",
+  "description": "सह्याद्री पर्वतरांगांतील प्रसिद्ध डोंगराळ आणि निसर्गरम्य पर्यटनस्थळ.",
+  "image": "images/lonavala.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Lonavala",
+  "gallery": ["images/lonavala.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "खंडाळा",
+  "location": "खंडाळा, पुणे",
+  "description": "सह्याद्रीतील हिरवाई आणि घाटमाथ्याच्या सुंदर दृश्यांसाठी प्रसिद्ध ठिकाण.",
+  "image": "images/khandala.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Khandala",
+  "gallery": ["images/khandala.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "पानशेत धरण",
+  "location": "पानशेत, पुणे",
+  "description": "डोंगर आणि जलाशयाच्या सुंदर परिसरासाठी प्रसिद्ध निसर्गरम्य ठिकाण.",
+  "image": "images/panshet.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Panshet+Dam",
+  "gallery": ["images/panshet.jpg"]
+},
+
+{
+  "district": "पुणे",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "भीमाशंकर वन्यजीव अभयारण्य",
+  "location": "भीमाशंकर, पुणे",
+  "description": "सह्याद्रीच्या जंगलातील जैवविविधता आणि वन्यजीवांसाठी प्रसिद्ध अभयारण्य.",
+  "image": "images/bhimashankar-wildlife.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Bhimashankar+Wildlife+Sanctuary",
+  "gallery": ["images/bhimashankar-wildlife.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "राजीव गांधी प्राणी संग्रहालय",
+  "location": "कात्रज, पुणे",
+  "description": "पुणे शहरातील प्रसिद्ध प्राणीसंग्रहालय आणि वन्यजीव केंद्र.",
+  "image": "images/rajiv-gandhi-zoo.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Rajiv+Gandhi+Zoological+Park+Pune",
+  "gallery": ["images/rajiv-gandhi-zoo.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "मयुरेश्वर वन्यजीव अभयारण्य",
+  "location": "सुपे, पुणे",
+  "description": "माळरानातील वन्यजीव आणि पक्षी पाहण्यासाठी प्रसिद्ध अभयारण्य.",
+  "image": "images/mayureshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Mayureshwar+Wildlife+Sanctuary",
+  "gallery": ["images/mayureshwar.jpg"]
+},
+
+{
+  "district": "पुणे",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "राजा दिनकर केळकर संग्रहालय",
+  "location": "पुणे शहर",
+  "description": "भारतीय कला, हस्तकला आणि ऐतिहासिक वस्तूंचा मोठा संग्रह असलेले प्रसिद्ध संग्रहालय.",
+  "image": "images/kelkar-museum.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Raja+Dinkar+Kelkar+Museum",
+  "gallery": ["images/kelkar-museum.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "पुणे-ओकायामा मैत्री उद्यान",
+  "location": "पुणे शहर",
+  "description": "जपानी शैलीतील सुंदर उद्यान आणि विश्रांतीसाठी लोकप्रिय पर्यटनस्थळ.",
+  "image": "images/okayama-garden.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Pune+Okayama+Friendship+Garden",
+  "gallery": ["images/okayama-garden.jpg"]
+},
+{
+  "district": "पुणे",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "पर्वती टेकडी",
+  "location": "पुणे शहर",
+  "description": "पुणे शहराचे विहंगम दृश्य आणि ऐतिहासिक मंदिरांसाठी प्रसिद्ध टेकडी.",
+  "image": "images/parvati-hill.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Parvati+Hill+Pune",
+  "gallery": ["images/parvati-hill.jpg"]
+},
+
+{
+  "district": "रायगड",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "वरदविनायक मंदिर",
+  "location": "महड, रायगड",
+  "description": "अष्टविनायकांपैकी एक प्रसिद्ध श्री गणेश मंदिर.",
+  "image": "images/varadvinayak.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Varadvinayak+Temple+Mahad",
+  "gallery": ["images/varadvinayak.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "बल्लाळेश्वर मंदिर",
+  "location": "पाली, रायगड",
+  "description": "अष्टविनायकांपैकी एक प्रसिद्ध श्री गणेश मंदिर.",
+  "image": "images/ballaleshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Ballaleshwar+Temple+Pali",
+  "gallery": ["images/ballaleshwar.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "धार्मिक पर्यटन स्थळ",
+  "name": "हरिहरेश्वर मंदिर",
+  "location": "हरिहरेश्वर, रायगड",
+  "description": "भगवान शिवाला समर्पित प्रसिद्ध हिंदू धार्मिक मंदिर.",
+  "image": "images/harihareshwar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Harihareshwar+Temple",
+  "gallery": ["images/harihareshwar.jpg"]
+},
+
+{
+  "district": "रायगड",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "रायगड किल्ला",
+  "location": "महाड, रायगड",
+  "description": "छत्रपती शिवाजी महाराजांच्या स्वराज्याची राजधानी म्हणून प्रसिद्ध ऐतिहासिक किल्ला.",
+  "image": "images/raigad-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Raigad+Fort",
+  "gallery": ["images/raigad-fort.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "मुरुड-जंजिरा किल्ला",
+  "location": "मुरुड, रायगड",
+  "description": "समुद्रातील अभेद्य ऐतिहासिक किल्ला.",
+  "image": "images/murud-janjira.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Murud+Janjira+Fort",
+  "gallery": ["images/murud-janjira.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "ऐतिहासिक पर्यटन स्थळ",
+  "name": "कर्नाळा किल्ला",
+  "location": "कर्नाळा, रायगड",
+  "description": "सह्याद्रीच्या डोंगररांगांमध्ये असलेला प्रसिद्ध ऐतिहासिक किल्ला.",
+  "image": "images/karnala-fort.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Karnala+Fort",
+  "gallery": ["images/karnala-fort.jpg"]
+},
+
+{
+  "district": "रायगड",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "दिवेआगर समुद्रकिनारा",
+  "location": "दिवेआगर, रायगड",
+  "description": "कोकण किनारपट्टीवरील प्रसिद्ध आणि सुंदर समुद्रकिनारा.",
+  "image": "images/diveagar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Diveagar+Beach",
+  "gallery": ["images/diveagar.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "काशीद समुद्रकिनारा",
+  "location": "काशीद, रायगड",
+  "description": "स्वच्छ वाळू आणि निळ्या समुद्रासाठी प्रसिद्ध समुद्रकिनारा.",
+  "image": "images/kashid.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Kashid+Beach",
+  "gallery": ["images/kashid.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "नैसर्गिक पर्यटन स्थळ",
+  "name": "माथेरान",
+  "location": "माथेरान, रायगड",
+  "description": "वाहनमुक्त डोंगराळ पर्यटनस्थळ आणि सह्याद्रीच्या सुंदर निसर्गासाठी प्रसिद्ध.",
+  "image": "images/matheran.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Matheran",
+  "gallery": ["images/matheran.jpg"]
+},
+
+{
+  "district": "रायगड",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "कर्नाळा पक्षी अभयारण्य",
+  "location": "कर्नाळा, रायगड",
+  "description": "पक्षीनिरीक्षण आणि जैवविविधतेसाठी प्रसिद्ध अभयारण्य.",
+  "image": "images/karnala-bird.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Karnala+Bird+Sanctuary",
+  "gallery": ["images/karnala-bird.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "फणसाड वन्यजीव अभयारण्य",
+  "location": "मुरुड, रायगड",
+  "description": "पश्चिम घाटातील वनराई आणि विविध वन्यजीवांसाठी प्रसिद्ध अभयारण्य.",
+  "image": "images/phansad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Phansad+Wildlife+Sanctuary",
+  "gallery": ["images/phansad.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "वन्यजीव पर्यटन स्थळ",
+  "name": "कर्नाळा वनक्षेत्र",
+  "location": "कर्नाळा, रायगड",
+  "description": "कर्नाळा परिसरातील समृद्ध वनक्षेत्र आणि पक्षीजीवनासाठी प्रसिद्ध परिसर.",
+  "image": "images/karnala-forest.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Karnala+Forest",
+  "gallery": ["images/karnala-forest.jpg"]
+},
+
+{
+  "district": "रायगड",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "गंगासागर तलाव",
+  "location": "रायगड किल्ला, रायगड",
+  "description": "रायगड किल्ल्याजवळील ऐतिहासिक तलाव.",
+  "image": "images/gangasagar.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Gangasagar+Lake+Raigad",
+  "gallery": ["images/gangasagar.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "राजदरबार",
+  "location": "रायगड किल्ला, रायगड",
+  "description": "छत्रपती शिवाजी महाराजांच्या राज्यकारभाराशी संबंधित रायगड किल्ल्यातील ऐतिहासिक स्थळ.",
+  "image": "images/rajdarbar-raigad.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Rajdarbar+Raigad+Fort",
+  "gallery": ["images/rajdarbar-raigad.jpg"]
+},
+{
+  "district": "रायगड",
+  "category": "इतर पर्यटन स्थळ",
+  "name": "रायगड संग्रहालय",
+  "location": "हिरकणीवाडी, रायगड",
+  "description": "रायगडच्या इतिहासाशी संबंधित वस्तू आणि वारसा जतन करणारे संग्रहालय.",
+  "image": "images/raigad-museum.jpg",
+  "map": "https://www.google.com/maps/search/?api=1&query=Raigad+Museum",
+  "gallery": ["images/raigad-museum.jpg"]
+}
+]
+}
 ]
 
