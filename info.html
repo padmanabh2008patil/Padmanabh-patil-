@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>पर्यटन स्थळाची माहिती</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff7e6;
+}
+
+header{
+background:linear-gradient(135deg,#ff9800,#e65100);
+color:white;
+text-align:center;
+padding:25px;
+}
+
+header h1{
+font-size:28px;
+}
+
+.container{
+width:92%;
+max-width:850px;
+margin:30px auto;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.place-name{
+text-align:center;
+color:#e65100;
+font-size:30px;
+margin-bottom:20px;
+}
+
+.district{
+text-align:center;
+color:#666;
+font-size:18px;
+margin-bottom:25px;
+}
+
+.info-title{
+color:#e65100;
+font-size:22px;
+font-weight:bold;
+margin-bottom:12px;
+}
+
+.info-box{
+background:#fff3e0;
+padding:20px;
+border-radius:12px;
+font-size:18px;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.image-box{
+text-align:center;
+margin-bottom:25px;
+}
+
+.image-box img{
+width:100%;
+max-width:700px;
+border-radius:15px;
+}
+
+.back-btn{
+display:inline-block;
+background:#333;
+color:white;
+text-decoration:none;
+padding:13px 22px;
+border-radius:8px;
+font-size:17px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<header>
+
+<h1>📝 पर्यटन स्थळाची माहिती</h1>
+
+</header>
+
+
+<div class="container">
+
+<div class="card">
+
+<h2 id="placeName"
+class="place-name">
+
+माहिती शोधत आहे...
+
+</h2>
+
+
+<div id="district"
+class="district">
+
+</div>
+
+
+<div id="imageBox"
+class="image-box">
+
+</div>
+
+
+<div class="info-title">
+
+📖 माहिती
+
+</div>
+
+
+<div id="description"
+class="info-box">
+
+कृपया थोडा वेळ थांबा...
+
+</div>
+
+
+<a href="javascript:history.back()"
+class="back-btn">
+
+⬅️ मागे जा
+
+</a>
+
+</div>
+
+</div>
+
+
+<script>
+
+// selectedPlace मिळवणे
+
+const placeData =
+localStorage.getItem("selectedPlace");
+
+
+// Data उपलब्ध नसेल तर
+
+if(!placeData){
+
+alert(
+"पर्यटन स्थळाची माहिती सापडली नाही."
+);
+
+window.location.href =
+"index.html";
+
+}
+
+
+// JSON मध्ये convert करणे
+
+const place =
+JSON.parse(placeData);
+
+
+// नाव दाखवणे
+
+document.getElementById(
+"placeName"
+).innerHTML =
+place.name;
+
+
+// जिल्हा दाखवणे
+
+document.getElementById(
+"district"
+).innerHTML =
+"📍 " + place.district + " जिल्हा";
+
+
+// माहिती दाखवणे
+
+document.getElementById(
+"description"
+).innerHTML =
+place.description ||
+"या पर्यटन स्थळाची माहिती उपलब्ध नाही.";
+
+
+// Photo दाखवणे
+
+const imageBox =
+document.getElementById(
+"imageBox"
+);
+
+
+if(place.image){
+
+imageBox.innerHTML = `
+
+<img
+src="${place.image}"
+alt="${place.name}">
+
+`;
+
+}else{
+
+imageBox.innerHTML = "";
+
+}
+
+</script>
+
+
+</body>
+
+</html>
