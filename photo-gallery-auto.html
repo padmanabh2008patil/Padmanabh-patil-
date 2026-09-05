@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>पर्यटन स्थळ फोटो गॅलरी</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:#fff7e6;color:#222}
+header{background:linear-gradient(135deg,#ff9800,#e65100);color:#fff;text-align:center;padding:24px 12px}
+header h1{font-size:28px}
+.container{width:94%;max-width:1100px;margin:24px auto}
+.card{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 18px rgba(0,0,0,.14)}
+.place{text-align:center;color:#e65100;font-size:28px;margin-bottom:8px}
+.location{text-align:center;color:#666;margin-bottom:22px}
+.loading{text-align:center;padding:40px 10px;color:#e65100;font-size:18px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.gallery a{display:block;background:#eee;border-radius:12px;overflow:hidden}
+.gallery img{display:block;width:100%;height:220px;object-fit:cover;transition:.2s}
+.gallery img:hover{transform:scale(1.03)}
+.note{text-align:center;margin-top:18px;color:#777;font-size:13px}
+.back{display:inline-block;margin-top:24px;padding:12px 20px;border-radius:9px;background:#333;color:#fff;text-decoration:none}
+.error{text-align:center;padding:35px 10px;color:#555;line-height:1.7}
+</style>
+</head>
+<body>
+<header><h1>📸 पर्यटन स्थळ फोटो गॅलरी</h1></header>
+
+<div class="container">
+<div class="card">
+  <h2 id="placeName" class="place">फोटो शोधत आहे...</h2>
+  <p id="location" class="location"></p>
+  <div id="content"><div class="loading">🔎 इंटरनेटवर उपलब्ध फोटो शोधत आहे...</div></div>
+  <a class="back" href="javascript:history.back()">⬅️ मागे जा</a>
+</div>
+</div>
+
+<script>
+const raw = localStorage.getItem("selectedPlace");
+
+if(!raw){
+  document.getElementById("content").innerHTML =
+    '<div class="error">पर्यटन स्थळाची माहिती सापडली नाही.<br>कृपया पर्यटनस्थळाच्या पेजवरून “फोटो” निवडा.</div>';
+}else{
+  try{
+    const place = JSON.parse(raw);
+    document.getElementById("placeName").textContent = place.name || "पर्यटन स्थळ";
+    document.getElementById("location").textContent = place.location || "";
+    findPhotos(place);
+  }catch(e){
+    document.getElementById("content").innerHTML =
+      '<div class="error">माहिती वाचता आली नाही.</div>';
+  }
+}
+
+async function findPhotos(place){
+  const queries = [];
+  const name = (place.name || "").trim();
+  const loc = (place.location || "").trim();
+
+  // Exact name + location gives better results for Maharashtra places.
+  if(name && loc) queries.push(name + " " + loc);
+  if(name) queries.push(name);
+  if(loc) queries.push(loc);
+
+  let photos = [];
+
+  for(const q of queries){
+    try{
+      const url =
+        "https://commons.wikimedia.org/w/api.php" +
+        "?action=query&generator=search&gsrnamespace=6" +
+        "&gsrsearch=" + encodeURIComponent(q) +
+        "&gsrlimit=12&prop=imageinfo&iiprop=url" +
+        "&iiurlwidth=1000&format=json&origin=*";
+
+      const r = await fetch(url);
+      const data = await r.json();
+
+      if(data.query && data.query.pages){
+        for(const page of Object.values(data.query.pages)){
+          const info = page.imageinfo && page.imageinfo[0];
+          if(!info) continue;
+          const img = info.thumburl || info.url;
+          if(img && !photos.includes(img)) photos.push(img);
+        }
+      }
+    }catch(e){}
+
+    if(photos.length >= 8) break;
+  }
+
+  if(photos.length){
+    render(photos.slice(0,8), place.name || "पर्यटन स्थळ");
+  }else{
+    document.getElementById("content").innerHTML =
+      '<div class="error">⚠️ या स्थळासाठी Wikimedia Commons वर योग्य फोटो सापडला नाही.<br>' +
+      'दुसरे स्थळ निवडून पुन्हा प्रयत्न करा.</div>';
+  }
+}
+
+function render(photos,name){
+  let h = '<div class="gallery">';
+  photos.forEach(function(src){
+    h += '<a href="' + esc(src) + '" target="_blank" rel="noopener">' +
+         '<img src="' + esc(src) + '" alt="' + esc(name) + '" loading="lazy">' +
+         '</a>';
+  });
+  h += '</div>';
+  h += '<p class="note">फोटो: Wikimedia Commons मधून ऑनलाइन शोधलेले सार्वजनिक मीडिया. फोटोवर क्लिक करून मोठा फोटो उघडता येईल.</p>';
+  document.getElementById("content").innerHTML = h;
+}
+
+function esc(s){
+  return String(s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+</script>
+</body>
+</html>
