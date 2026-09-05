@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>पर्यटन स्थळाचे फोटो</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#fff7e6}
+header{background:linear-gradient(135deg,#ff9800,#e65100);color:white;text-align:center;padding:25px 10px}
+header h1{font-size:28px}
+.container{width:92%;max-width:900px;margin:30px auto}
+.card{background:white;padding:25px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.15)}
+.place-name{text-align:center;color:#e65100;font-size:28px;margin-bottom:25px}
+.main-photo{width:100%;max-height:500px;object-fit:cover;border-radius:15px;display:block;margin:auto}
+.gallery-title{color:#e65100;font-size:22px;font-weight:bold;margin:25px 0 15px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.gallery img{width:100%;height:180px;object-fit:cover;border-radius:12px;cursor:pointer}
+.message{text-align:center;padding:30px;font-size:18px;color:#555}
+.back-btn{display:inline-block;margin-top:25px;background:#333;color:white;text-decoration:none;padding:13px 22px;border-radius:8px;font-size:17px}
+</style>
+</head>
+<body>
+<header><h1>📸 पर्यटन स्थळाचे फोटो</h1></header>
+<div class="container">
+<div class="card">
+<h2 id="placeName" class="place-name">फोटो शोधत आहे...</h2>
+<div id="photoContent"><div class="message">कृपया थोडा वेळ थांबा...</div></div>
+<a href="javascript:history.back()" class="back-btn">⬅️ मागे जा</a>
+</div>
+</div>
+<script>
+const placeData = localStorage.getItem("selectedPlace");
+if(!placeData){
+alert("पर्यटन स्थळाची माहिती सापडली नाही.");
+window.location.href="index.html";
+}else{
+try{
+const place=JSON.parse(placeData);
+document.getElementById("placeName").innerHTML=place.name||"पर्यटन स्थळ";
+let html="";
+if(place.image){
+html += `<img class="main-photo" src="${place.image}" alt="${place.name}">`;
+}
+if(Array.isArray(place.gallery)&&place.gallery.length>0){
+html += `<div class="gallery-title">🖼️ फोटो गॅलरी</div><div class="gallery">`;
+place.gallery.forEach(function(photo){
+html += `<img src="${photo}" alt="${place.name}" onclick="window.open(this.src,'_blank')">`;
+});
+html += `</div>`;
+}
+if(!html){
+html=`<div class="message">⚠️ या पर्यटन स्थळाचे फोटो उपलब्ध नाहीत.</div>`;
+}
+document.getElementById("photoContent").innerHTML=html;
+}catch(error){
+document.getElementById("photoContent").innerHTML=`<div class="message">⚠️ फोटो लोड करता आले नाहीत.</div>`;
+}
+}
+</script>
+</body>
+</html>
