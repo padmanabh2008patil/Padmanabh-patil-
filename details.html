@@ -315,7 +315,8 @@ JSON.stringify(place)
 );
 
 window.location.href =
-"location.html";
+"location.html?name=" +
+encodeURIComponent(place.name);
 
 }
 
