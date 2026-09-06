@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>पर्यटन स्थळ फोटो गॅलरी</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:#fff7e6;color:#222}
+header{background:linear-gradient(135deg,#ff9800,#e65100);color:#fff;text-align:center;padding:24px 12px}
+header h1{font-size:28px}.container{width:94%;max-width:1100px;margin:24px auto}
+.card{background:#fff;border-radius:16px;padding:22px;box-shadow:0 4px 18px rgba(0,0,0,.14)}
+.place{text-align:center;color:#e65100;font-size:28px;margin-bottom:8px}.location{text-align:center;color:#666;margin-bottom:22px}
+.loading{text-align:center;padding:40px 10px;color:#e65100;font-size:18px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.gallery a{display:block;background:#eee;border-radius:12px;overflow:hidden}.gallery img{display:block;width:100%;height:220px;object-fit:cover}
+.caption{text-align:center;padding:10px;color:#555;font-size:13px}.note{text-align:center;margin-top:18px;color:#777;font-size:13px;line-height:1.6}
+.back{display:inline-block;margin-top:24px;padding:12px 20px;border-radius:9px;background:#333;color:#fff;text-decoration:none}
+.error{text-align:center;padding:35px 10px;color:#555;line-height:1.7}
+</style>
+</head>
+<body>
+<header><h1>📸 पर्यटन स्थळ फोटो गॅलरी</h1></header>
+<div class="container"><div class="card">
+<h2 id="placeName" class="place">फोटो शोधत आहे...</h2>
+<p id="location" class="location"></p>
+<div id="content"><div class="loading">🔎 इंटरनेटवरून फोटो शोधत आहे...</div></div>
+<a class="back" href="javascript:history.back()">⬅️ मागे जा</a>
+</div></div>
+
+<script>
+const raw=localStorage.getItem("selectedPlace");
+if(!raw){
+ document.getElementById("content").innerHTML='<div class="error">पर्यटन स्थळाची माहिती सापडली नाही.<br>कृपया पर्यटनस्थळाच्या पेजवरून “फोटो” निवडा.</div>';
+}else{
+ try{
+  const place=JSON.parse(raw);
+  document.getElementById("placeName").textContent=place.name||"पर्यटन स्थळ";
+  document.getElementById("location").textContent=place.location||"";
+  findPhotos(place);
+ }catch(e){document.getElementById("content").innerHTML='<div class="error">माहिती वाचता आली नाही.</div>';}
+}
+
+/*
+  IMPORTANT:
+  या पेजसाठी कोणताही फोटो GitHub वर upload करण्याची गरज नाही.
+  फोटो इंटरनेटवरून Wikimedia Commons / Wikipedia मधून थेट येतात.
+  places.json मधील Google Maps query मधील English नाव प्रथम वापरले जाते.
+*/
+async function findPhotos(place){
+ const name=(place.name||"").trim();
+ const loc=(place.location||"").trim();
+ const queries=[];
+ const add=q=>{q=(q||"").trim();if(q&&!queries.includes(q))queries.push(q)};
+
+ // 1. places.json मधील englishName असल्यास ते सर्वोत्तम.
+ add(place.englishName);
+
+ // 2. Google Maps URL मधील query साधारणपणे English नाव असते.
+ const mapQuery=getMapQuery(place.map);
+ if(mapQuery) add(mapQuery);
+
+ // 3. map query मधील शेवटचे location काढून exact place नाव वापरून पुन्हा शोध.
+ if(mapQuery){
+   const parts=mapQuery.split(/[,|]/).map(x=>x.trim()).filter(Boolean);
+   if(parts.length>1) add(parts[0]);
+ }
+
+ // 4. शेवटचा fallback.
+ if(name&&loc) add(name+" "+loc);
+ add(name);
+
+ let photos=[];
+
+ // Wikimedia Commons — online images, no upload required.
+ for(const q of queries){
+   try{
+    const url="https://commons.wikimedia.org/w/api.php?action=query&generator=search"+
+      "&gsrnamespace=6&gsrsearch="+encodeURIComponent(q)+
+      "&gsrlimit=20&prop=imageinfo&iiprop=url&iiurlwidth=1000&format=json&origin=*";
+    const r=await fetch(url); const data=await r.json();
+    if(data.query&&data.query.pages){
+      for(const page of Object.values(data.query.pages)){
+       const info=page.imageinfo&&page.imageinfo[0]; if(!info)continue;
+       const img=info.thumburl||info.url;
+       if(img&&!photos.some(x=>x.src===img)) photos.push({src:img,title:page.title||q,credit:"Wikimedia Commons"});
+      }
+    }
+   }catch(e){}
+   if(photos.length>=8)break;
+ }
+
+ // Wikipedia fallback — काही प्रसिद्ध स्थळांचे फोटो Commons search मध्ये न मिळाल्यास.
+ if(photos.length<4){
+  for(const q of queries.slice(0,3)){
+   try{
+    const url="https://en.wikipedia.org/w/api.php?action=query&generator=search"+
+      "&gsrsearch="+encodeURIComponent(q)+"&gsrlimit=8"+
+      "&prop=pageimages&piprop=thumbnail&pithumbsize=1000&format=json&origin=*";
+    const r=await fetch(url); const data=await r.json();
+    if(data.query&&data.query.pages){
+      for(const page of Object.values(data.query.pages)){
+       const img=page.thumbnail&&page.thumbnail.source;
+       if(img&&!photos.some(x=>x.src===img)) photos.push({src:img,title:page.title||q,credit:"Wikipedia"});
+      }
+    }
+   }catch(e){}
+   if(photos.length>=8)break;
+  }
+ }
+
+ if(photos.length){
+   render(photos.slice(0,8),name,queries[0]||name);
+ }else{
+   document.getElementById("content").innerHTML='<div class="error">⚠️ या स्थळासाठी ऑनलाइन फोटो सापडला नाही.<br><small>हे पेज फोटो upload मागत नाही; उपलब्ध सार्वजनिक ऑनलाइन फोटोच दाखवते.</small></div>';
+ }
+}
+
+function getMapQuery(mapUrl){
+ try{
+  if(!mapUrl)return "";
+  const u=new URL(mapUrl); const q=u.searchParams.get("query");
+  return q?decodeURIComponent(q.replace(/\+/g," ")).trim():"";
+ }catch(e){
+  const m=String(mapUrl||"").match(/[?&]query=([^&]+)/i);
+  return m?decodeURIComponent(m[1].replace(/\+/g," ")).trim():"";
+ }
+}
+
+function render(photos,name,searchName){
+ let h='<div class="gallery">';
+ photos.forEach(p=>{
+  h+='<a href="'+esc(p.src)+'" target="_blank" rel="noopener">'+
+      '<img src="'+esc(p.src)+'" alt="'+esc(name)+'" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'+
+      '<div class="caption">'+esc(p.credit||"")+'</div></a>';
+ });
+ h+='</div><p class="note">फोटो इंटरनेटवरून आपोआप दाखवले जात आहेत — GitHub वर फोटो upload करण्याची गरज नाही.<br>शोध: '+esc(searchName)+'<br>फोटोवर क्लिक केल्यास मोठा फोटो उघडेल.</p>';
+ document.getElementById("content").innerHTML=h;
+}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
+</script>
+</body>
+</html>
